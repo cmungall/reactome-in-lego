@@ -1,0 +1,82 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway602",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0019083"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Transcription of the HIV genome"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway601",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0022415"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Late Phase of HIV Life Cycle"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway616",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006369"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "HIV Transcription Termination"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway590",
+      "type": []
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway616",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway602"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway602",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway601"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway601",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway590"
+    }
+  ]
+}

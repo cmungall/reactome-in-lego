@@ -1,0 +1,208 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway875",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule418",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:29103"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "K+"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule417",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:29103"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "K+"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway948",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "TWIK-related spinal cord K+ channel (TRESK)"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex4730",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "TRESK homodimer"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway943",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Tandem pore domain potassium channels"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway933",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Potassium Channels"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005886"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein11750",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q7Z418"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "KCNK18"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3780",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005267"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex4730",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "Activation of TRESK"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3780",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule417"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3780",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway943",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway933"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3780",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule418"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway948",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway943"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4730",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein11750"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3780",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway948"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway933",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway875"
+    }
+  ]
+}

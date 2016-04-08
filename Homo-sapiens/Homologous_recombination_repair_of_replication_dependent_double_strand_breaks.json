@@ -1,0 +1,78 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway31",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway56",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0000724"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Homologous Recombination Repair"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway55",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006302"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Double-Strand Break Repair"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway70",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Homologous recombination repair of replication-dependent double-strand breaks"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway56",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway55"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway55",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway31"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway70",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway56"
+    }
+  ]
+}

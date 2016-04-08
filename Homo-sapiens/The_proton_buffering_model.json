@@ -1,0 +1,244 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary39",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005743"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1665",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15904"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Higher fatty acid"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1272",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0015992"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "The proton buffering model"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1270",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0015992"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Mitochondrial Uncoupling Proteins"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1267",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0022904"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Respiratory electron transport, ATP synthesis by chemiosmotic coupling, and heat production by uncoupling proteins."
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule942",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15378"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "H+"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex6123",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "UCP dimer"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1261",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule935",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15378"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "H+"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein14306",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "UCP"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5439",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0015078"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002334",
+          "value": "http://www.reactome.org/biopax/48887#SmallMolecule1665",
+          "value-type": "IRI"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex6123",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "Protons are translocated from the intermembrane space to the matrix"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5439",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1272"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5439",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule942"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6123",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein14306"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1270",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1267"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1267",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1261"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5439",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule935"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5439",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary39"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1272",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1270"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway448",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Ubiquitin-Dependent Degradation of Cyclin E"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway445",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Cyclin E associated events during G1/S transition"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway444",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0000082"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "G1/S Transition"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway440",
+      "type": []
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway444",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway440"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway445",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway444"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway448",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway445"
+    }
+  ]
+}

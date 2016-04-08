@@ -1,0 +1,184 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway89",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Bile salt and organic anion SLC transporters"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway368",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway372",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0055085"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "SLC-mediated transmembrane transport"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway388",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway91",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Proton-coupled monocarboxylate transport"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule68",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15378"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "H+"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule67",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15378"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "H+"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005886"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction235",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008028"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "MCTs mediate proton-coupled transport of monocarboxylates and ketone bodies"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway388",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway372"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction235",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway372",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway368"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway91",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway89"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway91",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway388"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction235",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway91"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction235",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule67"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction235",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    }
+  ]
+}

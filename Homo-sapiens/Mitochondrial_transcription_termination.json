@@ -1,0 +1,175 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction396",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Association of mTERF with the termination sequence"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway122",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway141",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006393"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Mitochondrial transcription termination"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway114",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity159",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "mitochondrial transcription termination sequence"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway138",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006390"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Transcription from mitochondrial promoters"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway586",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein1632",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q99551"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "MTERF"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex497",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "mTERF:mitochondrial transcription termination sequence"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway122",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway586"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction396",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein1632"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway138",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway122"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway141",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway138"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway122",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway114"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction396",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex497"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex497",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity159"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex497",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein1632"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction396",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway141"
+    }
+  ]
+}

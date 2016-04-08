@@ -1,0 +1,254 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1061",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Class A/1 (Rhodopsin-like receptors)"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1060",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "GPCR ligand binding"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1083",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Lysosphingolipid and LPA receptors"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1472",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:52288"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "LPA"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4304",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "S1P-binding receptors bind S1P"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein12618",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "S1P-binding EDG receptors"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1059",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein12613",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "LPA-binding EDG receptors"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4303",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "LPA-binding receptors bind LPA"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex5333",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "S1P-binding EDG receptors: S1P"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex5332",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "LPA-binding EDG receptors: LPA"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1485",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:37550"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "S1P"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1060",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1059"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4304",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1083"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4303",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1472"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex5333",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1485"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1083",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1061"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex5332",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein12613"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1061",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1060"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4303",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1083"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex5333",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein12618"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex5332",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1472"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4303",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex5332"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4304",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex5333"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4304",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1485"
+    }
+  ]
+}

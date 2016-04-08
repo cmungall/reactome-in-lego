@@ -1,0 +1,74 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1004",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1009",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0007265"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Signalling to RAS"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1010",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Feedback control in the MAPK signaling module"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1008",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Signalling to ERKs"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1009",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1008"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1008",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1004"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1010",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1009"
+    }
+  ]
+}

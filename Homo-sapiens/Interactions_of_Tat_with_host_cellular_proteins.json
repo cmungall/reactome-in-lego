@@ -1,0 +1,272 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction2648",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Association of Tat with P-TEFb(Cyclin T1:Cdk9)"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein8575",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P04608"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Tat (P04608)"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway630",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Interactions of Tat with host cellular proteins"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein1509",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P50750"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CDK9"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein1508",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:O60563"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CCNT1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway622",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Host Interactions of HIV factors"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway606",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway609",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Formation of HIV-1 elongation complex containing HIV-1 Tat"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway588",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway589",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0016032"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "HIV Infection"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway608",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0050434"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Tat-mediated elongation of the HIV-1 transcript"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex3452",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Tat:P-TEFb(Cyclin T1:Cdk9) complex"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex3451",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "P-TEFb(Cyclin T1:Cdk9) complex"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex3451",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein1509"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2648",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein8575"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2648",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex3452"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway630",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway622"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex3451",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein1508"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2648",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway609"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway608",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway606"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex3452",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex3451"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2648",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex3451"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway622",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway589"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway609",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway608"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex3452",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein8575"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2648",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway630"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway589",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway588"
+    }
+  ]
+}

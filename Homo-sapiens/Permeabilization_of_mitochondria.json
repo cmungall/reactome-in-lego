@@ -1,0 +1,69 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1378",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0097193"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Intrinsic Pathway for Apoptosis"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1369",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006915"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Apoptosis"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1389",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Permeabilization of mitochondria"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1378",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1369"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1389",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1378"
+    }
+  ]
+}

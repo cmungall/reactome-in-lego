@@ -1,0 +1,87 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway471",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0000087"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "M Phase"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway439",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway587",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway483",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0000089"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Mitotic Metaphase"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway482",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Mitotic Metaphase and Anaphase"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway471",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway587"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway471",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway439"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway482",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway471"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway483",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway482"
+    }
+  ]
+}

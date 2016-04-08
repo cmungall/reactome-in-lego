@@ -1,0 +1,206 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1194",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0046474"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Glycerophospholipid biosynthesis"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1193",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006644"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Phospholipid metabolism"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1212",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:2001312"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Synthesis of BMP"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5112",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "PG is converted to BMP"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5111",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "PG transports from the ER membrane to the late endosome membrane"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1966",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:17517"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "PG"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1147",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1992",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:60815"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "BMP"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1991",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:17517"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "PG"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1193",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1147"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5112",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1992"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5112",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1212"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5111",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1212"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1212",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1194"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5111",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5112"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1194",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1193"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5112",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1991"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5111",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1991"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5111",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1966"
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway875",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0007268"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Neuronal System"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule418",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:29103"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "K+"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule417",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:29103"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "K+"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein11735",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Voltage-gated K+ channel beta subunits"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway942",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Voltage gated Potassium channels"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex4718",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Octamer of Voltage gated K+ channels"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3775",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005249"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex4718",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "Activation of voltage gated Potassium channels"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity749",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Voltage gated potassium channel subunits Kv1-12"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway933",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Potassium Channels"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005886"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3775",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway942"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4718",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity749"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3775",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule417"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4718",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein11735"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3775",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3775",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule418"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway942",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway933"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway933",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway875"
+    }
+  ]
+}

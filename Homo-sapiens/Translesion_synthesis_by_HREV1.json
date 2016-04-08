@@ -1,0 +1,301 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction141",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Binding of REV1 to lesioned DNA template"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction142",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0003887"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Misinsertion of  bases opposite to the lesion by HREV1"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex153",
+          "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex153",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "REV1:damaged DNA template complex"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway31",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein320",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9UBZ9"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "REV1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity47",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "damaged DNA substrate  with misinserted bases"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway48",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Translesion synthesis by HREV1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway47",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Translesion synthesis by DNA polymerases bypassing lesion on DNA template"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway46",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "DNA Damage Bypass"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005654"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction143",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0003887"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Elongation by REV1 protein"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex154",
+          "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex154",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "REV1:lesioned DNA template with misinserted bases"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity46",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "damaged DNA substrate"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction143",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex154"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction142",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway48",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway47"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction142",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex154"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction141",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway48"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction141",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction142"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex153",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity46"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex153",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein320"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction142",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway48"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction143",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Protein320"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex154",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein320"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex154",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity47"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction141",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex153"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction143",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction142",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction143"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction142",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex153"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway47",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway46"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction141",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein320"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction143",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway48"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway46",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway31"
+    }
+  ]
+}

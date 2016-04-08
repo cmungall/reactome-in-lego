@@ -1,0 +1,83 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway138",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006390"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Transcription from mitochondrial promoters"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway122",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "RNA Polymerase I, RNA Polymerase III, and Mitochondrial Transcription"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway114",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway140",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "POLRMT chain elongation"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway586",
+      "type": []
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway122",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway114"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway122",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway586"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway138",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway122"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway140",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway138"
+    }
+  ]
+}

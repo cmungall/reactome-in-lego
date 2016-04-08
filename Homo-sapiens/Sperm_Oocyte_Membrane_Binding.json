@@ -1,0 +1,161 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex4761",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CD9:Izumo"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein8194",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P21926"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CD9"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein11809",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Izumo"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3810",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CD9:Izumo Binding"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway960",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0007342"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Sperm:Oocyte Membrane Binding"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway955",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0007338"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Fertilization"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway954",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032504"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Reproduction"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3810",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway960"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway960",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway955"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4761",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein11809"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4761",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein8194"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3810",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4761"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway955",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway954"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3810",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein8194"
+    }
+  ]
+}

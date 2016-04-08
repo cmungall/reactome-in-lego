@@ -1,0 +1,74 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway421",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006977"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "p53-Dependent G1 DNA Damage Response"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway420",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway425",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Transcriptional  activation of  cell cycle inhibitor p21"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway424",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Transcriptional activation of p53 responsive genes"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway425",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway424"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway424",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway421"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway421",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway420"
+    }
+  ]
+}

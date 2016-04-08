@@ -1,0 +1,78 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway449",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0000083"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "G1/S-Specific Transcription"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway444",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0000082"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "G1/S Transition"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway439",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway440",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Mitotic G1-G1/S phases"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway449",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway444"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway440",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway439"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway444",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway440"
+    }
+  ]
+}
