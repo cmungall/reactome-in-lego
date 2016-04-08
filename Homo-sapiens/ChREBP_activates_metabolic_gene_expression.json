@@ -1,0 +1,170 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex6029",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ChREBP:MLX"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5363",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Formation of ChREBP:MLX heterodimer"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1241",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006112"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Integration of energy metabolism"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein14156",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9UH92"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "MLX"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1122",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0044281"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Metabolism"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1254",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0031325"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ChREBP activates metabolic gene expression"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein14146",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9NP71"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "MLXIPL"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1241",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1122"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5363",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex6029"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6029",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein14156"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6029",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein14146"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5363",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein14146"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1254",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1241"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5363",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1254"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5363",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein14156"
+    }
+  ]
+}
