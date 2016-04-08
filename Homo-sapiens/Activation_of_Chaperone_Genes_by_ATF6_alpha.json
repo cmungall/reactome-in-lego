@@ -1,0 +1,78 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway817",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway869",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006987"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Activation of Chaperones by ATF6-alpha"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway868",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0030968"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Unfolded Protein Response"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway870",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Activation of Chaperone Genes by ATF6-alpha"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway870",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway869"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway868",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway817"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway869",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway868"
+    }
+  ]
+}

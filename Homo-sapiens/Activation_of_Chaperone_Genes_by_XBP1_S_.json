@@ -1,0 +1,78 @@
+{
+  "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway817",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway872",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Activation of Chaperone Genes by XBP1(S)"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway871",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006987"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Activation of Chaperones by IRE1alpha"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway868",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0030968"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Unfolded Protein Response"
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway868",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway817"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway872",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway871"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway871",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway868"
+    }
+  ]
+}
