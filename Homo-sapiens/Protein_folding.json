@@ -1,7 +1,45 @@
 {
+  "id": "obo:go/noctua/Protein_folding.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex4449",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Hydrolysis of ATP and release of tubulin folding intermediate from CCT/TriC"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10610",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule47",
+      "type": [
+        {
+          "type": "class",
+          "id": "CHEBI:15996"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "GTP"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2",
       "type": [
         {
           "type": "class",
@@ -9,13 +47,107 @@
         },
         {
           "type": "class",
-          "id": "GO:0032991"
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:18367"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "alpha-beta heterodimer"
+          "value": "Pi"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3468",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Beta-tubulin:GTP:Cofactor D:alpha-tubulin:GTP:Cofactor E:Cofactor C-\u003e Beta-tubulin:GDP :alpha-tubulin:GTP heterodimer +Cofactor E+ Cofactor D+ Cofactor C+ Pi"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3467",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Beta-tubulin:GTP:Cofactor D:alpha-tubulin:GTP:Cofactor E+ Cofactor C-\u003e Beta-tubulin:GTP:Cofactor D:alpha-tubulin:GTP:Cofactor E:Cofactor C"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Beta-tubulin:GTP:Cofactor D+alpha-tubulin:GTP:Cofactor E-\u003e Beta-tubulin:GTP:Cofactor D:alpha-tubulin:GTP:Cofactor E"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3465",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "alpha-tubulin:GTP:Cofactor B  +Cofactor E -\u003e  alpha-tubulin:GTP: Cofactor E +Cofactor B"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3464",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "alpha-tubulin:GTP + Cofactor E -\u003e  alpha-tubulin:GTP:Cofactor E"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3463",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "alpha-tubulin:GTP + Cofactor B -\u003e alpha-tubulin:GTP: Cofactor B"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3462",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Beta-tubulin:GTP: Cofactor A+ Cofactor D -\u003e  Beta-tubulin:GTP:Cofactor D + Cofactor A"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3461",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Beta-tubulin:GTP + Cofactor D -\u003e  Beta-tubulin:GTP: Cofactor D"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3460",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Beta-tubulin:GTP + Cofactor A -\u003e  Beta-tubulin:GTP: Cofactor A"
         }
       ]
     },
@@ -39,7 +171,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex4447",
+      "id": "http://www.reactome.org/biopax/48887#Protein10609",
       "type": [
         {
           "type": "class",
@@ -47,18 +179,18 @@
         },
         {
           "type": "class",
-          "id": "GO:0032991"
+          "id": "PR:Q15814"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "beta tubulin:GTP: Cofactor D:alpha tubulin:GTP:Cofactor E"
+          "value": "TBCC"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex4446",
+      "id": "http://www.reactome.org/biopax/48887#Protein10608",
       "type": [
         {
           "type": "class",
@@ -66,13 +198,443 @@
         },
         {
           "type": "class",
-          "id": "GO:0032991"
+          "id": "PR:Q15813"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Cofactor E:GTP-alpha tubulin folding"
+          "value": "TBCE"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10607",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q99426"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "TBCB"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10606",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9BTW9"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "TBCD"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10605",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:O75347"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "TBCA"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10544",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P60709"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ACTB"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10572",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "beta-tubulin folding intermediate"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein4349",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P60709"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ACTB"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3459",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Association of CCT/TriC with other substrates during biosynthesis (unknown chaperone)"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Association of CCT/TriC with sphingosine kinase 1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3457",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Hydrolysis of ATP and release of folded actin from CCT/TriC"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3456",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Exchange of ADP for ATP in CCT/TriC:actin complex"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule30",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:16761"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ADP"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3454",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ADP is exchanged for ATP in the (ADP:CCT/TriC):tubulin complex"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3453",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Actin/tubulin:prefoldin complex associates with CCT/TriC"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3452",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "unfolded actin/tubulin associates with prefoldin"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10543",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "unfolded actin/tubulin"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10556",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9UHV9"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "PFDN2"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10557",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:O60925"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "PFDN1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10558",
+      "type": [
+        {
+          "type": "class",
+          "id": "PR:Q9NQP4"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "PFDN4"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10559",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:O15212"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "PFDN6"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10586",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9NYA1"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "SPHK1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10580",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "alpha-tubulin folding intermediate"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway825",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0007023"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Post-chaperonin tubulin folding pathway"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway824",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Association of TriC/CCT with target proteins during biosynthesis"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway823",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0051086"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Folding of actin by CCT/TriC"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway822",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006457"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Formation of tubulin folding intermediates by CCT/TriC"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway821",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Prefoldin mediated transfer of substrate  to CCT/TriC"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway820",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Cooperation of Prefoldin and TriC/CCT  in actin and tubulin folding"
         }
       ]
     },
@@ -191,7 +753,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein4349",
+      "id": "http://www.reactome.org/biopax/48887#Complex4436",
       "type": [
         {
           "type": "class",
@@ -199,18 +761,18 @@
         },
         {
           "type": "class",
-          "id": "PR:P60709"
+          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "ACTB"
+          "value": "CCT/TriC (ADP) associated actin"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein10559",
+      "id": "http://www.reactome.org/biopax/48887#Complex4437",
       "type": [
         {
           "type": "class",
@@ -218,89 +780,81 @@
         },
         {
           "type": "class",
-          "id": "PR:O15212"
+          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "PFDN6"
+          "value": "CCT/TriC(ATP)-associated actin"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein10558",
+      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity727",
       "type": [
         {
           "type": "class",
           "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q9NQP4"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "PFDN4"
+          "value": "CCT/TriC substrate proteins with unknown chaperones"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein10557",
+      "id": "http://www.reactome.org/biopax/48887#Pathway819",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "GO:0006457"
         },
         {
           "type": "class",
-          "id": "PR:O60925"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "PFDN1"
+          "value": "Chaperonin-mediated protein folding"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein10556",
+      "id": "http://www.reactome.org/biopax/48887#Pathway818",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "GO:0051084"
         },
         {
           "type": "class",
-          "id": "PR:Q9UHV9"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "PFDN2"
+          "value": "Protein folding"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein10605",
+      "id": "http://www.reactome.org/biopax/48887#Protein10570",
       "type": [
         {
           "type": "class",
           "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:O75347"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "TBCA"
+          "value": "Unfolded alpha/beta tubulin"
         }
       ]
     },
@@ -343,26 +897,22 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex4437",
+      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity726",
       "type": [
         {
           "type": "class",
           "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "CCT/TriC(ATP)-associated actin"
+          "value": "alpha/beta tubulin folding intermediate"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex4436",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule14",
       "type": [
         {
           "type": "class",
@@ -370,13 +920,17 @@
         },
         {
           "type": "class",
-          "id": "GO:0032991"
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15422"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "CCT/TriC (ADP) associated actin"
+          "value": "ATP"
         }
       ]
     },
@@ -495,79 +1049,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity727",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CCT/TriC substrate proteins with unknown chaperones"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein10544",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P60709"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ACTB"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein10543",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "unfolded actin/tubulin"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule47",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15996"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "GTP"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex4429",
+      "id": "http://www.reactome.org/biopax/48887#Complex4446",
       "type": [
         {
           "type": "class",
@@ -581,468 +1063,12 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Prefoldin"
+          "value": "Cofactor E:GTP-alpha tubulin folding"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein10560",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q99471"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "PFDN5"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein10570",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Unfolded alpha/beta tubulin"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule30",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16761"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ADP"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3468",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Beta-tubulin:GTP:Cofactor D:alpha-tubulin:GTP:Cofactor E:Cofactor C-\u003e Beta-tubulin:GDP :alpha-tubulin:GTP heterodimer +Cofactor E+ Cofactor D+ Cofactor C+ Pi"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3467",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Beta-tubulin:GTP:Cofactor D:alpha-tubulin:GTP:Cofactor E+ Cofactor C-\u003e Beta-tubulin:GTP:Cofactor D:alpha-tubulin:GTP:Cofactor E:Cofactor C"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Beta-tubulin:GTP:Cofactor D+alpha-tubulin:GTP:Cofactor E-\u003e Beta-tubulin:GTP:Cofactor D:alpha-tubulin:GTP:Cofactor E"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3465",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "alpha-tubulin:GTP:Cofactor B  +Cofactor E -\u003e  alpha-tubulin:GTP: Cofactor E +Cofactor B"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3464",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "alpha-tubulin:GTP + Cofactor E -\u003e  alpha-tubulin:GTP:Cofactor E"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3463",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "alpha-tubulin:GTP + Cofactor B -\u003e alpha-tubulin:GTP: Cofactor B"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3462",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Beta-tubulin:GTP: Cofactor A+ Cofactor D -\u003e  Beta-tubulin:GTP:Cofactor D + Cofactor A"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3461",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Beta-tubulin:GTP + Cofactor D -\u003e  Beta-tubulin:GTP: Cofactor D"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity726",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "alpha/beta tubulin folding intermediate"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein10586",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q9NYA1"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "SPHK1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein10580",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "alpha-tubulin folding intermediate"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3459",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Association of CCT/TriC with other substrates during biosynthesis (unknown chaperone)"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Association of CCT/TriC with sphingosine kinase 1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3457",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Hydrolysis of ATP and release of folded actin from CCT/TriC"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3456",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Exchange of ADP for ATP in CCT/TriC:actin complex"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Hydrolysis of ATP and release of tubulin folding intermediate from CCT/TriC"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3454",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ADP is exchanged for ATP in the (ADP:CCT/TriC):tubulin complex"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3453",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Actin/tubulin:prefoldin complex associates with CCT/TriC"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3452",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "unfolded actin/tubulin associates with prefoldin"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:18367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Pi"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein10572",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "beta-tubulin folding intermediate"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule14",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15422"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ATP"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway825",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0007023"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Post-chaperonin tubulin folding pathway"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway824",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Association of TriC/CCT with target proteins during biosynthesis"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway823",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0051086"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Folding of actin by CCT/TriC"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway822",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0006457"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Formation of tubulin folding intermediates by CCT/TriC"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway821",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Prefoldin mediated transfer of substrate  to CCT/TriC"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway820",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Cooperation of Prefoldin and TriC/CCT  in actin and tubulin folding"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein10614",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein10610",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway819",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0006457"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Chaperonin-mediated protein folding"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex4451",
+      "id": "http://www.reactome.org/biopax/48887#Complex4447",
       "type": [
         {
           "type": "class",
@@ -1056,12 +1082,12 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "native beta-tubulin:GTP"
+          "value": "beta tubulin:GTP: Cofactor D:alpha tubulin:GTP:Cofactor E"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex4450",
+      "id": "http://www.reactome.org/biopax/48887#Complex4449",
       "type": [
         {
           "type": "class",
@@ -1075,7 +1101,7 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "native alpha tubulin-GTP"
+          "value": "alpha-beta heterodimer"
         }
       ]
     },
@@ -1103,11 +1129,11 @@
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "PR:P50991"
         },
         {
           "type": "class",
-          "id": "PR:P50991"
+          "id": "BFO:0000002"
         }
       ],
       "annotations": [
@@ -1179,11 +1205,11 @@
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "PR:P50990"
         },
         {
           "type": "class",
-          "id": "PR:P50990"
+          "id": "BFO:0000002"
         }
       ],
       "annotations": [
@@ -1251,21 +1277,40 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway818",
+      "id": "http://www.reactome.org/biopax/48887#Protein10560",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "BFO:0000002"
         },
         {
           "type": "class",
-          "id": "GO:0051084"
+          "id": "PR:Q99471"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Protein folding"
+          "value": "PFDN5"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex4429",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Prefoldin"
         }
       ]
     },
@@ -1289,7 +1334,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein10609",
+      "id": "http://www.reactome.org/biopax/48887#Complex4450",
       "type": [
         {
           "type": "class",
@@ -1297,18 +1342,18 @@
         },
         {
           "type": "class",
-          "id": "PR:Q15814"
+          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "TBCC"
+          "value": "native alpha tubulin-GTP"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein10608",
+      "id": "http://www.reactome.org/biopax/48887#Complex4451",
       "type": [
         {
           "type": "class",
@@ -1316,95 +1361,121 @@
         },
         {
           "type": "class",
-          "id": "PR:Q15813"
+          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "TBCE"
+          "value": "native beta-tubulin:GTP"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein10607",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q99426"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "TBCB"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein10606",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q9BTW9"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "TBCD"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3460",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Beta-tubulin:GTP + Cofactor A -\u003e  Beta-tubulin:GTP: Cofactor A"
-        }
-      ]
+      "id": "http://www.reactome.org/biopax/48887#Protein10614",
+      "type": []
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway819",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway818"
+      "subject": "http://www.reactome.org/biopax/48887#Complex4429",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10559"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3452",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway821"
+      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10567"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3464",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein10608"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3454",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455"
+      "object": "http://www.reactome.org/biopax/48887#Complex4434"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4434",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10570"
+      "object": "http://www.reactome.org/biopax/48887#Protein10566"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4447",
+      "subject": "http://www.reactome.org/biopax/48887#Complex4440",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4446"
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity727"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3460",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4441"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4436",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10544"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway825"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4433",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4431"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4444",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule47"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3453",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway821"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4450",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule47"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway820",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway819"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4436",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4431"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3457",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4437"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3461",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein10606"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3462",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Protein10605"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3467"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4430",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4429"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4438",
@@ -1412,54 +1483,24 @@
       "object": "http://www.reactome.org/biopax/48887#Protein10563"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3454",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway822"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3454",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4433"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4446"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4433",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10570"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4449",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4451"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3454",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4434"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4429",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10556"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3460",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3462"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3462",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3461",
       "property": "RO:0002413",
       "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10568"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3460"
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4435"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3460",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4442"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3453",
@@ -1467,17 +1508,407 @@
       "object": "http://www.reactome.org/biopax/48887#Complex4431"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3452",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4430"
+      "subject": "http://www.reactome.org/biopax/48887#Complex4434",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10567"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4445",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3461",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway825"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4447",
       "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4443"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3464"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4441",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule47"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3452",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3453"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway823",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway820"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3454",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway822"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3464",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4446"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3456",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3457"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4446"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4442",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4441"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3460",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3462"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3464",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4444"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3462",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4442"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4443",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10606"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4438",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10562"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3463",
+      "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#Protein10607"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4433",
+      "subject": "http://www.reactome.org/biopax/48887#Complex4434",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10570"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3464",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10569"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4448",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4447"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3453",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4430"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4434",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10568"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4431"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3453",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4432"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3464",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway825"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4444",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10580"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3457",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3468",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4448"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4447"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3457",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway823"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3462",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4443"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4438",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10565"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4439",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10586"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3453",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4429"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4446",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10608"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4448",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10609"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4432",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10543"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4451",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10614"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4438",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule14"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3467",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway825"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4437",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10544"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4446",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4444"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4434",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10569"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway818",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway817"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4432",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4431"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway821",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway820"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3452",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway821"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3468",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4449"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3456",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule30"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3459",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway824"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4438",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10564"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3452",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4429"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3454",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4433"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3467",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3468"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3462",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway825"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3459",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4440"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3461"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway822",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway820"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4443"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway824",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway819"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3454",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway822"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3463",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4444"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4438",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10567"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3465",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3460",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein10605"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3456",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4436"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10562"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3465",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway825"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3454",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4434"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4434",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10563"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3460"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4431"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4429",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10556"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3453",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3454"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4429",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10560"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3465",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4445"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4442",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10605"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4440",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Complex4431"
     },
@@ -1487,59 +1918,154 @@
       "object": "http://www.reactome.org/biopax/48887#Complex4445"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3456",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway823"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#Complex4438",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10562"
+      "object": "http://www.reactome.org/biopax/48887#Protein10566"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10564"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3461",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4443"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4432",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4431"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4432",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10543"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway818",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway817"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4434",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10563"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3463",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3456",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein10607"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule14"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3453",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3454"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3462",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein10606"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4449",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4450"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3453",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway821"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3456",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4437"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3468",
       "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Protein10609"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3461",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4441"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4450",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10610"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4451",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule47"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3454",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule30"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3468",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Protein10606"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3465",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Protein10607"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10563"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4434",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10562"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3463",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3465"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4439"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3464",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein10608"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4434",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10564"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4447",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4446"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3468",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway825"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4429",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10557"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4435",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity726"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4445",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4444"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4429",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10561"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3463"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3467",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4447"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3465",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein10608"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3465",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4446"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4443",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4441"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway825",
@@ -1547,14 +2073,39 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway818"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3467",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3468"
+      "subject": "http://www.reactome.org/biopax/48887#Complex4438",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10569"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3456",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway824"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4445",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10607"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3460",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway825"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4433",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10570"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3468",
       "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4437"
+      "object": "http://www.reactome.org/biopax/48887#Protein10609"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10564"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4430",
@@ -1567,99 +2118,9 @@
       "object": "http://www.reactome.org/biopax/48887#Complex4438"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3453",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4430"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10565"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Complex4429",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10561"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway820",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway819"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4438",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule14"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4436",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4431"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10563"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4434",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10562"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4429",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10560"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3456",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule14"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4446",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4444"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3462",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein10606"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3452",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3453"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3457",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4437"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4445",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4444"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3461",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein10606"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3464",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4444"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3467"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3454",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule14"
+      "object": "http://www.reactome.org/biopax/48887#Protein10558"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4434",
@@ -1669,172 +2130,7 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4431",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10562"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4438",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10569"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4447",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4443"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3462",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4443"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4442",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4441"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4443"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3465",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Protein10607"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3461",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4443"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4434",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10565"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4442",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10605"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3459",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4440"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3468",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway825"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway824",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway819"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3456",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4436"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4435"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3460",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein10605"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4438",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10568"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3465",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3457",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4434",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10569"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3457",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Protein4349"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4440",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4431"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4443",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4441"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3464",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3468",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4449"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4451",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10614"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3453",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4429"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3460",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4442"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3465",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway825"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4431"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway825"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10569"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule47"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4438",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10567"
+      "object": "http://www.reactome.org/biopax/48887#Protein10566"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4435",
@@ -1844,147 +2140,7 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4434",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10568"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3461",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3462",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Protein10605"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3468",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Protein10608"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3462",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4442"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10568"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4444",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10580"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3464"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4450",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10610"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3463",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3465"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3467",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4448"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3456",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule30"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3459",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway824"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3467",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway825"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway823",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway820"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4444",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule47"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3459",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4431"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway824"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4438",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10566"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3452",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4429"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4434"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4434",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10567"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway822",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway820"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3454",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule30"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4429",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10559"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3456",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3457"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway821",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway820"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3463"
+      "object": "http://www.reactome.org/biopax/48887#Protein10565"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
@@ -1992,189 +2148,24 @@
       "object": "http://www.reactome.org/biopax/48887#Protein10586"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3461",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3459",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4441"
+      "object": "http://www.reactome.org/biopax/48887#Complex4431"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4449",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4451"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3457",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4431"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3463",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway825"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3468",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4448"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3464",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway825"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4430",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4429"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4441",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule47"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4434",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10564"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4447"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3460",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4441"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4448",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10609"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10567"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway822"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3468",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4438",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10565"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3467",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein10609"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4434",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10566"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3462",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway825"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3465",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4445"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3457",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway823"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4451",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule47"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3457",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4431"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4429",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10558"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3453",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4432"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3461",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway825"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3456",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway823"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4450",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule47"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4435",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity726"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4437",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10544"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4448",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4447"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4431"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3467",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4447"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10566"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4436",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10544"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4439"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4438",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10564"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3464",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4446"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4439",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4431"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3453",
@@ -2182,14 +2173,19 @@
       "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3456"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3465",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4446"
+      "subject": "http://www.reactome.org/biopax/48887#Pathway819",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway818"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4439",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10586"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3452",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4430"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3467",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4448"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4441",
@@ -2197,54 +2193,59 @@
       "object": "http://www.reactome.org/biopax/48887#Protein10572"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4429",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10557"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Complex4431",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule30"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4446",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10608"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3454",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule14"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3463",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4444"
+      "subject": "http://www.reactome.org/biopax/48887#Complex4438",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10568"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3457",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Protein4349"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4439",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4431"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4449",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4450"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3455",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3461"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4443",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10606"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4440",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity727"
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule47"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3468",
       "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Protein10606"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3465",
-      "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#Protein10608"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3460",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway825"
+      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10565"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3467",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein10609"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3462",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3466"
     }
   ]
 }

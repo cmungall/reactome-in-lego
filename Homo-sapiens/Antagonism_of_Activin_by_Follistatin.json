@@ -1,4 +1,5 @@
 {
+  "id": "obo:go/noctua/Antagonism_of_Activin_by_Follistatin.owl",
   "individuals": [
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway1121",
@@ -12,54 +13,6 @@
         {
           "key": "rdfs:label",
           "value": "Antagonism of Activin by Follistatin"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex5567",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Activin A/AB/B:FST"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex5566",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Activin A/AB/B:FSTL3"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4525",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "FSTL3 binds Activin"
         }
       ]
     },
@@ -87,11 +40,11 @@
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "PR:O95633"
         },
         {
           "type": "class",
-          "id": "PR:O95633"
+          "id": "BFO:0000002"
         }
       ],
       "annotations": [
@@ -117,44 +70,6 @@
         {
           "key": "rdfs:label",
           "value": "Activin A/AB/B"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein11362",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P09529"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "INHBB"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein11361",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P08476"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "INHBA"
         }
       ]
     },
@@ -189,6 +104,63 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#Protein11362",
+      "type": [
+        {
+          "type": "class",
+          "id": "PR:P09529"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "INHBB"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein11361",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P08476"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "INHBA"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex5567",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Activin A/AB/B:FST"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4526",
       "type": [],
       "annotations": [
@@ -197,43 +169,42 @@
           "value": "Follistatin (FST) binds Activin"
         }
       ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4525",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "FSTL3 binds Activin"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex5566",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Activin A/AB/B:FSTL3"
+        }
+      ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4525",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex5556"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4525",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1121"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Complex5567",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Complex5556"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4526",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein13487"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex5567",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein13487"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4526",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex5556"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1121",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1120"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex5556",
@@ -246,19 +217,54 @@
       "object": "http://www.reactome.org/biopax/48887#Complex5556"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4526",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1121"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4525",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex5566"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1120",
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1121",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway962"
+      "object": "http://www.reactome.org/biopax/48887#Pathway1120"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex5556",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Protein11361"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4525",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1121"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex5566",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein13486"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4526",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1121"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex5567",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein13487"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4525",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein13486"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4526",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein13487"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1120",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway962"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4526",
@@ -268,17 +274,12 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4525",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein13486"
+      "object": "http://www.reactome.org/biopax/48887#Complex5556"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex5566",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein13486"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4525",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex5566"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4526",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex5556"
     }
   ]
 }

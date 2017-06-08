@@ -1,4 +1,5 @@
 {
+  "id": "obo:go/noctua/Synthesis_of_12_eicosatetraenoic_acid_derivatives.owl",
   "individuals": [
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway1147",
@@ -16,46 +17,91 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5249",
+      "id": "http://www.reactome.org/biopax/48887#Protein14034",
       "type": [
         {
           "type": "class",
-          "id": "GO:0004602"
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P16050"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "12S-HpETE is reduced to 12S-HETE by GPX1/2/4"
+          "value": "ALOX15"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2115",
       "type": [
         {
           "type": "class",
-          "id": "GO:0005829"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247",
-      "type": [
+          "id": "BFO:0000002"
+        },
         {
           "type": "class",
-          "id": "GO:0004602"
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:34146"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "12R-HpETE is reduced to 12R-HETE by GPX1/2/4"
+          "value": "12S-HETE"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5246",
+      "id": "http://www.reactome.org/biopax/48887#Protein14039",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:O75342"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ALOX12B"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2103",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:17858"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "GSSG"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5250",
       "type": [
         {
           "type": "class",
@@ -64,13 +110,55 @@
       ],
       "annotations": [
         {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex5949",
-          "value-type": "IRI"
+          "key": "rdfs:label",
+          "value": "Arachidonic acid  is converted to 12-oxoETE by ALOX12"
         },
         {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex5951",
+          "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex5949",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
           "key": "rdfs:label",
-          "value": "Arachidonic acid is oxidised to 12R-HpETE by ALOX12B"
+          "value": "ALOX12B:Fe2+"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2116",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:34151"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "12-oxoETE"
         }
       ]
     },
@@ -94,7 +182,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule656",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2114",
       "type": [
         {
           "type": "class",
@@ -102,7 +190,30 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:18248"
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15626"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "12S-HpETE"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2113",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:34144"
         },
         {
           "type": "class",
@@ -112,7 +223,85 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Fe2+"
+          "value": "12R-HETE"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2112",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:34145"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "12R-HpETE"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005829"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1074",
+      "type": [
+        {
+          "type": "class",
+          "id": "CHEBI:16856"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "GSH"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule22",
+      "type": [
+        {
+          "type": "class",
+          "id": "CHEBI:15379"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "O2"
         }
       ]
     },
@@ -155,26 +344,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1227",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0019369"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Arachidonic acid metabolism"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2103",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule656",
       "type": [
         {
           "type": "class",
@@ -182,7 +352,7 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:17858"
+          "id": "CHEBI:18248"
         },
         {
           "type": "class",
@@ -192,72 +362,7 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "GSSG"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2115",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:34146"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "12S-HETE"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2113",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:34144"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "12R-HETE"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex5949",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ALOX12B:Fe2+"
+          "value": "Fe2+"
         }
       ]
     },
@@ -285,25 +390,56 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5248",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "GO:0004052"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex5950",
+          "value-type": "IRI"
         },
         {
-          "type": "class",
-          "id": "CHEBI:15377"
-        },
+          "key": "rdfs:label",
+          "value": "Arachidonic acid is oxidised to 12S-HpETE by ALOX12/15"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247",
+      "type": [
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "GO:0004602"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "H2O"
+          "value": "12R-HpETE is reduced to 12R-HETE by GPX1/2/4"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1227",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0019369"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Arachidonic acid metabolism"
         }
       ]
     },
@@ -327,22 +463,40 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5250",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5249",
       "type": [
         {
           "type": "class",
-          "id": "GO:0004052"
+          "id": "GO:0004602"
         }
       ],
       "annotations": [
         {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex5951",
-          "value-type": "IRI"
+          "key": "rdfs:label",
+          "value": "12S-HpETE is reduced to 12S-HETE by GPX1/2/4"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
         },
         {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15377"
+        }
+      ],
+      "annotations": [
+        {
           "key": "rdfs:label",
-          "value": "Arachidonic acid  is converted to 12-oxoETE by ALOX12"
+          "value": "H2O"
         }
       ]
     },
@@ -351,49 +505,7 @@
       "type": []
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein14039",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:O75342"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ALOX12B"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2116",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:34151"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "12-oxoETE"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5248",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5246",
       "type": [
         {
           "type": "class",
@@ -403,135 +515,84 @@
       "annotations": [
         {
           "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex5950",
+          "value": "http://www.reactome.org/biopax/48887#Complex5949",
           "value-type": "IRI"
         },
         {
           "key": "rdfs:label",
-          "value": "Arachidonic acid is oxidised to 12S-HpETE by ALOX12/15"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2114",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15626"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "12S-HpETE"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein14034",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P16050"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ALOX15"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2112",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:34145"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "12R-HpETE"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1074",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16856"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "GSH"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule22",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15379"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "O2"
+          "value": "Arachidonic acid is oxidised to 12R-HpETE by ALOX12B"
         }
       ]
     }
   ],
   "facts": [
     {
+      "subject": "http://www.reactome.org/biopax/48887#Complex5951",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule656"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex5949",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein14039"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex5949",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule656"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1227",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1147"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5249",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2114"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5246",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule22"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5248",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule22"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5246",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2112"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5248",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1232",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1227"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5249",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule1074"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5248",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1074"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5246",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule1671"
     },
@@ -541,9 +602,119 @@
       "object": "http://www.reactome.org/biopax/48887#Protein14040"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1232",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5249",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1227"
+      "object": "http://www.reactome.org/biopax/48887#Pathway1232"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5248",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1671"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1232"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5246",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2112"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex5950",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule656"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1147",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1122"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5250",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1671"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5249",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2103"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5249",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5250",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1232"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5249",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2115"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2113"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2103"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5248",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2114"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5249",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5246",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1232"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex5950",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein14040"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5250",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5246",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5248",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1232"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex5950",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein14034"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5250",
@@ -552,178 +723,8 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5248",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2114"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex5950",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein14040"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5249",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5248",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule22"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5249",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2114"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2103"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5250",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5249",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1232"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1074"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5248",
       "property": "RO:0002413",
       "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5249"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5248",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5246",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1671"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5250",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1232"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5246",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule22"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1147",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1122"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5249",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2115"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5248",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1232"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1227",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1147"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2112"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5249",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5246",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1232"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5246",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex5949",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein14039"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5247",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2113"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex5950",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein14034"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5246",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1232"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex5951",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule656"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex5950",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule656"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5249",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2103"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex5949",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule656"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5250",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1671"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5246",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2112"
     }
   ]
 }

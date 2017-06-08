@@ -1,15 +1,20 @@
 {
+  "id": "obo:go/noctua/HIV_Transcription_Termination.owl",
   "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway590",
+      "type": []
+    },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway602",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0019083"
         },
         {
           "type": "class",
-          "id": "GO:0019083"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
@@ -24,11 +29,11 @@
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0022415"
         },
         {
           "type": "class",
-          "id": "GO:0022415"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
@@ -56,13 +61,14 @@
           "value": "HIV Transcription Termination"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway590",
-      "type": []
     }
   ],
   "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway601",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway590"
+    },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway616",
       "property": "BFO:0000050",
@@ -72,11 +78,6 @@
       "subject": "http://www.reactome.org/biopax/48887#Pathway602",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway601"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway601",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway590"
     }
   ]
 }

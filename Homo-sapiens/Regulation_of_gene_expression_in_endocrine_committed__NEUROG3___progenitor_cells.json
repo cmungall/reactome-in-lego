@@ -1,43 +1,6 @@
 {
+  "id": "obo:go/noctua/Regulation_of_gene_expression_in_endocrine_committed__NEUROG3___progenitor_cells.owl",
   "individuals": [
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1443",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0031018"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Regulation of gene expression in endocrine-committed (NEUROG3+) progenitor cells"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1440",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0031018"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Regulation of beta-cell development"
-        }
-      ]
-    },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway1410",
       "type": [
@@ -52,18 +15,56 @@
           "value": "Developmental Biology"
         }
       ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1440",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0031018"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Regulation of beta-cell development"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1443",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0031018"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Regulation of gene expression in endocrine-committed (NEUROG3+) progenitor cells"
+        }
+      ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1440",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1410"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Pathway1443",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway1440"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1440",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1410"
     }
   ]
 }

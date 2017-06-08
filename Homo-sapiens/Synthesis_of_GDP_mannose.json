@@ -1,5 +1,15 @@
 {
+  "id": "obo:go/noctua/Synthesis_of_GDP_mannose.owl",
   "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005829"
+        }
+      ]
+    },
     {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule632",
       "type": [
@@ -9,11 +19,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:15946"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:15946"
         }
       ],
       "annotations": [
@@ -24,8 +34,24 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway838",
-      "type": []
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3520",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0004476"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Fructose 6-phosphate isomerizes to Mannose 6-phosphate"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein10738",
+          "value-type": "IRI"
+        }
+      ]
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway843",
@@ -81,94 +107,17 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule829",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3521",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15820"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
+          "id": "GO:0004615"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "GDP-Man"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule47",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15996"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "GTP"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1336",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:35374"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Man1P"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1335",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:17369"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Man6P"
+          "value": "Mannose 6-phosphate isomerizes to Mannose 1-phosphate"
         }
       ]
     },
@@ -188,22 +137,53 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3521",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule47",
       "type": [
         {
           "type": "class",
-          "id": "GO:0004615"
+          "id": "CHEBI:15996"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Mannose 6-phosphate isomerizes to Mannose 1-phosphate"
+          "value": "GTP"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule169",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1336",
+      "type": [
+        {
+          "type": "class",
+          "id": "CHEBI:35374"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Man1P"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1335",
       "type": [
         {
           "type": "class",
@@ -215,13 +195,36 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:29888"
+          "id": "CHEBI:17369"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "PPi"
+          "value": "Man6P"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule829",
+      "type": [
+        {
+          "type": "class",
+          "id": "CHEBI:15820"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "GDP-Man"
         }
       ]
     },
@@ -245,40 +248,38 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule169",
       "type": [
         {
           "type": "class",
-          "id": "GO:0005829"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3520",
-      "type": [
+          "id": "CHEBI:29888"
+        },
         {
           "type": "class",
-          "id": "GO:0004476"
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
         }
       ],
       "annotations": [
         {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein10738",
-          "value-type": "IRI"
-        },
-        {
           "key": "rdfs:label",
-          "value": "Fructose 6-phosphate isomerizes to Mannose 6-phosphate"
+          "value": "PPi"
         }
       ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway838",
+      "type": []
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3521",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway843"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3522",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule829"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3522",
@@ -291,54 +292,14 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway838"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3522",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3521",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3522"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3522",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule829"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Pathway840",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway839"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3520",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule632"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3520",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1335"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3520",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3521",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3521",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1336"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3521",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1335"
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway843"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3520",
@@ -349,11 +310,6 @@
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3522",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway843"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3522",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule169"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3522",
@@ -364,6 +320,51 @@
       "subject": "http://www.reactome.org/biopax/48887#Pathway843",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway840"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3521",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1336"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3521",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1335"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3520",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1335"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3521",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3522"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3520",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule632"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3522",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule169"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3520",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3521",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3522",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
     }
   ]
 }

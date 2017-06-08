@@ -1,5 +1,34 @@
 {
+  "id": "obo:go/noctua/ERKs_are_inactivated.owl",
   "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005654"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway257",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ERK/MAPK targets"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway250",
+      "type": []
+    },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway1004",
       "type": []
@@ -13,36 +42,17 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:18367"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:18367"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
           "value": "Pi"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein3786",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q14738"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "PPP2R5D"
         }
       ]
     },
@@ -58,6 +68,29 @@
         {
           "key": "rdfs:label",
           "value": "ERKs are inactivated by dual-specific phosphatases (DUSPs)"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule177",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15377"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "H2O"
         }
       ]
     },
@@ -96,25 +129,17 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule177",
+      "id": "http://www.reactome.org/biopax/48887#Pathway256",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15377"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "H2O"
+          "value": "MAPK targets/ Nuclear events mediated by MAP kinases"
         }
       ]
     },
@@ -128,13 +153,13 @@
       ],
       "annotations": [
         {
+          "key": "rdfs:label",
+          "value": "ERKs are inactivated by protein phosphatase 2A"
+        },
+        {
           "key": "RO:0002333",
           "value": "http://www.reactome.org/biopax/48887#Complex1319",
           "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "ERKs are inactivated by protein phosphatase 2A"
         }
       ]
     },
@@ -154,32 +179,21 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1021",
+      "id": "http://www.reactome.org/biopax/48887#Protein3786",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q14738"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Nuclear Events (kinase and transcription factor activation)"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway256",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "MAPK targets/ Nuclear events mediated by MAP kinases"
+          "value": "PPP2R5D"
         }
       ]
     },
@@ -199,20 +213,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005654"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway250",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway257",
+      "id": "http://www.reactome.org/biopax/48887#Pathway1021",
       "type": [
         {
           "type": "class",
@@ -222,7 +223,7 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "ERK/MAPK targets"
+          "value": "Nuclear Events (kinase and transcription factor activation)"
         }
       ]
     }
@@ -232,71 +233,6 @@
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction911",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway258"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction911",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex1319",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein3787"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction911",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule5"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway257",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway256"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction911",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule177"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1021",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1004"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction910",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule5"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction910",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway257"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway258",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway257"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction910",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex1319",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein3783"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction910",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule177"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex1319",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein3786"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway257",
@@ -312,6 +248,71 @@
       "subject": "http://www.reactome.org/biopax/48887#Pathway256",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway250"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction910",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule177"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction911",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule177"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction911",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule5"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1021",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1004"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction910",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule5"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex1319",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein3786"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex1319",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein3787"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex1319",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein3783"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction910",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction911",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway257",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway256"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction910",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway257"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway258",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway257"
     }
   ]
 }

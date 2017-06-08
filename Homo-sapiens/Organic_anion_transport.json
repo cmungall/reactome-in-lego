@@ -1,27 +1,8 @@
 {
+  "id": "obo:go/noctua/Organic_anion_transport.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1725",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0015143"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein5088",
-          "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "URAT1 regulates urate levels in blood with exchange for organic anions"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway399",
+      "id": "http://www.reactome.org/biopax/48887#Pathway401",
       "type": [
         {
           "type": "class",
@@ -31,9 +12,64 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Organic cation/anion/zwitterion transport"
+          "value": "Organic anion transport"
         }
       ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein5088",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q96S37"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "URAT1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005886"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule643",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:17775"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Urate"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway372",
+      "type": []
     },
     {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule736",
@@ -128,21 +164,22 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein5088",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1725",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q96S37"
+          "id": "GO:0015143"
         }
       ],
       "annotations": [
         {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein5088",
+          "value-type": "IRI"
+        },
+        {
           "key": "rdfs:label",
-          "value": "URAT1"
+          "value": "URAT1 regulates urate levels in blood with exchange for organic anions"
         }
       ]
     },
@@ -177,6 +214,21 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#Pathway399",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Organic cation/anion/zwitterion transport"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule645",
       "type": [
         {
@@ -200,57 +252,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule643",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:17775"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Urate"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway372",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway401",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Organic anion transport"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005886"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1723",
       "type": [
         {
@@ -269,16 +270,41 @@
   "facts": [
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1723",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule23"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1724",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule736"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway401",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1724",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule23"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1725",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule83"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway388",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway399"
+      "object": "http://www.reactome.org/biopax/48887#Pathway372"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1725",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1723",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1724",
       "property": "BFO:0000066",
       "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     },
@@ -288,7 +314,32 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway388"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1723",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway401"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1724",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway401"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1725",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway401"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway401",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway399"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1725",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule645"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1723",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule736"
     },
@@ -299,58 +350,8 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1725",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway401"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1725",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1725",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule83"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1723",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule23"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway388",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway372"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1725",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule643"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1725",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule645"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1724",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule23"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1724",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway401"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1723",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway401"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1724",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     }
   ]
 }

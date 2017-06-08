@@ -1,14 +1,9 @@
 {
+  "id": "obo:go/noctua/Assembly_of_the_RAD50_MRE11_NBS1_complex_at_DNA_double_strand_breaks.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction168",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Association of RAD50:MRE11 complex with NBS1 via MRE11 interaction"
-        }
-      ]
+      "id": "http://www.reactome.org/biopax/48887#Pathway57",
+      "type": []
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway62",
@@ -26,6 +21,59 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity56",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "DNA double-strand break ends"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein335",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:O60934"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "NBN"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein334",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q14676"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "MDC1"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Pathway61",
       "type": [
         {
@@ -35,13 +83,13 @@
       ],
       "annotations": [
         {
-          "key": "rdfs:label",
-          "value": "MRN complex relocalizes to nuclear foci"
-        },
-        {
           "key": "RO:0002334",
           "value": "http://www.reactome.org/biopax/48887#Protein334",
           "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "MRN complex relocalizes to nuclear foci"
         }
       ]
     },
@@ -61,11 +109,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway57",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex169",
+      "id": "http://www.reactome.org/biopax/48887#Protein331",
       "type": [
         {
           "type": "class",
@@ -73,13 +117,13 @@
         },
         {
           "type": "class",
-          "id": "GO:0032991"
+          "id": "PR:P16104"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "DNA double-strand break ends: MRN complex"
+          "value": "H2a/x"
         }
       ]
     },
@@ -103,25 +147,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex167",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "RAD50:MRE11 complex"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#Complex166",
       "type": [
         {
@@ -141,15 +166,45 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction169",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Association of MRN with sites of DSB"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction168",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Association of RAD50:MRE11 complex with NBS1 via MRE11 interaction"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction167",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Formation of RAD50:MRE11 complex"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Protein339",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "PR:P49959"
         },
         {
           "type": "class",
-          "id": "PR:P49959"
+          "id": "BFO:0000002"
         }
       ],
       "annotations": [
@@ -179,42 +234,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity56",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "DNA double-strand break ends"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction169",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Association of MRN with sites of DSB"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction167",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Formation of RAD50:MRE11 complex"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein334",
+      "id": "http://www.reactome.org/biopax/48887#Complex167",
       "type": [
         {
           "type": "class",
@@ -222,18 +242,18 @@
         },
         {
           "type": "class",
-          "id": "PR:Q14676"
+          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "MDC1"
+          "value": "RAD50:MRE11 complex"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein331",
+      "id": "http://www.reactome.org/biopax/48887#Complex169",
       "type": [
         {
           "type": "class",
@@ -241,37 +261,23 @@
         },
         {
           "type": "class",
-          "id": "PR:P16104"
+          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "H2a/x"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein335",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:O60934"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "NBN"
+          "value": "DNA double-strand break ends: MRN complex"
         }
       ]
     }
   ],
   "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction169",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex169"
+    },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex166",
       "property": "BFO:0000051",
@@ -279,33 +285,13 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction167",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein340"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction167",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction168"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex169",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex168"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction169",
       "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex169"
+      "object": "http://www.reactome.org/biopax/48887#Complex167"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex169",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity56"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction167",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway62"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction168",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex168"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex168",
@@ -313,24 +299,29 @@
       "object": "http://www.reactome.org/biopax/48887#Protein335"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction168",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex167"
+      "subject": "http://www.reactome.org/biopax/48887#Complex168",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein339"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction168",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction169"
+      "subject": "http://www.reactome.org/biopax/48887#Pathway60",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway57"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction167",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein339"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction169",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway62"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex169",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein331"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction168",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein335"
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity56"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway61",
@@ -339,13 +330,8 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction167",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex167"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex168",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein340"
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway62"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway62",
@@ -353,14 +339,9 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway61"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway60",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway57"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction169",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway62"
+      "subject": "http://www.reactome.org/biopax/48887#Complex166",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein331"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex167",
@@ -368,34 +349,24 @@
       "object": "http://www.reactome.org/biopax/48887#Protein340"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex166",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity56"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction168",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway62"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex168",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein339"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction168",
-      "property": "RO:0002234",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction169",
+      "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#Complex168"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction167",
-      "property": "RO:0002233",
+      "subject": "http://www.reactome.org/biopax/48887#Complex169",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein331"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex167",
+      "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Protein339"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex166",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein331"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction168",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex167"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction169",
@@ -408,14 +379,44 @@
       "object": "http://www.reactome.org/biopax/48887#Protein335"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction169",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction168",
       "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein335"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex169",
+      "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Complex168"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex167",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction168",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction169"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction168",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway62"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction167",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction168"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex166",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein339"
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity56"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex168",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein340"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction167",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein340"
     }
   ]
 }

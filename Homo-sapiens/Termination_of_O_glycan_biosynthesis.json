@@ -1,5 +1,15 @@
 {
+  "id": "obo:go/noctua/Termination_of_O_glycan_biosynthesis.owl",
   "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0000139"
+        }
+      ]
+    },
     {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3581",
       "type": [
@@ -17,6 +27,30 @@
           "key": "RO:0002333",
           "value": "http://www.reactome.org/biopax/48887#Protein10796",
           "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway817",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3583",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008373"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein11084",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "GalNAc alpha-2,6-sialyltransferase II can add a sialic acid to the T antigen at the alpha 6 position"
         }
       ]
     },
@@ -40,6 +74,44 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#Protein10796",
+      "type": [
+        {
+          "type": "class",
+          "id": "PR:P15907"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ST6GAL1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway826",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0043687"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Post-translational protein modification"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3585",
       "type": [
         {
@@ -51,78 +123,6 @@
         {
           "key": "rdfs:label",
           "value": "ST6GALNAC3/4 can add a sialic acid to the sialyl T antigen to form the disialyl T antigen"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0000139"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3583",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008373"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein11084",
-          "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "GalNAc alpha-2,6-sialyltransferase II can add a sialic acid to the T antigen at the alpha 6 position"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3582",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0003835"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein10796",
-          "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "Sialyltransferase I can add sialic acid to the T antigen at the alpha 6 position"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule803",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:17361"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CMP"
         }
       ]
     },
@@ -142,76 +142,15 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway856",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0016266"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Termination of O-glycan biosynthesis"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway826",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0043687"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Post-translational protein modification"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein10796",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P15907"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ST6GAL1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway817",
-      "type": []
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule805",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "CHEBI:16556"
         },
         {
           "type": "class",
-          "id": "CHEBI:16556"
+          "id": "BFO:0000002"
         },
         {
           "type": "class",
@@ -226,15 +165,77 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3582",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0003835"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Sialyltransferase I can add sialic acid to the T antigen at the alpha 6 position"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein10796",
+          "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule803",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:17361"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CMP"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway856",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0016266"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Termination of O-glycan biosynthesis"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Pathway855",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0016266"
         },
         {
           "type": "class",
-          "id": "GO:0016266"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
@@ -247,79 +248,24 @@
   ],
   "facts": [
     {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3581",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway856"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#Pathway855",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway826"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3581",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway856"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3583",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3585",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule803"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3583",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule803"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3583",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule805"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3582",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway856"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3582",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule805"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3581",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule803"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3584",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule803"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway856",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway855"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3583",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway856"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3584",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule805"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3582",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3584",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3584",
@@ -328,6 +274,31 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3584",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule805"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3585",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule803"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3582",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3583",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3584",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3585",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway856"
     },
@@ -338,11 +309,36 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3582",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule803"
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule805"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3584",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway856"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3583",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule805"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3585",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway856",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway855"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway826",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway817"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3581",
       "property": "BFO:0000066",
       "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
     },
@@ -352,19 +348,24 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule805"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3583",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule803"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3584",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule803"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3582",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule803"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3581",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3585",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway856"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway826",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway817"
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule803"
     }
   ]
 }

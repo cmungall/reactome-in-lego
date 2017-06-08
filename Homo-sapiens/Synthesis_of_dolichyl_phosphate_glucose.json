@@ -1,7 +1,21 @@
 {
+  "id": "obo:go/noctua/Synthesis_of_dolichyl_phosphate_glucose.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein10745",
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary10",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005789"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway838",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1337",
       "type": [
         {
           "type": "class",
@@ -9,41 +23,17 @@
         },
         {
           "type": "class",
-          "id": "PR:Q9Y673"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ALG5"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway844",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "GO:0018279"
+          "id": "CHEBI:15812"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Synthesis of dolichyl-phosphate-glucose"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary10",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005789"
+          "value": "DbGP"
         }
       ]
     },
@@ -63,6 +53,78 @@
         {
           "key": "rdfs:label",
           "value": "Biosynthesis of the N-glycan precursor (dolichol lipid-linked oligosaccharide, LLO) and transfer to a nascent protein"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3524",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Flipping of dolichyl-phosphate-glucose into the ER lumen"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3523",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0004581"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein10745",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "Synthesis of dolichyl-phosphate-glucose"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway844",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0018279"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Synthesis of dolichyl-phosphate-glucose"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1307",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:16214"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "DOLP"
         }
       ]
     },
@@ -90,83 +152,17 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:15812"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:15812"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
           "value": "DbGP"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1337",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15812"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "DbGP"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1307",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16214"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "DOLP"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3523",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0004581"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein10745",
-          "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "Synthesis of dolichyl-phosphate-glucose"
         }
       ]
     },
@@ -179,11 +175,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:18066"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:18066"
         }
       ],
       "annotations": [
@@ -194,31 +190,26 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway838",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3524",
-      "type": [],
+      "id": "http://www.reactome.org/biopax/48887#Protein10745",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9Y673"
+        }
+      ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Flipping of dolichyl-phosphate-glucose into the ER lumen"
+          "value": "ALG5"
         }
       ]
     }
   ],
   "facts": [
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3524",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1338"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway839",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway838"
-    },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway844",
       "property": "BFO:0000050",
@@ -226,13 +217,13 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3523",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway844"
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule826"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3523",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1307"
+      "subject": "http://www.reactome.org/biopax/48887#Pathway839",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway838"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway840",
@@ -240,24 +231,9 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway839"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3524",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway844"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3523",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule826"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3523",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1337"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3524",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1337"
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary10"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3523",
@@ -266,8 +242,33 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3523",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary10"
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1307"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3523",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway844"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3524",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway844"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3524",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1338"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3524",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1337"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3523",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1337"
     }
   ]
 }

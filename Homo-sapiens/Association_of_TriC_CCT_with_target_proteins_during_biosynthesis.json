@@ -1,7 +1,8 @@
 {
+  "id": "obo:go/noctua/Association_of_TriC_CCT_with_target_proteins_during_biosynthesis.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein10564",
+      "id": "http://www.reactome.org/biopax/48887#Protein10586",
       "type": [
         {
           "type": "class",
@@ -9,13 +10,51 @@
         },
         {
           "type": "class",
-          "id": "PR:P50990"
+          "id": "PR:Q9NYA1"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "CCT8"
+          "value": "SPHK1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity727",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CCT/TriC substrate proteins with unknown chaperones"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule30",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:16761"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ADP"
         }
       ]
     },
@@ -58,6 +97,101 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#Complex4439",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CCT/TriC(ADP):Sphingosine kinase 1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10564",
+      "type": [
+        {
+          "type": "class",
+          "id": "PR:P50990"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CCT8"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway819",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006457"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Chaperonin-mediated protein folding"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10566",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P48643"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CCT5"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex4431",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CCT/TriC(ADP)"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Complex4440",
       "type": [
         {
@@ -73,6 +207,59 @@
         {
           "key": "rdfs:label",
           "value": "CCT/TriC:substrate complex"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway824",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Association of TriC/CCT with target proteins during biosynthesis"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10565",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q99832"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CCT7"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway818",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0051084"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Protein folding"
         }
       ]
     },
@@ -99,154 +286,6 @@
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway817",
       "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule30",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16761"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ADP"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway819",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0006457"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Chaperonin-mediated protein folding"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway824",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Association of TriC/CCT with target proteins during biosynthesis"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex4439",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CCT/TriC(ADP):Sphingosine kinase 1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein10586",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q9NYA1"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "SPHK1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway818",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0051084"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Protein folding"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex4431",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CCT/TriC(ADP)"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity727",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CCT/TriC substrate proteins with unknown chaperones"
-        }
-      ]
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Protein10569",
@@ -304,44 +343,6 @@
           "value": "TCP1"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein10566",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P48643"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CCT5"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein10565",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q99832"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CCT7"
-        }
-      ]
     }
   ],
   "facts": [
@@ -351,89 +352,14 @@
       "object": "http://www.reactome.org/biopax/48887#Protein10569"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3459",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway824"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Complex4431",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Protein10568"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4439",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10586"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4439",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4431"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3459",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4431"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway824"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway819",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway818"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4439"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4431"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4440",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity727"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein10586"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway818",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway817"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Complex4431",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10562"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10563"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule30"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10564"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10565"
+      "object": "http://www.reactome.org/biopax/48887#Protein10567"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4431",
@@ -443,12 +369,22 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4440",
       "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity727"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
+      "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#Complex4431"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10567"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein10586"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3459",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4431"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3459",
@@ -456,9 +392,74 @@
       "object": "http://www.reactome.org/biopax/48887#Complex4440"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway818",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway817"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway819",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway818"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#Pathway824",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway819"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4440",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4431"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule30"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway824"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4439",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4431"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3459",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway824"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4439",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10586"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10565"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10564"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10563"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4431",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10562"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3458",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4439"
     }
   ]
 }

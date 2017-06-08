@@ -1,27 +1,17 @@
 {
+  "id": "obo:go/noctua/TWIK_related_potassium_channel__TREK_.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3777",
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
       "type": [
         {
           "type": "class",
-          "id": "GO:0005267"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Activation of TWIK-related K+ channel (TREK)"
-        },
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex4723",
-          "value-type": "IRI"
+          "id": "GO:0005886"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule418",
+      "id": "http://www.reactome.org/biopax/48887#Complex4723",
       "type": [
         {
           "type": "class",
@@ -29,40 +19,13 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:29103"
+          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "K+"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule417",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:29103"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "K+"
+          "value": "TREK homodimers"
         }
       ]
     },
@@ -97,25 +60,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex4723",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "TREK homodimers"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#Pathway943",
       "type": [
         {
@@ -135,6 +79,52 @@
       "type": []
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule418",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:29103"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "K+"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule417",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:29103"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "K+"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Pathway933",
       "type": [
         {
@@ -150,11 +140,22 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3777",
       "type": [
         {
           "type": "class",
-          "id": "GO:0005886"
+          "id": "GO:0005267"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Activation of TWIK-related K+ channel (TREK)"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex4723",
+          "value-type": "IRI"
         }
       ]
     }
@@ -162,8 +163,33 @@
   "facts": [
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3777",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway945"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3777",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule418"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3777",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule417"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4723",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein11742"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway933",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway875"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway945",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway943"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway943",
@@ -174,31 +200,6 @@
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3777",
       "property": "BFO:0000066",
       "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3777",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule418"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4723",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein11742"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3777",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway945"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway945",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway943"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway933",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway875"
     }
   ]
 }

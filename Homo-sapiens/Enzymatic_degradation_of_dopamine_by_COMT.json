@@ -1,8 +1,13 @@
 {
+  "id": "obo:go/noctua/Enzymatic_degradation_of_dopamine_by_COMT.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1422",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule22",
       "type": [
+        {
+          "type": "class",
+          "id": "CHEBI:15379"
+        },
         {
           "type": "class",
           "id": "BFO:0000002"
@@ -15,7 +20,7 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "FAD"
+          "value": "O2"
         }
       ]
     },
@@ -29,87 +34,26 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1438",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:34718"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CDNB"
-        }
-      ]
+      "id": "http://www.reactome.org/biopax/48887#Pathway878",
+      "type": []
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3711",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3710",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008131"
+          "id": "GO:0008168"
         }
       ],
       "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Oxidation of 3-Methoxytyramine to homovanillic acid"
-        },
         {
           "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex4585",
+          "value": "http://www.reactome.org/biopax/48887#Protein11516",
           "value-type": "IRI"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule317",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
         },
-        {
-          "type": "class",
-          "id": "CHEBI:15414"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
         {
           "key": "rdfs:label",
-          "value": "AdoMet"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein11480",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P21397"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "MAOA"
+          "value": "methylation of Dopamine to form 3-Methoxytyramine"
         }
       ]
     },
@@ -133,7 +77,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1",
+      "id": "http://www.reactome.org/biopax/48887#Protein11480",
       "type": [
         {
           "type": "class",
@@ -141,17 +85,13 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:15377"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
+          "id": "PR:P21397"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "H2O"
+          "value": "MAOA"
         }
       ]
     },
@@ -164,11 +104,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:16240"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:16240"
         }
       ],
       "annotations": [
@@ -179,15 +119,15 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule677",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1438",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "CHEBI:34718"
         },
         {
           "type": "class",
-          "id": "CHEBI:18243"
+          "id": "BFO:0000002"
         },
         {
           "type": "class",
@@ -197,40 +137,53 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "DA"
+          "value": "CDNB"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway878",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary11",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1437",
       "type": [
         {
           "type": "class",
-          "id": "GO:0005741"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3710",
-      "type": [
+          "id": "BFO:0000002"
+        },
         {
           "type": "class",
-          "id": "GO:0008168"
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:16680"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "methylation of Dopamine to form 3-Methoxytyramine"
+          "value": "AdoHcy"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
         },
         {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein11516",
-          "value-type": "IRI"
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15377"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "H2O"
         }
       ]
     },
@@ -250,44 +203,6 @@
         {
           "key": "rdfs:label",
           "value": "MAOA-FAD complex"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1062",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16134"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "NH3"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway892",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Enzymatic degradation of dopamine by COMT"
         }
       ]
     },
@@ -315,26 +230,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway890",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0042136"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Neurotransmitter Clearance In The Synaptic Cleft"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1437",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1062",
       "type": [
         {
           "type": "class",
@@ -342,7 +238,30 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:16680"
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:16134"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "NH3"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule317",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15414"
         },
         {
           "type": "class",
@@ -352,7 +271,54 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "AdoHcy"
+          "value": "AdoMet"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule677",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:18243"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "DA"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary11",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005741"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway892",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Enzymatic degradation of dopamine by COMT"
         }
       ]
     },
@@ -372,15 +338,50 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule22",
+      "id": "http://www.reactome.org/biopax/48887#Pathway890",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0042136"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Neurotransmitter Clearance In The Synaptic Cleft"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3711",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008131"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex4585",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "Oxidation of 3-Methoxytyramine to homovanillic acid"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1422",
       "type": [
         {
           "type": "class",
           "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15379"
         },
         {
           "type": "class",
@@ -390,31 +391,21 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "O2"
+          "value": "FAD"
         }
       ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3710",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3711",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule677"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3711",
       "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1089"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3711",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule22"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3711",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1439"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1062"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway890",
@@ -422,14 +413,44 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway878"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4585",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein11480"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3711",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1089"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4585",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule1422"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4585",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein11480"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3710",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1438"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3711",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway892"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3710",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1437"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3710",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway892"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3711",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1438"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3711",
@@ -438,18 +459,13 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3711",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1438"
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1439"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3711",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1062"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3710",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway892"
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1438"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway891",
@@ -462,39 +478,24 @@
       "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3711",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1438"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3711",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway892"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3710",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule317"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway892",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway891"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3710",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1437"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3710",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1438"
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule677"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3711",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule22"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway892",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway891"
     }
   ]
 }

@@ -1,15 +1,64 @@
 {
+  "id": "obo:go/noctua/Nef_mediated_downregulation_of_CD28_cell_surface_expression.owl",
   "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein8615",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P10747"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CD28"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein2116",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P10747"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CD28"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction2719",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Internalization of Nef:CD28:Clathrin-Coated Pit Adapter Protein Complex"
+        }
+      ]
+    },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway634",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0050690"
         },
         {
           "type": "class",
-          "id": "GO:0050690"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
@@ -24,11 +73,11 @@
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0050690"
         },
         {
           "type": "class",
-          "id": "GO:0050690"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
@@ -73,12 +122,21 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction2719",
-      "type": [],
+      "id": "http://www.reactome.org/biopax/48887#Complex3518",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Internalization of Nef:CD28:Clathrin-Coated Pit Adapter Protein Complex"
+          "value": "CD28:Nef:Clathrin-coated Pit Adapter Protein Complex"
         }
       ]
     },
@@ -112,23 +170,8 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein8615",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P10747"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CD28"
-        }
-      ]
+      "id": "http://www.reactome.org/biopax/48887#Pathway622",
+      "type": []
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Protein8614",
@@ -169,8 +212,14 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway622",
-      "type": []
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction2718",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Formation of Nef:Cd28:Clathrin-coated Pit Adapter Protein complex"
+        }
+      ]
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Protein3385",
@@ -190,81 +239,23 @@
           "value": "AP2M1"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex3518",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CD28:Nef:Clathrin-coated Pit Adapter Protein Complex"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction2718",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Formation of Nef:Cd28:Clathrin-coated Pit Adapter Protein complex"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein2116",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P10747"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CD28"
-        }
-      ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex3519",
+      "subject": "http://www.reactome.org/biopax/48887#Complex3518",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein8614"
+      "object": "http://www.reactome.org/biopax/48887#Complex3517"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway634",
+      "subject": "http://www.reactome.org/biopax/48887#Complex3518",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein3385"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway631",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway633"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2719",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex3519"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2718",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex3518"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2719",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway634"
+      "object": "http://www.reactome.org/biopax/48887#Pathway622"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex3517",
@@ -272,44 +263,9 @@
       "object": "http://www.reactome.org/biopax/48887#Protein8564"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2718",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction2719"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2718",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex3517"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2717",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway634"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2719",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex3518"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex3519",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein8615"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2717",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#Complex3517"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2718",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway634"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2717",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein8564"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex3519",
@@ -322,24 +278,9 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway631"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2717",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction2718"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex3517",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein2116"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2717",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein2116"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex3518",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein3385"
+      "subject": "http://www.reactome.org/biopax/48887#Pathway634",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway633"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2718",
@@ -347,14 +288,74 @@
       "object": "http://www.reactome.org/biopax/48887#Protein3385"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex3518",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2718",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction2719"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2717",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction2718"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex3519",
       "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein8614"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex3519",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein8615"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2719",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex3519"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2719",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex3518"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex3517",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein2116"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2718",
+      "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#Complex3517"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway631",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2718",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex3518"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2717",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway622"
+      "object": "http://www.reactome.org/biopax/48887#Pathway634"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2719",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway634"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2717",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein8564"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2718",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway634"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2717",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein2116"
     }
   ]
 }

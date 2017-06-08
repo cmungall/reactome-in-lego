@@ -1,55 +1,136 @@
 {
+  "id": "obo:go/noctua/VEGF_binds_to_VEGFR_leading_to_receptor_dimerization.owl",
   "individuals": [
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1026",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "VEGF binds to VEGFR leading to receptor dimerization"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1025",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0048010"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "VEGF ligand-receptor interactions"
-        }
-      ]
-    },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway1024",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0048010"
         },
         {
           "type": "class",
-          "id": "GO:0048010"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
           "value": "Signaling by VEGF"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex4972",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "VEGFR3 dimer"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex4971",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein8170",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:O43915"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "FIGF"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein8168",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P49765"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "VEGFB"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein12018",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P49763"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "PGF"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein12019",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P17948"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "FLT1"
         }
       ]
     },
@@ -64,6 +145,63 @@
         {
           "key": "rdfs:label",
           "value": "VEGF-C,D bind to VEGFR3 leading to receptor dimerization"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex4970",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "VEGFC,VEGFD dimers"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein8169",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P49767"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "VRP"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex4959",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "VEGFA, VEGFB, PGF dimers"
         }
       ]
     },
@@ -125,25 +263,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein298",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P15692"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "VEGFA"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#Complex4968",
       "type": [
         {
@@ -159,6 +278,25 @@
         {
           "key": "rdfs:label",
           "value": ""
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein298",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P15692"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "VEGFA"
         }
       ]
     },
@@ -220,25 +358,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein8170",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:O43915"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "FIGF"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3979",
       "type": [],
       "annotations": [
@@ -259,208 +378,65 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein12019",
+      "id": "http://www.reactome.org/biopax/48887#Pathway1025",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "GO:0048010"
         },
         {
           "type": "class",
-          "id": "PR:P17948"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "FLT1"
+          "value": "VEGF ligand-receptor interactions"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein12018",
+      "id": "http://www.reactome.org/biopax/48887#Pathway1026",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P49763"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "PGF"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex4972",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "VEGFR3 dimer"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex4971",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": ""
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex4970",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "VEGFC,VEGFD dimers"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein8169",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P49767"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "VRP"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein8168",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P49765"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "VEGFB"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex4959",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "VEGFA, VEGFB, PGF dimers"
+          "value": "VEGF binds to VEGFR leading to receptor dimerization"
         }
       ]
     }
   ],
   "facts": [
     {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3978",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein12019"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#Complex4970",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Protein8169"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4963",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4959"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3980",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein12021"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3980",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#Complex4970"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3979",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1026"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3979",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein12020"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4969",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein12020"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3979",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4965"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4959",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein298"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3980",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1026"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3978",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1026"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3980",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4971"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway1025",
@@ -468,89 +444,14 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway1024"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4969",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein12020"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#Complex4964",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Protein12019"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4965",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein8170"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4965",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein298"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4959",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein12018"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3979",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4968"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1024",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway962"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4963",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4959"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4971",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4970"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4965",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein8169"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1026",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1025"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4971",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4972"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4972",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein12021"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4970",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein8170"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3980",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein12021"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4968",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4969"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4959",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein8168"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4963",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4964"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3978",
@@ -558,19 +459,119 @@
       "object": "http://www.reactome.org/biopax/48887#Complex4963"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3979",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4968"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1026",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1025"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4965",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein8170"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3978",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#Complex4959"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3978",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein12019"
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1026"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4963",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4964"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4965",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein8169"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4965",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein298"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4971",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4970"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4959",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein12018"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4968",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Complex4965"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4970",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein8170"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4971",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4972"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4968",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex4969"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1024",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway962"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3980",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4971"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4972",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein12021"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4959",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein298"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3980",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1026"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4959",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein8168"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3979",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein12020"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3979",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4965"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3979",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1026"
     }
   ]
 }

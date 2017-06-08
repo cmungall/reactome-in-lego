@@ -1,27 +1,14 @@
 {
+  "id": "obo:go/noctua/Transport_of_fatty_acids.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway372",
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0055085"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "SLC-mediated transmembrane transport"
+          "id": "GO:0005886"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway368",
-      "type": []
     },
     {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1749",
@@ -35,6 +22,25 @@
         {
           "key": "rdfs:label",
           "value": "FATP1, 4 and 6 can mediate the influx of  long chain fatty acids into cells"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway372",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0055085"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "SLC-mediated transmembrane transport"
         }
       ]
     },
@@ -58,6 +64,10 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#Pathway368",
+      "type": []
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Pathway402",
       "type": [
         {
@@ -71,27 +81,13 @@
           "value": "Transport of vitamins, nucleosides, and related molecules"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005886"
-        }
-      ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway405",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway402"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway402",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway372"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1749",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1749",
@@ -104,9 +100,14 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway368"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1749",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+      "subject": "http://www.reactome.org/biopax/48887#Pathway402",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway372"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway405",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway402"
     }
   ]
 }

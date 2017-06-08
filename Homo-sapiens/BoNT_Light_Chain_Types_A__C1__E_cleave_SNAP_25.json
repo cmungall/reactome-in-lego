@@ -1,11 +1,73 @@
 {
+  "id": "obo:go/noctua/BoNT_Light_Chain_Types_A__C1__E_cleave_SNAP_25.owl",
   "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule442",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:29105"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Zn2+"
+        }
+      ]
+    },
     {
       "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
       "type": [
         {
           "type": "class",
           "id": "GO:0005829"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein8979",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P60880"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "SNP25_HUMAN"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein8978",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P60880"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "SNAP25"
         }
       ]
     },
@@ -67,6 +129,44 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#Protein8962",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P10845"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "BoNT Light chain Type A polypeptide"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein8961",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P18640"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "BoNT Light chain Type C1 polypeptide"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Protein8980",
       "type": [
         {
@@ -116,6 +216,10 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#Pathway875",
+      "type": []
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Pathway684",
       "type": [
         {
@@ -139,97 +243,17 @@
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "PR:Q00496"
         },
         {
           "type": "class",
-          "id": "PR:Q00496"
+          "id": "BFO:0000002"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
           "value": "BoNT Light chain Type E polypeptide"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein8962",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P10845"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "BoNT Light chain Type A polypeptide"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein8961",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P18640"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "BoNT Light chain Type C1 polypeptide"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway875",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein8979",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P60880"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "SNP25_HUMAN"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein8978",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P60880"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "SNAP25"
         }
       ]
     },
@@ -286,13 +310,13 @@
       ],
       "annotations": [
         {
-          "key": "rdfs:label",
-          "value": "BoNT Light Chain Type C1 cleaves SNAP-25"
-        },
-        {
           "key": "RO:0002333",
           "value": "http://www.reactome.org/biopax/48887#Complex3798",
           "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "BoNT Light Chain Type C1 cleaves SNAP-25"
         }
       ]
     },
@@ -315,29 +339,6 @@
           "value": "BoNT Light Chain Type A cleaves SNAP-25"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule442",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:29105"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Zn2+"
-        }
-      ]
     }
   ],
   "facts": [
@@ -347,27 +348,12 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule442"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway684",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway588"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Complex3797",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein8963"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule442"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2929",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2928",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Protein8980"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex3797",
+      "subject": "http://www.reactome.org/biopax/48887#Complex3796",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule442"
     },
@@ -377,47 +363,17 @@
       "object": "http://www.reactome.org/biopax/48887#Protein8961"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway688",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway686"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2927",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway688"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2929",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Protein8981"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2928",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2927",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein8978"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Complex3796",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule442"
+      "object": "http://www.reactome.org/biopax/48887#Protein8962"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2928",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway688"
+      "subject": "http://www.reactome.org/biopax/48887#Complex3797",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein8963"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2927",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2929",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#Protein8978"
     },
@@ -427,14 +383,9 @@
       "object": "http://www.reactome.org/biopax/48887#Protein8979"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway686",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway684"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex3796",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein8962"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2929",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein8978"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2928",
@@ -442,14 +393,64 @@
       "object": "http://www.reactome.org/biopax/48887#Protein8978"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2927",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway688"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2929",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway688"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2927",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2928",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2928",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway688"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway684",
       "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway588"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2929",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Protein8981"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2929",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway686",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway684"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2928",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Protein8980"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway684",
+      "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway875"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway688",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway686"
     }
   ]
 }

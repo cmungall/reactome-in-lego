@@ -1,5 +1,53 @@
 {
+  "id": "obo:go/noctua/Synthesis_of_Hepoxilins__HX__and_Trioxilins__TrX_.owl",
   "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1147",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Metabolism of lipids and lipoproteins"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005829"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1671",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15843"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Arachidonate"
+        }
+      ]
+    },
     {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5257",
       "type": [
@@ -36,7 +84,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule656",
+      "id": "http://www.reactome.org/biopax/48887#Protein14040",
       "type": [
         {
           "type": "class",
@@ -44,17 +92,13 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:18248"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
+          "id": "PR:P18054"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Fe2+"
+          "value": "ALOX12"
         }
       ]
     },
@@ -67,11 +111,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:15377"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:15377"
         }
       ],
       "annotations": [
@@ -86,11 +130,11 @@
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "CHEBI:15379"
         },
         {
           "type": "class",
-          "id": "CHEBI:15379"
+          "id": "BFO:0000002"
         },
         {
           "type": "class",
@@ -101,29 +145,6 @@
         {
           "key": "rdfs:label",
           "value": "O2"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1671",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15843"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Arachidonate"
         }
       ]
     },
@@ -143,6 +164,29 @@
         {
           "key": "rdfs:label",
           "value": "Synthesis of Hepoxilins (HX) and Trioxilins (TrX)"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule656",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:18248"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Fe2+"
         }
       ]
     },
@@ -170,34 +214,15 @@
       "type": []
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein14040",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P18054"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ALOX12"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#Pathway1227",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0019369"
         },
         {
           "type": "class",
-          "id": "GO:0019369"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
@@ -206,47 +231,18 @@
           "value": "Arachidonic acid metabolism"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1147",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Metabolism of lipids and lipoproteins"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005829"
-        }
-      ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5257",
+      "subject": "http://www.reactome.org/biopax/48887#Complex5951",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule656"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5256",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway1234"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5257",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1227",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1147"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway1147",
@@ -255,18 +251,23 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5256",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1671"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5257",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway1234"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex5951",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule656"
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1227",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1147"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5257",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5256",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5257"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway1234",
@@ -279,24 +280,24 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule22"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5256",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Complex5951",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Protein14040"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5256",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5257",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1671"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5257",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5256",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5257"
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
     }
   ]
 }

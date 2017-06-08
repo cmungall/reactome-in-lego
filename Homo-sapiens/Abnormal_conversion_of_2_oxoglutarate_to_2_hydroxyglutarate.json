@@ -1,7 +1,32 @@
 {
+  "id": "obo:go/noctua/Abnormal_conversion_of_2_oxoglutarate_to_2_hydroxyglutarate.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein10130",
+      "id": "http://www.reactome.org/biopax/48887#Pathway588",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Disease"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005829"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex4241",
       "type": [
         {
           "type": "class",
@@ -9,13 +34,13 @@
         },
         {
           "type": "class",
-          "id": "PR:O75874"
+          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "IDH1 R132C mutant"
+          "value": "IDH1 R132mutant dimers"
         }
       ]
     },
@@ -39,6 +64,29 @@
         {
           "key": "rdfs:label",
           "value": "2HG"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule905",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:16474"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "TPNH"
         }
       ]
     },
@@ -147,7 +195,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex4241",
+      "id": "http://www.reactome.org/biopax/48887#Protein10129",
       "type": [
         {
           "type": "class",
@@ -155,59 +203,13 @@
         },
         {
           "type": "class",
-          "id": "GO:0032991"
+          "id": "PR:O75874"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "IDH1 R132mutant dimers"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule68",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15378"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "H+"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule905",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16474"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "TPNH"
+          "value": "IDH1 R132H mutant"
         }
       ]
     },
@@ -231,31 +233,30 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway588",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule68",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15378"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Disease"
+          "value": "H+"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005829"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein10129",
+      "id": "http://www.reactome.org/biopax/48887#Protein10130",
       "type": [
         {
           "type": "class",
@@ -269,7 +270,7 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "IDH1 R132H mutant"
+          "value": "IDH1 R132C mutant"
         }
       ]
     }
@@ -278,7 +279,7 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4241",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10130"
+      "object": "http://www.reactome.org/biopax/48887#Protein10129"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3314",
@@ -287,13 +288,8 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3314",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule23"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4241",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10131"
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway779"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3314",
@@ -301,9 +297,9 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule905"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3314",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
+      "subject": "http://www.reactome.org/biopax/48887#Complex4241",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10130"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3314",
@@ -313,22 +309,27 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4241",
       "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10131"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4241",
+      "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Protein10132"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3314",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway779"
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule23"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3314",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway779",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway588"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4241",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10129"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3314",

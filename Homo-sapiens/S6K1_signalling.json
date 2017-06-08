@@ -1,7 +1,8 @@
 {
+  "id": "obo:go/noctua/S6K1_signalling.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule14",
+      "id": "http://www.reactome.org/biopax/48887#Protein11835",
       "type": [
         {
           "type": "class",
@@ -9,31 +10,41 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:15422"
+          "id": "PR:P23588"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "eIF4B-P"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule30",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
         },
         {
           "type": "class",
           "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:16761"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "ATP"
+          "value": "ADP"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005829"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein457",
+      "id": "http://www.reactome.org/biopax/48887#Protein11833",
       "type": [
         {
           "type": "class",
@@ -41,13 +52,71 @@
         },
         {
           "type": "class",
-          "id": "PR:Q04637"
+          "id": "PR:O00418"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "P220"
+          "value": "eEF2K-P"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein11832",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:O00418"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "EEF2K"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein11831",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P62753"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "p-5S-RPS6"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3831",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0016301"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Phosphorylation and activation of eIF4B by activated S6K1"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein11829",
+          "value-type": "IRI"
         }
       ]
     },
@@ -71,69 +140,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein11829",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P23443"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "S6K1-P"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule30",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16761"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ADP"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3829",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0016301"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Phosphorylation and inactivation of eEF2K by activated S6K1"
-        },
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein11829",
-          "value-type": "IRI"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3828",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3830",
       "type": [
         {
           "type": "class",
@@ -148,7 +155,7 @@
         },
         {
           "key": "rdfs:label",
-          "value": "Phosphorylation of Ribosomal protein S6 by activated S6K1"
+          "value": "Phosphorylation and activation of eIF4G by activated S6K1"
         }
       ]
     },
@@ -221,21 +228,21 @@
       "type": []
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein11835",
+      "id": "http://www.reactome.org/biopax/48887#Protein457",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "PR:Q04637"
         },
         {
           "type": "class",
-          "id": "PR:P23588"
+          "id": "BFO:0000002"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "eIF4B-P"
+          "value": "P220"
         }
       ]
     },
@@ -244,11 +251,11 @@
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "PR:Q04637"
         },
         {
           "type": "class",
-          "id": "PR:Q04637"
+          "id": "BFO:0000002"
         }
       ],
       "annotations": [
@@ -259,84 +266,16 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein11833",
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:O00418"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "eEF2K-P"
+          "id": "GO:0005829"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein11832",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:O00418"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "EEF2K"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein11831",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P62753"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "p-5S-RPS6"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3831",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0016301"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein11829",
-          "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "Phosphorylation and activation of eIF4B by activated S6K1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3830",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3829",
       "type": [
         {
           "type": "class",
@@ -346,17 +285,84 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Phosphorylation and activation of eIF4G by activated S6K1"
+          "value": "Phosphorylation and inactivation of eEF2K by activated S6K1"
         },
         {
           "key": "RO:0002333",
           "value": "http://www.reactome.org/biopax/48887#Protein11829",
           "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3828",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0016301"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Phosphorylation of Ribosomal protein S6 by activated S6K1"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein11829",
+          "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein11829",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P23443"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "S6K1-P"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule14",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15422"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ATP"
         }
       ]
     }
   ],
   "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3829",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Protein11833"
+    },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3830",
       "property": "RO:0002234",
@@ -368,9 +374,9 @@
       "object": "http://www.reactome.org/biopax/48887#Protein11835"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3828",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway978"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3829",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3831",
@@ -379,16 +385,6 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3829",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule30"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3830",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein457"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3831",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway978"
     },
@@ -396,6 +392,36 @@
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3831",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule30"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3831",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule14"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway976",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway974"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3828",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule14"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3831",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway978"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3828",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule30"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3829",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein11832"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3830",
@@ -408,52 +434,37 @@
       "object": "http://www.reactome.org/biopax/48887#Protein11831"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway978",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway977"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3829",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule14"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3828",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein487"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3829",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein11832"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3828",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule14"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3828",
       "property": "BFO:0000066",
       "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway976",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway974"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3829",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Protein11833"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3828",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule30"
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway978"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3831",
+      "subject": "http://www.reactome.org/biopax/48887#Pathway978",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway977"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway977",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway976"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3830",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3830",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein457"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3830",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule14"
     },
@@ -463,34 +474,24 @@
       "object": "http://www.reactome.org/biopax/48887#Protein461"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3829",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3830",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3828",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein487"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3829",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway978"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3830",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway978"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3830",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule14"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway977",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3830",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway976"
+      "object": "http://www.reactome.org/biopax/48887#Pathway978"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3829",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule30"
     }
   ]
 }

@@ -1,34 +1,17 @@
 {
+  "id": "obo:go/noctua/Tandem_pore_domain_halothane_inhibited_K__channel__THIK_.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway875",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule418",
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:29103"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "K+"
+          "id": "GO:0005886"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway949",
+      "id": "http://www.reactome.org/biopax/48887#Pathway943",
       "type": [
         {
           "type": "class",
@@ -38,7 +21,7 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Tandem pore domain halothane-inhibited K+ channel (THIK)"
+          "value": "Tandem pore domain potassium channels"
         }
       ]
     },
@@ -62,21 +45,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway943",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Tandem pore domain potassium channels"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#Protein11751",
       "type": [
         {
@@ -96,6 +64,68 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#Pathway949",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Tandem pore domain halothane-inhibited K+ channel (THIK)"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3781",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005267"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex4731",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "Activation of THIK"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway875",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule418",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:29103"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "K+"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule417",
       "type": [
         {
@@ -104,11 +134,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:29103"
         },
         {
           "type": "class",
-          "id": "CHEBI:29103"
+          "id": "CHEBI:23367"
         }
       ],
       "annotations": [
@@ -132,42 +162,38 @@
           "value": "Potassium Channels"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005886"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3781",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005267"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Activation of THIK"
-        },
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex4731",
-          "value-type": "IRI"
-        }
-      ]
     }
   ],
   "facts": [
     {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway949",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway943"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3781",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule417"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4731",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein11751"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3781",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule418"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway933",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway875"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3781",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway943",
@@ -178,31 +204,6 @@
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3781",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway949"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3781",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule417"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3781",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway949",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway943"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4731",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein11751"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway933",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway875"
     }
   ]
 }

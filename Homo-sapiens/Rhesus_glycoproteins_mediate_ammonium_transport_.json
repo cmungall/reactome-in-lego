@@ -1,98 +1,6 @@
 {
+  "id": "obo:go/noctua/Rhesus_glycoproteins_mediate_ammonium_transport_.owl",
   "individuals": [
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein5065",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q02094"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "RHAG"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005886"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway532",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Amine compound SLC transporters"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule68",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15378"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "H+"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule67",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15378"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "H+"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway368",
-      "type": []
-    },
     {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1712",
       "type": [
@@ -134,25 +42,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway372",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0055085"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "SLC-mediated transmembrane transport"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1710",
       "type": [
         {
@@ -162,13 +51,129 @@
       ],
       "annotations": [
         {
+          "key": "rdfs:label",
+          "value": "RhBG mediates ammonium influx into kidney collecting duct cells"
+        },
+        {
           "key": "RO:0002333",
           "value": "http://www.reactome.org/biopax/48887#Protein5066",
+          "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway368",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein5067",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9UBD6"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "RHCG"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein5066",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9H310"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "RHBG"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein5065",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q02094"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "RHAG"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1708",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008519"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein5065",
           "value-type": "IRI"
         },
         {
           "key": "rdfs:label",
-          "value": "RhBG mediates ammonium influx into kidney collecting duct cells"
+          "value": "RhAG mediates ammounium export from red blood cells"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1709",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008519"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "RhBG mediates ammonium effflux out of kidney collecting duct cells"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein5066",
+          "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway532",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Amine compound SLC transporters"
         }
       ]
     },
@@ -184,6 +189,21 @@
         {
           "key": "rdfs:label",
           "value": "Transport of glucose and other sugars, bile salts and organic acids, metal ions and amine compounds"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway398",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Rhesus glycoproteins mediate ammonium transport."
         }
       ]
     },
@@ -234,86 +254,12 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1709",
+      "id": "http://www.reactome.org/biopax/48887#Pathway372",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008519"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "RhBG mediates ammonium effflux out of kidney collecting duct cells"
+          "id": "GO:0055085"
         },
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein5066",
-          "value-type": "IRI"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1708",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008519"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein5065",
-          "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "RhAG mediates ammounium export from red blood cells"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein5067",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q9UBD6"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "RHCG"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein5066",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q9H310"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "RHBG"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway398",
-      "type": [
         {
           "type": "class",
           "id": "GO:0008150"
@@ -322,66 +268,76 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Rhesus glycoproteins mediate ammonium transport."
+          "value": "SLC-mediated transmembrane transport"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule68",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15378"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "H+"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule67",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15378"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "H+"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005886"
         }
       ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1712",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway398",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway532"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway398",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway388"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1712",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway398"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1709",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule694"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1712",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1709",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1711",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule67"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1711",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway398"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1708",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule694"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1711",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1709",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule693"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway388",
@@ -390,37 +346,17 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1711",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule694"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1709",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1710",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway398"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1710",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1711",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule693"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1708",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway398"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1710",
       "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule694"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1712",
+      "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule694"
     },
     {
@@ -429,43 +365,8 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway398"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1708",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1708",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule693"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1712",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule693"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1710",
       "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule693"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1710",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1709",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule67"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1712",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule67"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1711",
-      "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
     },
     {
@@ -474,19 +375,119 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule67"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1712",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule694"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1710",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1711",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1709",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule693"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule67"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1709",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway372",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway368"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1711",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway398"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1710",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule693"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1708",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule693"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1709",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule694"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1712",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule693"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1711",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule694"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway398",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway388"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway398",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway532"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1712",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule67"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1708",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway398"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1711",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1711",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule67"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1712",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1710",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1709",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1708",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1710",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway398"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1712",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway398"
     }
   ]
 }

@@ -1,52 +1,12 @@
 {
+  "id": "obo:go/noctua/Classical_Kir_channels.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway875",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule418",
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:29103"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "K+"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule417",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:29103"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "K+"
+          "id": "GO:0005886"
         }
       ]
     },
@@ -86,6 +46,86 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#Protein11681",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Kir channels 2x"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway875",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway936",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Inwardly rectifying K+ channels"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule418",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:29103"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "K+"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule417",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:29103"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "K+"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Complex4717",
       "type": [
         {
@@ -105,36 +145,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein11681",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Kir channels 2x"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway936",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Inwardly rectifying K+ channels"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#Pathway933",
       "type": [
         {
@@ -148,47 +158,13 @@
           "value": "Potassium Channels"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005886"
-        }
-      ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4717",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein11681"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3774",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3774",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule417"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3774",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule418"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Pathway936",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway933"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway941",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway936"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3774",
@@ -199,6 +175,31 @@
       "subject": "http://www.reactome.org/biopax/48887#Pathway933",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway875"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3774",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule418"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3774",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule417"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway941",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway936"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4717",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein11681"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3774",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     }
   ]
 }

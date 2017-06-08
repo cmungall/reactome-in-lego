@@ -1,14 +1,6 @@
 {
+  "id": "obo:go/noctua/Reversal_of_Alkylation_Damage_By_DNA_Dioxygenases.owl",
   "individuals": [
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005654"
-        }
-      ]
-    },
     {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule26",
       "type": [
@@ -33,25 +25,21 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule46",
+      "id": "http://www.reactome.org/biopax/48887#Pathway54",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "GO:0006307"
         },
         {
           "type": "class",
-          "id": "CHEBI:15343"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "CH3CHO"
+          "value": "ABH3 mediated Reversal of Alkylation Damage"
         }
       ]
     },
@@ -75,71 +63,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway31",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0006281"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "DNA Repair"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule27",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15379"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "O2"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule29",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15741"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "SUCCA"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#Protein326",
       "type": [
         {
@@ -155,6 +78,145 @@
         {
           "key": "rdfs:label",
           "value": "ALKBH2"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway53",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006307"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ABH2 mediated Reversal of Alkylation Damage"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway52",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0006307"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Reversal of Alkylation Damage By DNA Dioxygenases"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway31",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0006281"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "DNA Repair"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction152",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0003684"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein326",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "Oxidative demethylation of 3-MeC damaged DNA By ABH2"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule46",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15343"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CH3CHO"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway51",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0006281"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "DNA Damage Reversal"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction154",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0003684"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Oxidative demethylation of 1-MeA damaged DNA By ABH3"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein327",
+          "value-type": "IRI"
         }
       ]
     },
@@ -199,22 +261,25 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction154",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule29",
       "type": [
         {
           "type": "class",
-          "id": "GO:0003684"
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15741"
         }
       ],
       "annotations": [
         {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein327",
-          "value-type": "IRI"
-        },
-        {
           "key": "rdfs:label",
-          "value": "Oxidative demethylation of 1-MeA damaged DNA By ABH3"
+          "value": "SUCCA"
         }
       ]
     },
@@ -228,33 +293,36 @@
       ],
       "annotations": [
         {
+          "key": "rdfs:label",
+          "value": "Oxidative demethylation of 1-EtA damaged DNA By ABH2"
+        },
+        {
           "key": "RO:0002333",
           "value": "http://www.reactome.org/biopax/48887#Protein326",
           "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "Oxidative demethylation of 1-EtA damaged DNA By ABH2"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction152",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule27",
       "type": [
         {
           "type": "class",
-          "id": "GO:0003684"
+          "id": "CHEBI:15379"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
         }
       ],
       "annotations": [
         {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein326",
-          "value-type": "IRI"
-        },
-        {
           "key": "rdfs:label",
-          "value": "Oxidative demethylation of 3-MeC damaged DNA By ABH2"
+          "value": "O2"
         }
       ]
     },
@@ -268,13 +336,22 @@
       ],
       "annotations": [
         {
-          "key": "rdfs:label",
-          "value": "Oxidative demethylation of 1-MeA damaged DNA By ABH2"
-        },
-        {
           "key": "RO:0002333",
           "value": "http://www.reactome.org/biopax/48887#Protein326",
           "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "Oxidative demethylation of 1-MeA damaged DNA By ABH2"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005654"
         }
       ]
     },
@@ -283,11 +360,11 @@
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "CHEBI:16842"
         },
         {
           "type": "class",
-          "id": "CHEBI:16842"
+          "id": "BFO:0000002"
         },
         {
           "type": "class",
@@ -298,44 +375,6 @@
         {
           "key": "rdfs:label",
           "value": "CH2O"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway53",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0006307"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ABH2 mediated Reversal of Alkylation Damage"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway54",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0006307"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ABH3 mediated Reversal of Alkylation Damage"
         }
       ]
     },
@@ -361,212 +400,9 @@
           "value": "CO2"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway52",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0006307"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Reversal of Alkylation Damage By DNA Dioxygenases"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway51",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0006281"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "DNA Damage Reversal"
-        }
-      ]
     }
   ],
   "facts": [
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction156",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule46"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction151",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule26"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction155",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway54"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction152",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule26"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction151",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction155",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule44"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction151",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule28"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction156",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule29"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction153",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule29"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction153",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway53"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction156",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction154",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule27"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction155",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction155",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule27"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction154",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule44"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction152",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule29"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction152",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway53"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction156",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule28"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction153",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule27"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway53",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway52"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction154",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule28"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway52",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway51"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction151",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule29"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction153",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule46"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction154",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway54"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction154",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction155",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule29"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction154",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule26"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction152",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule27"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction153",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule28"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction152",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule44"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction151",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway53"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway54",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway52"
-    },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway51",
       "property": "BFO:0000050",
@@ -574,23 +410,13 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction155",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule28"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction153",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction151",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule27"
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway54"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction152",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule28"
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway53"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction151",
@@ -598,19 +424,129 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule44"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction156",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway54"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction154",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule44"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction153",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction151",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction152",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule44"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction154",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule26"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction152",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule28"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction153",
       "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule27"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction151",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule29"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction152",
+      "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule26"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction151",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule27"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction156",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule46"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction155",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule29"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction156",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule26"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway54",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway52"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction154",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule28"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction153",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule29"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction156",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule28"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction155",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule27"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction155",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction154",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway54"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway53",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway52"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction151",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway53"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway52",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway51"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction153",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway53"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction156",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway54"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction152",
@@ -618,7 +554,52 @@
       "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction155",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule44"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction153",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule46"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction152",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule29"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction153",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule26"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction153",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule28"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction152",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule27"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction151",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule28"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction151",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule26"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction156",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule29"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction154",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule27"
     },
@@ -628,9 +609,29 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule26"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction155",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule28"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction154",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule29"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction156",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule27"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction154",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction156",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
     }
   ]
 }

@@ -1,5 +1,64 @@
 {
+  "id": "obo:go/noctua/Leukotriene_receptors.owl",
   "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4280",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CysLT receptors can bind cysteinyl leukotrienes"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1465",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Cysteinyl leukotrienes"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein12586",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q13304"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "GPR17"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4281",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "UDP/CysLT receptor can bind cysteinyl leukotrienes"
+        }
+      ]
+    },
     {
       "id": "http://www.reactome.org/biopax/48887#Protein12583",
       "type": [
@@ -12,16 +71,6 @@
         {
           "key": "rdfs:label",
           "value": "Cysteinyl leukotriene receptors"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4279",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "BLT receptors can bind LTB4"
         }
       ]
     },
@@ -60,7 +109,7 @@
       "type": []
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1465",
+      "id": "http://www.reactome.org/biopax/48887#Complex5308",
       "type": [
         {
           "type": "class",
@@ -68,13 +117,53 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Cysteinyl leukotrienes"
+          "value": "LTB4 receptors:LTB4"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1078",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Leukotriene receptors"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1076",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Eicosanoid ligand-binding receptors"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4279",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "BLT receptors can bind LTB4"
         }
       ]
     },
@@ -117,75 +206,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1078",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Leukotriene receptors"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1076",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Eicosanoid ligand-binding receptors"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4281",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "UDP/CysLT receptor can bind cysteinyl leukotrienes"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4280",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CysLT receptors can bind cysteinyl leukotrienes"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex5308",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "LTB4 receptors:LTB4"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule1464",
       "type": [
         {
@@ -194,11 +214,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:15647"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:15647"
         }
       ],
       "annotations": [
@@ -207,42 +227,18 @@
           "value": "LTB4"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein12586",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q13304"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "GPR17"
-        }
-      ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4279",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1078"
+      "subject": "http://www.reactome.org/biopax/48887#Complex5308",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein12580"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4280",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1078"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4281",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein12586"
+      "subject": "http://www.reactome.org/biopax/48887#Complex5310",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1465"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4279",
@@ -250,9 +246,9 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule1464"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex5310",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein12586"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4281",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex5310"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway1061",
@@ -260,29 +256,14 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway1060"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1078",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1076"
+      "subject": "http://www.reactome.org/biopax/48887#Complex5310",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein12586"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4281",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex5310"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4281",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4280",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway1078"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex5308",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein12580"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex5309",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein12583"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex5308",
@@ -293,6 +274,16 @@
       "subject": "http://www.reactome.org/biopax/48887#Complex5309",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule1465"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4281",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1078"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1078",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1076"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4280",
@@ -305,14 +296,24 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway1061"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex5310",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1465"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4279",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#Complex5308"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4281",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein12586"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex5309",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein12583"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4279",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1078"
     }
   ]
 }

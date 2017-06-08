@@ -1,4 +1,5 @@
 {
+  "id": "obo:go/noctua/Mitotic_Metaphase_Anaphase_Transition.owl",
   "individuals": [
     {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1998",
@@ -14,106 +15,13 @@
       ],
       "annotations": [
         {
+          "key": "rdfs:label",
+          "value": "Down Regulation of Emi1 through Phosphorylation of Emi1"
+        },
+        {
           "key": "RO:0002333",
           "value": "http://www.reactome.org/biopax/48887#Protein5576",
           "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "Down Regulation of Emi1 through Phosphorylation of Emi1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein5506",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q9UKT4"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Emi1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway439",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein5576",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P53350"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "PLK1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway471",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0000087"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "M Phase"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005654"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway587",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway484",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0007091"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Mitotic Metaphase/Anaphase Transition"
         }
       ]
     },
@@ -137,6 +45,29 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#Pathway439",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway484",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0007091"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Mitotic Metaphase/Anaphase Transition"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Pathway482",
       "type": [
         {
@@ -150,28 +81,93 @@
           "value": "Mitotic Metaphase and Anaphase"
         }
       ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein5506",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9UKT4"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Emi1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway471",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0000087"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "M Phase"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway587",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein5576",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P53350"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "PLK1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005654"
+        }
+      ]
     }
   ],
   "facts": [
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1998",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein5506"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway484",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway482"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1998",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway484"
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway471",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway439"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1998",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein5506"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1998",
@@ -184,14 +180,19 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway587"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1998",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Pathway482",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway471"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1998",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway484"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway484",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway482"
     }
   ]
 }

@@ -1,7 +1,28 @@
 {
+  "id": "obo:go/noctua/Trafficking_of_dietary_sterols.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1638",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4682",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0017127"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein13626",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "NPC1L1-mediated cholesterol uptake"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule14",
       "type": [
         {
           "type": "class",
@@ -10,63 +31,16 @@
         {
           "type": "class",
           "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15422"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "EZE"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1637",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:49040"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "EZE"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005886"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein4845",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q9H221"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ABCG8"
+          "value": "ATP"
         }
       ]
     },
@@ -91,7 +65,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1148",
+      "id": "http://www.reactome.org/biopax/48887#Pathway1147",
       "type": [
         {
           "type": "class",
@@ -101,82 +75,43 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Lipid and lipoprotein metabolism"
+          "value": "Metabolism of lipids and lipoproteins"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein13626",
+      "id": "http://www.reactome.org/biopax/48887#Pathway1122",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q9UHC9-2"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "NPC1L1-1"
+          "id": "GO:0005886"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule450",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1637",
       "type": [
         {
           "type": "class",
           "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16113"
         },
         {
           "type": "class",
           "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:49040"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "CHOL"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4684",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "NPC1L1 inactivation by ezetimibe"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule30",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16761"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ADP"
+          "value": "EZE"
         }
       ]
     },
@@ -215,161 +150,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:18367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Pi"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15377"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "H2O"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex5703",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "NPC1L1:ezetimibe complex"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule462",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:26125"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "phytosterols"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule14",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15422"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ATP"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4683",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0017127"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "NPC1L1-mediated phytosterol uptake"
-        },
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein13626",
-          "value-type": "IRI"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4682",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0017127"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein13626",
-          "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "NPC1L1-mediated cholesterol uptake"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1122",
-      "type": []
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#Complex2280",
       "type": [
         {
@@ -385,6 +165,40 @@
         {
           "key": "rdfs:label",
           "value": "ABCG5:ABCG8 heterodimer"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1148",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Lipid and lipoprotein metabolism"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein13626",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9UHC9-2"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "NPC1L1-1"
         }
       ]
     },
@@ -408,8 +222,12 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1147",
+      "id": "http://www.reactome.org/biopax/48887#Pathway369",
       "type": [
+        {
+          "type": "class",
+          "id": "GO:0055085"
+        },
         {
           "type": "class",
           "id": "GO:0008150"
@@ -418,12 +236,12 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Metabolism of lipids and lipoproteins"
+          "value": "ABC-family proteins mediated transport"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule460",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1",
       "type": [
         {
           "type": "class",
@@ -435,13 +253,120 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:26125"
+          "id": "CHEBI:15377"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "phytosterols"
+          "value": "H2O"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule30",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:16761"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ADP"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex5703",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "NPC1L1:ezetimibe complex"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein4845",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9H221"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ABCG8"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway368",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule450",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:16113"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CHOL"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1638",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "EZE"
         }
       ]
     },
@@ -454,11 +379,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:16113"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:16113"
         }
       ],
       "annotations": [
@@ -469,54 +394,110 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway369",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule462",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "CHEBI:26125"
         },
         {
           "type": "class",
-          "id": "GO:0055085"
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "ABC-family proteins mediated transport"
+          "value": "phytosterols"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway368",
-      "type": []
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:18367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Pi"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule460",
+      "type": [
+        {
+          "type": "class",
+          "id": "CHEBI:26125"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "phytosterols"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4684",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "NPC1L1 inactivation by ezetimibe"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4683",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0017127"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein13626",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "NPC1L1-mediated phytosterol uptake"
+        }
+      ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1579",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4684",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex5703"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4684",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein13626"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway369",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway368"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4683",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+      "subject": "http://www.reactome.org/biopax/48887#Complex2280",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein4844"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1579",
@@ -525,13 +506,28 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1579",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1579",
       "property": "BFO:0000066",
       "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1148",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4683",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4683",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1147"
+      "object": "http://www.reactome.org/biopax/48887#Pathway1150"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway369",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway368"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1579",
@@ -539,14 +535,29 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway370"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#Complex5703",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein13626"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4682",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule450"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#Pathway1150",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway1148"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4682",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+      "subject": "http://www.reactome.org/biopax/48887#Complex5703",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1638"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4684",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein13626"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex2280",
@@ -564,47 +575,27 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule2"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4682",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule102"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4682",
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1148",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1150"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex5703",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein13626"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4683",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule460"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4683",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1150"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4682",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule450"
+      "object": "http://www.reactome.org/biopax/48887#Pathway1147"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1579",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule30"
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1150"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex5703",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1638"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4682",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4684",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex5703"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4682",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway1150"
     },
@@ -614,9 +605,19 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway369"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex2280",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein4844"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4684",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1150"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4683",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule460"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1579",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule30"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4684",
@@ -624,9 +625,9 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule1637"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1579",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1150"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4682",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule102"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4683",

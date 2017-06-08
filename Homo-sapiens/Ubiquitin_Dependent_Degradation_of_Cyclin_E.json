@@ -1,35 +1,6 @@
 {
+  "id": "obo:go/noctua/Ubiquitin_Dependent_Degradation_of_Cyclin_E.owl",
   "individuals": [
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway448",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Ubiquitin-Dependent Degradation of Cyclin E"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway445",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Cyclin E associated events during G1/S transition"
-        }
-      ]
-    },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway444",
       "type": [
@@ -50,15 +21,45 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#Pathway448",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Ubiquitin-Dependent Degradation of Cyclin E"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Pathway440",
       "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway445",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Cyclin E associated events during G1/S transition"
+        }
+      ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway444",
+      "subject": "http://www.reactome.org/biopax/48887#Pathway448",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway440"
+      "object": "http://www.reactome.org/biopax/48887#Pathway445"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway445",
@@ -66,9 +67,9 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway444"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway448",
+      "subject": "http://www.reactome.org/biopax/48887#Pathway444",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway445"
+      "object": "http://www.reactome.org/biopax/48887#Pathway440"
     }
   ]
 }

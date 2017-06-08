@@ -1,30 +1,18 @@
 {
+  "id": "obo:go/noctua/cRNA_Synthesis.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
+      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity618",
       "type": [
         {
           "type": "class",
-          "id": "GO:0005654"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway640",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0016032"
+          "id": "BFO:0000002"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Influenza Life Cycle"
+          "value": "Influenza H1N1 cRNA (extending)"
         }
       ]
     },
@@ -82,6 +70,25 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#Protein8660",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P03466"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "NP"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Complex3577",
       "type": [
         {
@@ -118,6 +125,29 @@
           "value": "Initiated vRNA-cRNA Complex"
         }
       ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein8661",
+      "type": [
+        {
+          "type": "class",
+          "id": "PR:P03431"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "PB1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway639",
+      "type": []
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Complex3572",
@@ -158,119 +188,21 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway639",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity619",
+      "id": "http://www.reactome.org/biopax/48887#Pathway646",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Influenza cRNA (complete)"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity618",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Influenza H1N1 cRNA (extending)"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction2758",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0003968"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex3571",
-          "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "cRNA Extension"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction2757",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0003968"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex3571",
-          "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "Initiation of cRNA Synthesis"
-        },
-        {
-          "key": "RO:0002334",
-          "value": "http://www.reactome.org/biopax/48887#Protein8660",
-          "value-type": "IRI"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein8661",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
+          "id": "GO:0019083"
         },
         {
           "type": "class",
-          "id": "PR:P03431"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "PB1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein8660",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P03466"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "NP"
+          "value": "Influenza Viral RNA Transcription and Replication"
         }
       ]
     },
@@ -290,7 +222,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway646",
+      "id": "http://www.reactome.org/biopax/48887#Pathway640",
       "type": [
         {
           "type": "class",
@@ -298,47 +230,106 @@
         },
         {
           "type": "class",
-          "id": "GO:0019083"
+          "id": "GO:0016032"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Influenza Viral RNA Transcription and Replication"
+          "value": "Influenza Life Cycle"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction2758",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0003968"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "cRNA Extension"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex3571",
+          "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction2757",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0003968"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex3571",
+          "value-type": "IRI"
+        },
+        {
+          "key": "RO:0002334",
+          "value": "http://www.reactome.org/biopax/48887#Protein8660",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "Initiation of cRNA Synthesis"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005654"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity619",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Influenza cRNA (complete)"
         }
       ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex3571",
+      "subject": "http://www.reactome.org/biopax/48887#Complex3576",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein8658"
+      "object": "http://www.reactome.org/biopax/48887#Complex3572"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2758",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex3577"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex3571",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2757",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex3571"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex3577",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein8659"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex3576",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity618"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway646",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway640"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway649",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway646"
+      "object": "http://www.reactome.org/biopax/48887#Protein8660"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2757",
@@ -346,9 +337,9 @@
       "object": "http://www.reactome.org/biopax/48887#Complex3572"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2758",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex3571"
+      "subject": "http://www.reactome.org/biopax/48887#Complex3571",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein8658"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2757",
@@ -356,24 +347,14 @@
       "object": "http://www.reactome.org/biopax/48887#Complex3576"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex3571",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein8661"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2758",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex3572"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2757",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway649"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2758",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway649"
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex3572",
@@ -381,19 +362,29 @@
       "object": "http://www.reactome.org/biopax/48887#Rna82"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2757",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
+      "subject": "http://www.reactome.org/biopax/48887#Pathway640",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway639"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex3572",
+      "subject": "http://www.reactome.org/biopax/48887#Pathway649",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway646"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex3576",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein8660"
+      "object": "http://www.reactome.org/biopax/48887#Complex3571"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2758",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex3577"
+      "subject": "http://www.reactome.org/biopax/48887#Complex3576",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity618"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex3577",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity619"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2758",
@@ -406,39 +397,49 @@
       "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction2758"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex3577",
+      "subject": "http://www.reactome.org/biopax/48887#Complex3571",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein8659"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2758",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex3572"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2758",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex3571"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2757",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway649"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2757",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway646",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway640"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex3572",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Protein8660"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex3571",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein8661"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2758",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#Protein8660"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex3576",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex3571"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex3576",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex3572"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction2757",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex3571"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex3577",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity619"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway640",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway639"
     }
   ]
 }

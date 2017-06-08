@@ -1,15 +1,16 @@
 {
+  "id": "obo:go/noctua/Mitotic_Metaphase.owl",
   "individuals": [
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway471",
       "type": [
         {
           "type": "class",
-          "id": "GO:0000087"
+          "id": "GO:0008150"
         },
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0000087"
         }
       ],
       "annotations": [
@@ -20,23 +21,15 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway439",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway587",
-      "type": []
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#Pathway483",
       "type": [
         {
           "type": "class",
-          "id": "GO:0000089"
+          "id": "GO:0008150"
         },
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0000089"
         }
       ],
       "annotations": [
@@ -60,28 +53,36 @@
           "value": "Mitotic Metaphase and Anaphase"
         }
       ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway587",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway439",
+      "type": []
     }
   ],
   "facts": [
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway471",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway587"
+      "object": "http://www.reactome.org/biopax/48887#Pathway439"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway471",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway439"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway482",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway471"
+      "object": "http://www.reactome.org/biopax/48887#Pathway587"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway483",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway482"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway482",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway471"
     }
   ]
 }

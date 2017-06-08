@@ -1,7 +1,31 @@
 {
+  "id": "obo:go/noctua/O2_CO2_exchange_in_erythrocytes.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule446",
+      "id": "http://www.reactome.org/biopax/48887#Pathway1363",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0015701"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Uptake of Oxygen and Release of Carbon Dioxide by Erythrocytes"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein8422",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex6487",
       "type": [
         {
           "type": "class",
@@ -9,37 +33,31 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:29105"
+          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Zn2+"
+          "value": "Protonated Carbamino Hemoglobin beta: ferroheme b"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5941",
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
       "type": [
         {
           "type": "class",
-          "id": "GO:0035379"
+          "id": "GO:0005886"
         }
-      ],
-      "annotations": [
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
+      "type": [
         {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex2317",
-          "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "Passive Transport of Carbon Dioxide into the Cell by AQP1"
+          "type": "class",
+          "id": "GO:0005829"
         }
       ]
     },
@@ -63,7 +81,133 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943",
+      "id": "http://www.reactome.org/biopax/48887#Complex2317",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "AQP1 tetramer"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule477",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:17996"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Cl-"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein5065",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q02094"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "RHAG"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex6478",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CA4:Zn2+"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule24",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:16526"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CO2"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule22",
+      "type": [
+        {
+          "type": "class",
+          "id": "CHEBI:15379"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "O2"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5940",
       "type": [
         {
           "type": "class",
@@ -73,12 +217,140 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Carbonic Anhydrase I/II Hydrates Carbon Dioxide"
+          "value": "H2O + CO2 -\u003e H+ + HCO3-"
         },
         {
           "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex6479",
+          "value": "http://www.reactome.org/biopax/48887#Complex6478",
           "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1122",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0044281"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Metabolism"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule449",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:17544"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "HCO3-"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule448",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:17544"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "HCO3-"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5951",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0004089"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex6478",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "H+ + HCO3- -\u003e H2O + CO2"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5950",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0035379"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Passive Transport of Carbon Dioxide out of the Cell by RhAG"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein5065",
+          "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule442",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:29105"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Zn2+"
         }
       ]
     },
@@ -102,54 +374,16 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein8422",
+      "id": "http://www.reactome.org/biopax/48887#Protein14757",
       "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein14755",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein14752",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P22748"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CA4"
-        }
-      ]
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Protein14756",
       "type": []
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein5065",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q02094"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "RHAG"
-        }
-      ]
+      "id": "http://www.reactome.org/biopax/48887#Protein14755",
+      "type": []
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Protein14754",
@@ -190,153 +424,72 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2823",
+      "id": "http://www.reactome.org/biopax/48887#Protein14752",
+      "type": [
+        {
+          "type": "class",
+          "id": "PR:P22748"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CA4"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule446",
       "type": [
         {
           "type": "class",
           "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16526"
         },
         {
           "type": "class",
           "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:29105"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "CO2"
+          "value": "Zn2+"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein14757",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex2317",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule414",
       "type": [
         {
           "type": "class",
           "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "AQP1 tetramer"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005886"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005829"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1122",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0044281"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Metabolism"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5951",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0004089"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "H+ + HCO3- -\u003e H2O + CO2"
-        },
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex6478",
-          "value-type": "IRI"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005452"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Exchange of Cytosolic Bicarbonate for Extracellular Chloride by Band 3 Anion Exchanger (AE1, SLC4A1)"
-        },
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex6482",
-          "value-type": "IRI"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule448",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:17544"
         },
         {
           "type": "class",
           "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15377"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "HCO3-"
+          "value": "H2O"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule449",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule476",
       "type": [
         {
           "type": "class",
@@ -344,37 +497,17 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:17544"
-        },
-        {
-          "type": "class",
           "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "HCO3-"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5950",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0035379"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Passive Transport of Carbon Dioxide out of the Cell by RhAG"
         },
         {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein5065",
-          "value-type": "IRI"
+          "type": "class",
+          "id": "CHEBI:17996"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Cl-"
         }
       ]
     },
@@ -387,11 +520,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:15378"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:15378"
         }
       ],
       "annotations": [
@@ -410,11 +543,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:15378"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:15378"
         }
       ],
       "annotations": [
@@ -423,10 +556,6 @@
           "value": "H+"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2824",
-      "type": []
     },
     {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5949",
@@ -509,40 +638,42 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex6488",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
+          "id": "GO:0005452"
         }
       ],
       "annotations": [
         {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex6482",
+          "value-type": "IRI"
+        },
+        {
           "key": "rdfs:label",
-          "value": "Protonated Carbamino Hemoglobin alpha:ferroheme b"
+          "value": "Exchange of Cytosolic Bicarbonate for Extracellular Chloride by Band 3 Anion Exchanger (AE1, SLC4A1)"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex6487",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
+          "id": "GO:0004089"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Protonated Carbamino Hemoglobin beta: ferroheme b"
+          "value": "Carbonic Anhydrase I/II Hydrates Carbon Dioxide"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex6479",
+          "value-type": "IRI"
         }
       ]
     },
@@ -567,6 +698,133 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5941",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0035379"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Passive Transport of Carbon Dioxide into the Cell by AQP1"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex2317",
+          "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1362",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0015701"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Uptake of Carbon Dioxide and Release of Oxygen by Erythrocytes"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1361",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0015701"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "O2/CO2 exchange in erythrocytes"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15377"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "H2O"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2824",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2823",
+      "type": [
+        {
+          "type": "class",
+          "id": "CHEBI:16526"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CO2"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex6486",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Protonated Carbamino DeoxyHbA"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Complex6485",
       "type": [
         {
@@ -586,22 +844,21 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5940",
+      "id": "http://www.reactome.org/biopax/48887#Complex6484",
       "type": [
         {
           "type": "class",
-          "id": "GO:0004089"
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex6478",
-          "value-type": "IRI"
-        },
-        {
           "key": "rdfs:label",
-          "value": "H2O + CO2 -\u003e H+ + HCO3-"
+          "value": "Hemoglobin beta:ferroheme b:oxygen"
         }
       ]
     },
@@ -644,239 +901,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule477",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:17996"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Cl-"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule476",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:17996"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Cl-"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1362",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0015701"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Uptake of Carbon Dioxide and Release of Oxygen by Erythrocytes"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1361",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0015701"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "O2/CO2 exchange in erythrocytes"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1363",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0015701"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Uptake of Oxygen and Release of Carbon Dioxide by Erythrocytes"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15377"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "H2O"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule24",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16526"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CO2"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex6484",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Hemoglobin beta:ferroheme b:oxygen"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule22",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15379"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "O2"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex6486",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Protonated Carbamino DeoxyHbA"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule442",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:29105"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Zn2+"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#Complex6479",
       "type": [
         {
@@ -896,7 +920,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex6478",
+      "id": "http://www.reactome.org/biopax/48887#Complex6488",
       "type": [
         {
           "type": "class",
@@ -910,39 +934,61 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "CA4:Zn2+"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule414",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15377"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "H2O"
+          "value": "Protonated Carbamino Hemoglobin alpha:ferroheme b"
         }
       ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5947",
       "property": "BFO:0000066",
       "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1362"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6485",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein14755"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5951",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule449"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5950",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1363"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5940",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule449"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5949",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1363"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6483",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex6484"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule448"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6479",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein14754"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5946",
@@ -950,14 +996,274 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule22"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6478",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1362",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1361"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1361",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1122"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5946",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex6486"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5946",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5949"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6487",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein14752"
+      "object": "http://www.reactome.org/biopax/48887#Protein14756"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5942",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5945"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5951"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5947",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule477"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5941",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule24"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5940",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule67"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5942",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6483",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex6485"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5947",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule449"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule24"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5945",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule24"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5951",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5950",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2823"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5942",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1362"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5950"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5947",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1363"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex2317",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein5124"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6484",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein8422"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5946",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule24"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5951",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule414"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5941",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2823"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5947",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6479",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule442"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5941",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5945",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1362"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5940",
       "property": "BFO:0000066",
       "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule448"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6479",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein14753"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5946",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex6483"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5940",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2823"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5940",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1362"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5945",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex6486"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6478",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule446"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5940",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5951"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5946",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5950"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule477"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5949",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2823"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5947",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule476"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule24"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5942",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule24"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6486",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex6487"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5947",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule448"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule449"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1362"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5950",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule24"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6487",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2824"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948",
@@ -970,139 +1276,24 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule414"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule477"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6479",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein14753"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5950",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5941",
       "property": "RO:0002413",
       "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5945"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5946",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
+      "subject": "http://www.reactome.org/biopax/48887#Complex6484",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2824"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5951",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule67"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5941",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5946",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex6483"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5949",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5945",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex6483"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5947",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule449"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5942",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule24"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5951",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2823"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5945",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex6486"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6485",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein14755"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1363",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1361"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5947",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule448"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule476"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6483",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex6485"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5945",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5946",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule24"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5941",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5949",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway1363"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5940",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule449"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5949",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule24"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5942",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5945"
+      "subject": "http://www.reactome.org/biopax/48887#Complex6484",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule22"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex6486",
@@ -1112,37 +1303,22 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5945",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule24"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1362"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5942",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2823"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6478",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule446"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5946",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule449"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5945",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule22"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5951",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule414"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5949",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex6488",
@@ -1150,54 +1326,9 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule2824"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5946",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5949"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5946",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5950"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule448"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5942",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1362"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6484",
+      "subject": "http://www.reactome.org/biopax/48887#Complex6485",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule22"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6482",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein4869"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6487",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein14756"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6483",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex6484"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6479",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule442"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2824"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex6488",
@@ -1205,29 +1336,79 @@
       "object": "http://www.reactome.org/biopax/48887#Protein14757"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1"
+      "subject": "http://www.reactome.org/biopax/48887#Complex6485",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule22"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5942",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5941",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1363",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1361"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5946",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5949"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5950",
       "property": "BFO:0000066",
       "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5945",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1362"
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex6483"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5940",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5941",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway1362"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5951",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2823"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5951",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule449"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule67"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5942",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule476"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5946",
@@ -1236,213 +1417,33 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5949",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2823"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5947",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule476"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5950",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule24"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5940",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5951"
+      "subject": "http://www.reactome.org/biopax/48887#Complex6482",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein4869"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1362"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5947",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5940",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2823"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5946",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5941",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1362"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5945",
       "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule24"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6485",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2824"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6486",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex6487"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5950",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1363"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5951"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule448"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6484",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2824"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6487",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2824"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5947",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5947",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule477"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6485",
-      "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule22"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5942",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5947",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1363"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6479",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein14754"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule24"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6484",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein8422"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5946",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex6486"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5942",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2823"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5951",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5949"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction5950"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5940",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule67"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5951",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1363"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5941",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule24"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1361",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1122"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5943",
       "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule448"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5950",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2823"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex2317",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein5124"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1362",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1361"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5941",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2823"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5948",
-      "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6478",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein14752"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5944",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule448"
     }
   ]
 }

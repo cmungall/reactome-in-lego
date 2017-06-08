@@ -1,26 +1,12 @@
 {
+  "id": "obo:go/noctua/Cap_independent_Translation_Initiation.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway817",
+      "id": "http://www.reactome.org/biopax/48887#Pathway114",
       "type": []
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway201",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Cap-independent Translation Initiation"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway114",
+      "id": "http://www.reactome.org/biopax/48887#Pathway817",
       "type": []
     },
     {
@@ -60,14 +46,24 @@
           "value": "Translation"
         }
       ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway201",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Cap-independent Translation Initiation"
+        }
+      ]
     }
   ],
   "facts": [
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway192",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway191"
-    },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway191",
       "property": "BFO:0000050",
@@ -77,6 +73,11 @@
       "subject": "http://www.reactome.org/biopax/48887#Pathway191",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway817"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway192",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway191"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway201",

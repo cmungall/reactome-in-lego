@@ -1,26 +1,79 @@
 {
+  "id": "obo:go/noctua/Regulation_of_the_Fanconi_anemia_pathway.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule5",
       "type": [
         {
           "type": "class",
-          "id": "GO:0005654"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction221",
-      "type": [
+          "id": "BFO:0000002"
+        },
         {
           "type": "class",
-          "id": "GO:0004674"
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:18367"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Phosphorylation of FANCI by ATM/ATR"
+          "value": "Pi"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein387",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9BXW9"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "FANCD2"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein398",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9NVI1"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "FANCI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity46",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "damaged DNA substrate"
         }
       ]
     },
@@ -44,17 +97,55 @@
       "type": [
         {
           "type": "class",
-          "id": "GO:0006281"
+          "id": "GO:0008150"
         },
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0006281"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
           "value": "DNA Repair"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein402",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9BXW9"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "FANCD2"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein401",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:O94782"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "USP1"
         }
       ]
     },
@@ -74,6 +165,21 @@
         {
           "key": "rdfs:label",
           "value": "FANCD and ub-FANCI-bound chromatin"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway85",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Fanconi Anemia pathway"
         }
       ]
     },
@@ -135,6 +241,45 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction219",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0004843"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex208",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "FANCD2 deubiquitination by USP1/UAF1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein123",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway86",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Regulation of the Fanconi anemia pathway"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Protein405",
       "type": [
         {
@@ -154,147 +299,26 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein123",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein402",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction221",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q9BXW9"
+          "id": "GO:0004674"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "FANCD2"
+          "value": "Phosphorylation of FANCI by ATM/ATR"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein401",
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:O94782"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "USP1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein400",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q9Y2Y4"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "UAF1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein387",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q9BXW9"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "FANCD2"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction219",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0004843"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "FANCD2 deubiquitination by USP1/UAF1"
-        },
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex208",
-          "value-type": "IRI"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity46",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "damaged DNA substrate"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway86",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Regulation of the Fanconi anemia pathway"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway85",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Fanconi Anemia pathway"
+          "id": "GO:0005654"
         }
       ]
     },
@@ -318,7 +342,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein398",
+      "id": "http://www.reactome.org/biopax/48887#Protein400",
       "type": [
         {
           "type": "class",
@@ -326,45 +350,22 @@
         },
         {
           "type": "class",
-          "id": "PR:Q9NVI1"
+          "id": "PR:Q9Y2Y4"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "FANCI"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule5",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:18367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Pi"
+          "value": "UAF1"
         }
       ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex208",
+      "subject": "http://www.reactome.org/biopax/48887#Complex204",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein400"
+      "object": "http://www.reactome.org/biopax/48887#Protein123"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction221",
@@ -372,9 +373,14 @@
       "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway85",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway31"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction219",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction219",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex207"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction219",
@@ -382,9 +388,19 @@
       "object": "http://www.reactome.org/biopax/48887#Complex205"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex204",
+      "subject": "http://www.reactome.org/biopax/48887#Complex208",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein398"
+      "object": "http://www.reactome.org/biopax/48887#Protein400"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway85",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway31"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex205",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex204"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex207",
@@ -392,34 +408,14 @@
       "object": "http://www.reactome.org/biopax/48887#Complex204"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex207",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity46"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex205",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity46"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex208",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein401"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex203",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein123"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction219",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction220",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway86"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction219",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction220",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein387"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction220",
@@ -432,9 +428,19 @@
       "object": "http://www.reactome.org/biopax/48887#Protein387"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex204",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction220",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex203",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Protein123"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction221",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein398"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex203",
@@ -442,24 +448,24 @@
       "object": "http://www.reactome.org/biopax/48887#Protein387"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#Complex204",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein398"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction220",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#Protein402"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction221",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway86"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex205",
+      "subject": "http://www.reactome.org/biopax/48887#Complex208",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex204"
+      "object": "http://www.reactome.org/biopax/48887#Protein401"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction219",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex207"
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway86"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction221",
@@ -467,24 +473,14 @@
       "object": "http://www.reactome.org/biopax/48887#Protein405"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction220",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Complex205",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex203"
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity46"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction220",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein387"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction220",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway86"
+      "subject": "http://www.reactome.org/biopax/48887#Complex207",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity46"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway86",
@@ -493,8 +489,13 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction221",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein398"
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway86"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex205",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Complex203"
     }
   ]
 }

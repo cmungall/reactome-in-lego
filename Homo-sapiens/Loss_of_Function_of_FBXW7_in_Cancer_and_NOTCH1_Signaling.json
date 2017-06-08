@@ -1,20 +1,6 @@
 {
+  "id": "obo:go/noctua/Loss_of_Function_of_FBXW7_in_Cancer_and_NOTCH1_Signaling.owl",
   "individuals": [
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway765",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Signaling by NOTCH1 in Cancer"
-        }
-      ]
-    },
     {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3313",
       "type": [],
@@ -26,7 +12,22 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex4240",
+      "id": "http://www.reactome.org/biopax/48887#Pathway778",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Loss of Function of FBXW7 in Cancer and NOTCH1 Signaling"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10069",
       "type": [
         {
           "type": "class",
@@ -34,15 +35,19 @@
         },
         {
           "type": "class",
-          "id": "GO:0032991"
+          "id": "PR:P46531"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "FBXW7 WD mutants:SKP1:CUL1:RBX1"
+          "value": "p-NICD1"
         }
       ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway588",
+      "type": []
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Protein5450",
@@ -64,8 +69,34 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway588",
-      "type": []
+      "id": "http://www.reactome.org/biopax/48887#Pathway765",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Signaling by NOTCH1 in Cancer"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway777",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "FBXW7 Mutants and NOTCH1 in Cancer"
+        }
+      ]
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Protein5448",
@@ -83,36 +114,6 @@
         {
           "key": "rdfs:label",
           "value": "SKP1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway778",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Loss of Function of FBXW7 in Cancer and NOTCH1 Signaling"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway777",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "FBXW7 Mutants and NOTCH1 in Cancer"
         }
       ]
     },
@@ -151,7 +152,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein10069",
+      "id": "http://www.reactome.org/biopax/48887#Complex4240",
       "type": [
         {
           "type": "class",
@@ -159,13 +160,13 @@
         },
         {
           "type": "class",
-          "id": "PR:P46531"
+          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "p-NICD1"
+          "value": "FBXW7 WD mutants:SKP1:CUL1:RBX1"
         }
       ]
     }
@@ -174,17 +175,17 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4240",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein283"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway777",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway765"
+      "object": "http://www.reactome.org/biopax/48887#Protein5448"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3313",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein10069"
+      "object": "http://www.reactome.org/biopax/48887#Complex4240"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3313",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway778"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway765",
@@ -193,8 +194,18 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3313",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein10069"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway778",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway778"
+      "object": "http://www.reactome.org/biopax/48887#Pathway777"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway777",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway765"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4240",
@@ -204,22 +215,12 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4240",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein5448"
+      "object": "http://www.reactome.org/biopax/48887#Protein283"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4240",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#PhysicalEntity710"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway778",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway777"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3313",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4240"
     }
   ]
 }

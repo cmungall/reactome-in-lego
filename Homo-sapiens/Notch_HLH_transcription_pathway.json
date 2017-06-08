@@ -1,21 +1,28 @@
 {
+  "id": "obo:go/noctua/Notch_HLH_transcription_pathway.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway116",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction315",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Formation of CSL-NICD coactivator complex"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein203",
       "type": [
         {
           "type": "class",
-          "id": "GO:0006367"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
+          "id": "BFO:0000002"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Notch-HLH transcription pathway"
+          "value": "PCAF"
         }
       ]
     },
@@ -50,21 +57,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein1066",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CBP"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#Protein211",
       "type": [
         {
@@ -84,47 +76,21 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein1067",
+      "id": "http://www.reactome.org/biopax/48887#Pathway116",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "GO:0006367"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "SNW"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein206",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "MAML"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein203",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "PCAF"
+          "value": "Notch-HLH transcription pathway"
         }
       ]
     },
@@ -152,17 +118,62 @@
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0010467"
         },
         {
           "type": "class",
-          "id": "GO:0010467"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
           "value": "Gene Expression"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein206",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "MAML"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein1067",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "SNW"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein1066",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CBP"
         }
       ]
     },
@@ -184,63 +195,28 @@
           "value": "CSL NICD coactivator complex"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction315",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Formation of CSL-NICD coactivator complex"
-        }
-      ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex418",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein203"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction315",
+      "subject": "http://www.reactome.org/biopax/48887#Pathway116",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway116"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction315",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway953"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex418",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein1067"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex418",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein1061"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex418",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein206"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex418",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein1066"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction315",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex418"
+      "object": "http://www.reactome.org/biopax/48887#Pathway115"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway115",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway114"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex418",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein211"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex418",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein206"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction315",
@@ -250,12 +226,37 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex418",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein211"
+      "object": "http://www.reactome.org/biopax/48887#Protein203"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway116",
+      "subject": "http://www.reactome.org/biopax/48887#Complex418",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein1066"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex418",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein1067"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction315",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway115"
+      "object": "http://www.reactome.org/biopax/48887#Pathway953"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex418",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein1061"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction315",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex418"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction315",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway116"
     }
   ]
 }

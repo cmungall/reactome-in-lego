@@ -1,8 +1,24 @@
 {
+  "id": "obo:go/noctua/Homologous_recombination_repair_of_replication_dependent_double_strand_breaks.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway31",
-      "type": []
+      "id": "http://www.reactome.org/biopax/48887#Pathway55",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006302"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Double-Strand Break Repair"
+        }
+      ]
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway56",
@@ -24,23 +40,8 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway55",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0006302"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Double-Strand Break Repair"
-        }
-      ]
+      "id": "http://www.reactome.org/biopax/48887#Pathway31",
+      "type": []
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway70",
@@ -60,9 +61,9 @@
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway56",
+      "subject": "http://www.reactome.org/biopax/48887#Pathway70",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway55"
+      "object": "http://www.reactome.org/biopax/48887#Pathway56"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway55",
@@ -70,9 +71,9 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway31"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway70",
+      "subject": "http://www.reactome.org/biopax/48887#Pathway56",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway56"
+      "object": "http://www.reactome.org/biopax/48887#Pathway55"
     }
   ]
 }

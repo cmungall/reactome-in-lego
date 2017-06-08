@@ -1,22 +1,57 @@
 {
+  "id": "obo:go/noctua/Reactions_specific_to_the_complex_N_glycan_synthesis_pathway.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway848",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3563",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0008455"
         }
       ],
       "annotations": [
         {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein10789",
+          "value-type": "IRI"
+        },
+        {
           "key": "rdfs:label",
-          "value": "Transport to the Golgi and subsequent modification"
+          "value": "Addition of a GlcNAc on the alpha 1,4 branch by MGAT2"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule814",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3562",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0004572"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex4502",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "Trimming of mannoses on the alpha1,6 arm by MAN2A1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0000139"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein10790",
       "type": [
         {
           "type": "class",
@@ -24,7 +59,26 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:16264"
+          "id": "PR:Q9BYC5"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "FUT8"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1378",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:4208"
         },
         {
           "type": "class",
@@ -34,7 +88,7 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "UDP-GlcNAc"
+          "value": "Man"
         }
       ]
     },
@@ -47,11 +101,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:17552"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:17552"
         }
       ],
       "annotations": [
@@ -62,7 +116,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1386",
+      "id": "http://www.reactome.org/biopax/48887#Protein10789",
       "type": [
         {
           "type": "class",
@@ -70,17 +124,13 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:60651"
+          "id": "PR:Q10469"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "(GlcNAc)4 (Man)3 (Asn)1"
+          "value": "MGAT2"
         }
       ]
     },
@@ -173,67 +223,49 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3562",
+      "id": "http://www.reactome.org/biopax/48887#Complex4502",
       "type": [
         {
           "type": "class",
-          "id": "GO:0004572"
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Trimming of mannoses on the alpha1,6 arm by MAN2A1"
-        },
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex4502",
-          "value-type": "IRI"
+          "value": "MAN2:Zn2+"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3564",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1386",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008424"
+          "id": "CHEBI:60651"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
         }
       ],
       "annotations": [
         {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein10790",
-          "value-type": "IRI"
-        },
-        {
           "key": "rdfs:label",
-          "value": "Addition of alpha 1,6 fucose to the first GlcNAc of the N-glycan"
+          "value": "(GlcNAc)4 (Man)3 (Asn)1"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3563",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008455"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein10789",
-          "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "Addition of a GlcNAc on the alpha 1,4 branch by MGAT2"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1378",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule814",
       "type": [
         {
           "type": "class",
@@ -245,36 +277,13 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:4208"
+          "id": "CHEBI:16264"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Man"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule820",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:17009"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "GDP-Fuc"
+          "value": "UDP-GlcNAc"
         }
       ]
     },
@@ -309,7 +318,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex4502",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule820",
       "type": [
         {
           "type": "class",
@@ -317,51 +326,36 @@
         },
         {
           "type": "class",
-          "id": "GO:0032991"
+          "id": "CHEBI:17009"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "MAN2:Zn2+"
+          "value": "GDP-Fuc"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein10789",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q10469"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "MGAT2"
-        }
-      ]
+      "id": "http://www.reactome.org/biopax/48887#Pathway838",
+      "type": []
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein10788",
+      "id": "http://www.reactome.org/biopax/48887#Pathway848",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P49641"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "MAN2A2"
+          "value": "Transport to the Golgi and subsequent modification"
         }
       ]
     },
@@ -385,11 +379,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway838",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein10790",
+      "id": "http://www.reactome.org/biopax/48887#Protein10788",
       "type": [
         {
           "type": "class",
@@ -397,22 +387,33 @@
         },
         {
           "type": "class",
-          "id": "PR:Q9BYC5"
+          "id": "PR:P49641"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "FUT8"
+          "value": "MAN2A2"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3564",
       "type": [
         {
           "type": "class",
-          "id": "GO:0000139"
+          "id": "GO:0008424"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Addition of alpha 1,6 fucose to the first GlcNAc of the N-glycan"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein10790",
+          "value-type": "IRI"
         }
       ]
     }
@@ -420,13 +421,8 @@
   "facts": [
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3563",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway853"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3564",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway853"
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1386"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3562",
@@ -434,14 +430,79 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule1384"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3564",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1383"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3563",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1384"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3562",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1382"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3564",
       "property": "BFO:0000066",
       "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3562",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3563"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3564",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1387"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3562",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway853"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3563",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway853"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3562",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1378"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3564",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway853"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4502",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein10788"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4502",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Protein10787"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway848",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway838"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3564",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule820"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3563",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4502",
@@ -450,53 +511,8 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3562",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1382"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3562",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3563"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3563",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule814"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3564",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1383"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway848",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway838"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3562",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway853"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3564",
       "property": "BFO:0000066",
       "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3563",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1384"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3564",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule820"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3562",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1378"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway851",
@@ -504,29 +520,14 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway848"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4502",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein10788"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3564",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1387"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3563",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1386"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3562",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Pathway853",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway851"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3563",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule814"
     }
   ]
 }

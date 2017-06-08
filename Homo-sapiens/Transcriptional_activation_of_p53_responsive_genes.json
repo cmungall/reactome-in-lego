@@ -1,43 +1,6 @@
 {
+  "id": "obo:go/noctua/Transcriptional_activation_of_p53_responsive_genes.owl",
   "individuals": [
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway421",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0006977"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "p53-Dependent G1 DNA Damage Response"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway420",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "p53-Dependent G1/S DNA damage checkpoint"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway419",
-      "type": []
-    },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway425",
       "type": [
@@ -67,6 +30,44 @@
           "value": "Transcriptional activation of p53 responsive genes"
         }
       ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway421",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006977"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "p53-Dependent G1 DNA Damage Response"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway419",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway420",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "p53-Dependent G1/S DNA damage checkpoint"
+        }
+      ]
     }
   ],
   "facts": [
@@ -81,14 +82,14 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway419"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway424",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway421"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Pathway421",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway420"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway424",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway421"
     }
   ]
 }

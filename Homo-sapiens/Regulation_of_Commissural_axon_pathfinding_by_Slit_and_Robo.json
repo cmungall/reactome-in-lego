@@ -1,5 +1,53 @@
 {
+  "id": "obo:go/noctua/Regulation_of_Commissural_axon_pathfinding_by_Slit_and_Robo.owl",
   "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex6724",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Robo1/Robo2:Robo3A.1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein15093",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:O94813"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Slit2-C"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005829"
+        }
+      ]
+    },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway1427",
       "type": [
@@ -60,19 +108,8 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction6192",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008233"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Proteolytic processing of Slit"
-        }
-      ]
+      "id": "http://www.reactome.org/biopax/48887#Pathway1410",
+      "type": []
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Protein15073",
@@ -94,17 +131,17 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein15095",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction6192",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "GO:0008233"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Robo1/ Robo2"
+          "value": "Proteolytic processing of Slit"
         }
       ]
     },
@@ -147,65 +184,34 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex6724",
+      "id": "http://www.reactome.org/biopax/48887#Protein15095",
       "type": [
         {
           "type": "class",
           "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Robo1/Robo2:Robo3A.1"
+          "value": "Robo1/ Robo2"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein15093",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:O94813"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Slit2-C"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005829"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1410",
-      "type": []
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6192",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein15073"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6193",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex6724"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6192",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1427"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6193",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway1427"
     },
@@ -215,19 +221,29 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway1426"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6193",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6192",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1426",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1427"
+      "object": "http://www.reactome.org/biopax/48887#Pathway1411"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6724",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein15097"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6192",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein15073"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6193",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6192",
       "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex6724"
+      "object": "http://www.reactome.org/biopax/48887#Protein15094"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6192",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Protein15093"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex6724",
@@ -240,29 +256,14 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway1410"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6192",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6192",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Protein15093"
+      "subject": "http://www.reactome.org/biopax/48887#Complex6724",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein15097"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6193",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#Protein15097"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6192",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Protein15094"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1426",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1411"
     }
   ]
 }

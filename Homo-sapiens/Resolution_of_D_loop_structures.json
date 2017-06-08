@@ -1,7 +1,8 @@
 {
+  "id": "obo:go/noctua/Resolution_of_D_loop_structures.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway57",
+      "id": "http://www.reactome.org/biopax/48887#Pathway67",
       "type": [
         {
           "type": "class",
@@ -11,7 +12,36 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Homologous recombination repair of replication-independent double-strand breaks"
+          "value": "Resolution of D-loop structures"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway69",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0045003"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Resolution of D-loop structures through synthesis-dependent strand-annealing"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction185",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Fill-in DNA synthesis"
         }
       ]
     },
@@ -61,21 +91,36 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway69",
+      "id": "http://www.reactome.org/biopax/48887#Protein157",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "BFO:0000002"
         },
         {
           "type": "class",
-          "id": "GO:0045003"
+          "id": "PR:P18858"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Resolution of D-loop structures through synthesis-dependent strand-annealing"
+          "value": "LIG1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway57",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Homologous recombination repair of replication-independent double-strand breaks"
         }
       ]
     },
@@ -99,48 +144,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway55",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction185",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Fill-in DNA synthesis"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein157",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P18858"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "LIG1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005654"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#Pathway68",
       "type": [
         {
@@ -156,54 +159,22 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway67",
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Resolution of D-loop structures"
+          "id": "GO:0005654"
         }
       ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway55",
+      "type": []
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway67",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway57"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction182",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction183"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway57",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway56"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction183",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway68"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway68",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway67"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction182",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction184",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction185",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway69"
     },
@@ -218,9 +189,14 @@
       "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction185"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway56",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction183",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway55"
+      "object": "http://www.reactome.org/biopax/48887#Pathway68"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway67",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway57"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction182",
@@ -228,9 +204,34 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway68"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction185",
+      "subject": "http://www.reactome.org/biopax/48887#Pathway56",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway55"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway68",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway67"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction184",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway69"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction182",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction183"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction182",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway57",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway56"
     }
   ]
 }

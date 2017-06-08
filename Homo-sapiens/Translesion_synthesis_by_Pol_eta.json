@@ -1,17 +1,12 @@
 {
+  "id": "obo:go/noctua/Translesion_synthesis_by_Pol_eta.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity49",
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "damaged DNA substrate inserted with correct base complement"
+          "id": "GO:0005654"
         }
       ]
     },
@@ -35,6 +30,40 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity46",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "damaged DNA substrate"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity49",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "damaged DNA substrate inserted with correct base complement"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway31",
+      "type": []
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Protein321",
       "type": [
         {
@@ -54,8 +83,23 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway31",
-      "type": []
+      "id": "http://www.reactome.org/biopax/48887#Complex156",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Pol eta:lesioned DNA template inserted with correct base complement"
+        }
+      ]
     },
     {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction146",
@@ -87,13 +131,23 @@
       ],
       "annotations": [
         {
+          "key": "rdfs:label",
+          "value": "Insertion of correct bases opposite to the lesion by Pol eta"
+        },
+        {
           "key": "RO:0002333",
           "value": "http://www.reactome.org/biopax/48887#Complex155",
           "value-type": "IRI"
-        },
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction144",
+      "type": [],
+      "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Insertion of correct bases opposite to the lesion by Pol eta"
+          "value": "Binding of Pol eta to lesioned DNA template"
         }
       ]
     },
@@ -141,69 +195,41 @@
           "value": "DNA Damage Bypass"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex156",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Pol eta:lesioned DNA template inserted with correct base complement"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction144",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Binding of Pol eta to lesioned DNA template"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity46",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "damaged DNA substrate"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005654"
-        }
-      ]
     }
   ],
   "facts": [
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction146",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex156"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway46",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway31"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction145",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex155"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction145",
       "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Protein321"
+      "object": "http://www.reactome.org/biopax/48887#Complex156"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex155",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity46"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction146",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction145",
       "property": "BFO:0000066",
       "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
     },
@@ -213,19 +239,9 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway47"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex156",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity49"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction145",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex155",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity46"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction144",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex155"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex155",
@@ -233,24 +249,14 @@
       "object": "http://www.reactome.org/biopax/48887#Protein321"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction144",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex155"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway46",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway31"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Pathway47",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway46"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction145",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction146",
       "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex156"
+      "object": "http://www.reactome.org/biopax/48887#Protein321"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex156",
@@ -268,17 +274,12 @@
       "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction146"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction145",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex155"
+      "subject": "http://www.reactome.org/biopax/48887#Complex156",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity49"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction146",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex156"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction146",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction144",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway49"
     },
@@ -293,7 +294,7 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway49"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction144",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction146",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway49"
     }

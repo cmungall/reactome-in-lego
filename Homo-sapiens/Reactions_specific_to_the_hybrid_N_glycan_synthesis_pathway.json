@@ -1,67 +1,6 @@
 {
+  "id": "obo:go/noctua/Reactions_specific_to_the_hybrid_N_glycan_synthesis_pathway.owl",
   "individuals": [
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule814",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16264"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "UDP-GlcNAc"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3561",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0003830"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein10786",
-          "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "Addition of a bifurcating GlcNAc to the N-glycan by MGAT3"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway838",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway852",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Reactions specific to the hybrid N-glycan synthesis pathway"
-        }
-      ]
-    },
     {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule1383",
       "type": [
@@ -86,11 +25,41 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7",
+      "id": "http://www.reactome.org/biopax/48887#Pathway838",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3561",
       "type": [
         {
           "type": "class",
-          "id": "GO:0000139"
+          "id": "GO:0003830"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein10786",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "Addition of a bifurcating GlcNAc to the N-glycan by MGAT3"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway848",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Transport to the Golgi and subsequent modification"
         }
       ]
     },
@@ -114,6 +83,30 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0000139"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway852",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Reactions specific to the hybrid N-glycan synthesis pathway"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Pathway851",
       "type": [
         {
@@ -129,36 +122,34 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway848",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule814",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:16264"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Transport to the Golgi and subsequent modification"
+          "value": "UDP-GlcNAc"
         }
       ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway852",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway851"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3561",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3561",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway852"
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule814"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway848",
@@ -167,8 +158,13 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3561",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3561",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule814"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1383"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway851",
@@ -177,8 +173,13 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3561",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1383"
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway852"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway852",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway851"
     }
   ]
 }

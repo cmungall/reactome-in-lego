@@ -1,5 +1,29 @@
 {
+  "id": "obo:go/noctua/Regulation_by_c_FLIP.owl",
   "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48/109607#Protein3",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48/109607#Complex15",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "TRADD:TRAF2:RIP1:FADD:procaspase-8 "
+        }
+      ]
+    },
     {
       "id": "http://www.reactome.org/biopax/48/109607#Complex14",
       "type": [
@@ -20,21 +44,31 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48/109607#Complex33",
+      "id": "http://www.reactome.org/biopax/48/109607#Complex13",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction22",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "FLIP(L) and procaspase-8 form heterodimer in TNF signaling"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction26",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
+          "id": "GO:1902042"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "DISC:procaspase-8"
+          "value": "FLIP(S) and procaspase-8 form heterodimer"
         }
       ]
     },
@@ -49,41 +83,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction24",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "FLIP(L) and procaspase-8 form heterodimer in FasL/CD95 signaling"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction23",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "FLIP(L) and procaspase-8 form heterodimer in TRAIL signaling"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction22",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "FLIP(L) and procaspase-8 form heterodimer in TNF signaling"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48/109607#Complex2",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48/109607#Complex3",
+      "id": "http://www.reactome.org/biopax/48/109607#Complex4",
       "type": [
         {
           "type": "class",
@@ -97,49 +97,7 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "FASL:FAS Receptor Trimer:FADD"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48/109607#Complex17",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48/109607#Protein4",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q14790"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "MACH"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48/109607#Complex29",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "TRADD:TRAF2:RIP1:FADD:procaspase-8:FLIP(L)"
+          "value": "FASL:FAS Receptor Trimer:FADD:pro-Caspase-8 DISC"
         }
       ]
     },
@@ -163,6 +121,83 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48/109607#Complex29",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "TRADD:TRAF2:RIP1:FADD:procaspase-8:FLIP(L)"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction23",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "FLIP(L) and procaspase-8 form heterodimer in TRAIL signaling"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48/109607#Protein25",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q14790"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "MACH"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction24",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "FLIP(L) and procaspase-8 form heterodimer in FasL/CD95 signaling"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48/109607#Protein4",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q14790"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "MACH"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48/109607#Protein17",
       "type": [
         {
@@ -178,6 +213,52 @@
         {
           "key": "rdfs:label",
           "value": "CLARP2"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48/109607#Complex2",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48/109607#Complex17",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48/109607#Complex19",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "TRAIL:TRAIL receptor-2 Trimer:FADD:procaspase-8"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48/109607#Protein26",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:O15519-1"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CLARP1"
         }
       ]
     },
@@ -220,64 +301,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48/109607#Protein3",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction26",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:1902042"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "FLIP(S) and procaspase-8 form heterodimer"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48/109607#Protein25",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q14790"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "MACH"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48/109607#Protein26",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:O15519-1"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CLARP1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48/109607#Complex35",
+      "id": "http://www.reactome.org/biopax/48/109607#Complex33",
       "type": [
         {
           "type": "class",
@@ -291,45 +315,7 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "DISC:procaspase-8:FLIP(S)"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48/109607#Protein24",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:O15519-1"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CLARP1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48/109607#Protein23",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:O15519-1"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CLARP1"
+          "value": "DISC:procaspase-8"
         }
       ]
     },
@@ -391,11 +377,45 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48/109607#Complex13",
-      "type": []
+      "id": "http://www.reactome.org/biopax/48/109607#Protein24",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:O15519-1"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CLARP1"
+        }
+      ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48/109607#Complex19",
+      "id": "http://www.reactome.org/biopax/48/109607#Protein23",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:O15519-1"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CLARP1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48/109607#Complex3",
       "type": [
         {
           "type": "class",
@@ -409,7 +429,26 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "TRAIL:TRAIL receptor-2 Trimer:FADD:procaspase-8"
+          "value": "FASL:FAS Receptor Trimer:FADD"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48/109607#Complex35",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "DISC:procaspase-8:FLIP(S)"
         }
       ]
     },
@@ -433,34 +472,15 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48/109607#Complex4",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "FASL:FAS Receptor Trimer:FADD:pro-Caspase-8 DISC"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48/109607#Pathway8",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:2001239"
         },
         {
           "type": "class",
-          "id": "GO:2001239"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
@@ -469,52 +489,28 @@
           "value": "Regulation by c-FLIP"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48/109607#Complex15",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "TRADD:TRAF2:RIP1:FADD:procaspase-8 "
-        }
-      ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex3",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Protein3"
+      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction26",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex33"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction26",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex35"
     },
     {
       "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction25",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48/109607#Pathway8"
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex32"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction22",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex29"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex33",
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex28",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Protein4"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex29",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex14"
+      "object": "http://www.reactome.org/biopax/48/109607#Complex2"
     },
     {
       "subject": "http://www.reactome.org/biopax/48/109607#Complex31",
@@ -522,34 +518,24 @@
       "object": "http://www.reactome.org/biopax/48/109607#Complex3"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction25",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex34"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48/109607#Complex29",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48/109607#Protein23"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction23",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction25"
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex34",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex28"
     },
     {
       "subject": "http://www.reactome.org/biopax/48/109607#Complex31",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Protein4"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex35",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Protein17"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex14",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Protein3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex18",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex17"
+      "object": "http://www.reactome.org/biopax/48/109607#Protein23"
     },
     {
       "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction24",
@@ -557,9 +543,9 @@
       "object": "http://www.reactome.org/biopax/48/109607#Pathway8"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48/109607#Pathway8",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48/109607#Pathway1"
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex33",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Protein4"
     },
     {
       "subject": "http://www.reactome.org/biopax/48/109607#Complex35",
@@ -567,14 +553,9 @@
       "object": "http://www.reactome.org/biopax/48/109607#Complex33"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction24",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48/109607#Protein23"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex34",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Protein26"
+      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction23",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction25"
     },
     {
       "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction25",
@@ -583,18 +564,23 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction22",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction25"
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48/109607#Protein23"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex30",
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex3",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Protein4"
+      "object": "http://www.reactome.org/biopax/48/109607#Complex2"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction25",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex34"
+      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction23",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex19"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#Pathway8",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48/109607#Pathway1"
     },
     {
       "subject": "http://www.reactome.org/biopax/48/109607#Complex32",
@@ -602,12 +588,102 @@
       "object": "http://www.reactome.org/biopax/48/109607#Protein23"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction23",
+      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction25",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48/109607#Pathway8"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex34",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Protein26"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction24",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction25"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex33",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex28"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex30",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Protein4"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction23",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48/109607#Protein23"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex4",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex18",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex17"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48/109607#Complex15",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex14"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction22",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex15"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction22",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex29"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction23",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex30"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction22",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48/109607#Pathway8"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex19",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex18"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex4",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Protein4"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex3",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Protein3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction24",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex31"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction26",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48/109607#Pathway8"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex28",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex17"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex31",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48/109607#Protein4"
     },
@@ -617,7 +693,22 @@
       "object": "http://www.reactome.org/biopax/48/109607#Complex13"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction23",
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex34",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Protein25"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex29",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex14"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex30",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Complex18"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction24",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48/109607#Protein23"
     },
@@ -627,29 +718,9 @@
       "object": "http://www.reactome.org/biopax/48/109607#Complex13"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex28",
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex18",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48/109607#Protein3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex3",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex2"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex31",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Protein23"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction22",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48/109607#Protein23"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex30",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex18"
     },
     {
       "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction26",
@@ -657,74 +728,19 @@
       "object": "http://www.reactome.org/biopax/48/109607#Protein17"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction22",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48/109607#Pathway8"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction23",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex30"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex34",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex28"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction25",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex32"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex18",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Protein3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex4",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Protein4"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction26",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex35"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex29",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Protein4"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction23",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex19"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex34",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Protein25"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48/109607#Complex19",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex18"
+      "object": "http://www.reactome.org/biopax/48/109607#Protein4"
     },
     {
       "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction22",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex15"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex15",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex14"
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction25"
     },
     {
       "subject": "http://www.reactome.org/biopax/48/109607#Complex28",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex2"
+      "object": "http://www.reactome.org/biopax/48/109607#Protein3"
     },
     {
       "subject": "http://www.reactome.org/biopax/48/109607#Complex30",
@@ -732,39 +748,9 @@
       "object": "http://www.reactome.org/biopax/48/109607#Protein23"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction26",
+      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction23",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48/109607#Pathway8"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex33",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex28"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex28",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex17"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex19",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Protein4"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction24",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex31"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction24",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction25"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48/109607#BiochemicalReaction26",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex33"
     },
     {
       "subject": "http://www.reactome.org/biopax/48/109607#Complex32",
@@ -777,9 +763,24 @@
       "object": "http://www.reactome.org/biopax/48/109607#Complex4"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48/109607#Complex4",
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex29",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48/109607#Complex3"
+      "object": "http://www.reactome.org/biopax/48/109607#Protein4"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex35",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Protein17"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex15",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Protein4"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48/109607#Complex14",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48/109607#Protein3"
     }
   ]
 }

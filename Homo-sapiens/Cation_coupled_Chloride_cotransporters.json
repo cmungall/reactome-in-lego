@@ -1,25 +1,31 @@
 {
+  "id": "obo:go/noctua/Cation_coupled_Chloride_cotransporters.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule477",
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "GO:0005886"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway373",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006811"
         },
         {
           "type": "class",
-          "id": "CHEBI:17996"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Cl-"
+          "value": "Transport of inorganic cations/anions and amino acids/oligopeptides"
         }
       ]
     },
@@ -32,11 +38,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:29103"
         },
         {
           "type": "class",
-          "id": "CHEBI:29103"
+          "id": "CHEBI:23367"
         }
       ],
       "annotations": [
@@ -55,11 +61,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:29103"
         },
         {
           "type": "class",
-          "id": "CHEBI:29103"
+          "id": "CHEBI:23367"
         }
       ],
       "annotations": [
@@ -70,19 +76,8 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1599",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0015379"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "K+/Cl- cotransport"
-        }
-      ]
+      "id": "http://www.reactome.org/biopax/48887#Pathway368",
+      "type": []
     },
     {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule476",
@@ -93,17 +88,36 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:17996"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:17996"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
           "value": "Cl-"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway372",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0055085"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "SLC-mediated transmembrane transport"
         }
       ]
     },
@@ -131,25 +145,17 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule48",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1598",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:29101"
+          "id": "GO:0008511"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Na+"
+          "value": "Na+, K+/2Cl- cotransport"
         }
       ]
     },
@@ -174,8 +180,84 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway368",
-      "type": []
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule48",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:29101"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Na+"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1599",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0015379"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "K+/Cl- cotransport"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule477",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:17996"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Cl-"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein4902",
+      "type": [
+        {
+          "type": "class",
+          "id": "PR:P55017"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "SLC12A3"
+        }
+      ]
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway377",
@@ -191,129 +273,23 @@
           "value": "Cation-coupled Chloride cotransporters"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein4902",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P55017"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "SLC12A3"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway372",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0055085"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "SLC-mediated transmembrane transport"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway373",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0006811"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Transport of inorganic cations/anions and amino acids/oligopeptides"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005886"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1598",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008511"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Na+, K+/2Cl- cotransport"
-        }
-      ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1599",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule476"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1598",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule418"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule48"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1599",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule477"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1598",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule417"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1598",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule51"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1599",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule417"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1597",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule476"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1597",
       "property": "BFO:0000066",
       "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1597",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway377"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1598",
@@ -321,34 +297,44 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway377"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway373",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway372"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1599",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway377"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1598",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule51"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1598",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule417"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1597",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule51"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1597",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule477"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1597",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule48"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1598",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule476"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1598",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule418"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1599",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule418"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1599",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule417"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway372",
@@ -357,18 +343,13 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1598",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule48"
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1598",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule477"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1599",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway377"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1597",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway377",
@@ -376,19 +357,39 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway373"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway373",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway372"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1597",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule48"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1598",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule476"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1598",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule477"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1597",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway377"
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule477"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1597",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule476"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1599",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule476"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1599",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule477"
     }
   ]
 }

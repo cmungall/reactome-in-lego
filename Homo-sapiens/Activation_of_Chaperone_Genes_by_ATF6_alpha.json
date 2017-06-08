@@ -1,8 +1,20 @@
 {
+  "id": "obo:go/noctua/Activation_of_Chaperone_Genes_by_ATF6_alpha.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway817",
-      "type": []
+      "id": "http://www.reactome.org/biopax/48887#Pathway870",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Activation of Chaperone Genes by ATF6-alpha"
+        }
+      ]
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway869",
@@ -43,19 +55,8 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway870",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Activation of Chaperone Genes by ATF6-alpha"
-        }
-      ]
+      "id": "http://www.reactome.org/biopax/48887#Pathway817",
+      "type": []
     }
   ],
   "facts": [
@@ -65,14 +66,14 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway869"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway868",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway817"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Pathway869",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway868"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway868",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway817"
     }
   ]
 }

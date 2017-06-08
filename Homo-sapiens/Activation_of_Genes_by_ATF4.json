@@ -1,24 +1,6 @@
 {
+  "id": "obo:go/noctua/Activation_of_Genes_by_ATF4.owl",
   "individuals": [
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway817",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway874",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Activation of Genes by ATF4"
-        }
-      ]
-    },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway873",
       "type": [
@@ -56,6 +38,25 @@
           "value": "Unfolded Protein Response"
         }
       ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway874",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Activation of Genes by ATF4"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway817",
+      "type": []
     }
   ],
   "facts": [
@@ -65,14 +66,14 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway868"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway868",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway817"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Pathway874",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway873"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway868",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway817"
     }
   ]
 }

@@ -1,5 +1,90 @@
 {
+  "id": "obo:go/noctua/Synthesis_of__16_20__hydroxyeicosatetraenoic_acids__HETE_.owl",
   "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2136",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:34306"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "20-HETE"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2135",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:63998"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "19-HETE"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1122",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1227",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0019369"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Arachidonic acid metabolism"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1147",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Metabolism of lipids and lipoproteins"
+        }
+      ]
+    },
     {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
       "type": [
@@ -16,25 +101,17 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule949",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15379"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
+          "id": "GO:0004497"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "O2"
+          "value": "Arachidonic acid is hydroxylated to 20-HETE by CYP(3)"
         }
       ]
     },
@@ -47,11 +124,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:16474"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:16474"
         }
       ],
       "annotations": [
@@ -79,11 +156,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:15378"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:15378"
         }
       ],
       "annotations": [
@@ -94,32 +171,25 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule949",
       "type": [
         {
           "type": "class",
-          "id": "GO:0004497"
+          "id": "CHEBI:15379"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Arachidonic acid is hydroxylated to 20-HETE by CYP(3)"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5258",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0004497"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Arachidonic acid is hydroxylated to 16/17/18-HETE by CYP(1)"
+          "value": "O2"
         }
       ]
     },
@@ -151,78 +221,17 @@
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0097267"
         },
         {
           "type": "class",
-          "id": "GO:0097267"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
           "value": "Synthesis of (16-20)-hydroxyeicosatetraenoic acids (HETE)"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1122",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1227",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0019369"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Arachidonic acid metabolism"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1147",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Metabolism of lipids and lipoproteins"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2136",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:34306"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "20-HETE"
         }
       ]
     },
@@ -235,11 +244,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:15377"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:15377"
         }
       ],
       "annotations": [
@@ -250,25 +259,17 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2135",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5258",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:63998"
+          "id": "GO:0004497"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "19-HETE"
+          "value": "Arachidonic acid is hydroxylated to 16/17/18-HETE by CYP(1)"
         }
       ]
     },
@@ -298,54 +299,19 @@
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5258",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule438"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary10"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2024"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5258",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2024"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary10"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule438"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5258",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary10"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Pathway1227",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway1147"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule438"
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2136"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule917"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule638"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
@@ -353,9 +319,59 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule917"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule949"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2021"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2021"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5258",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary10"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule438"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5258",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway1235"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule917"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule949"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5258",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2024"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule638"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule438"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway1147",
@@ -365,17 +381,7 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5258",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule917"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1235"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2024"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2021"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway1235",
@@ -383,34 +389,34 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway1227"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2136"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary10"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5258",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2024"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway1235"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule638"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2021"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5258",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule949"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule638"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1235"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5258",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule917"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5258",
@@ -418,29 +424,24 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule638"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2021"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule949"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5258",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2021"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule438"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5260",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary10"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2024"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5259",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule2135"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5258",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule949"
     }
   ]
 }

@@ -1,23 +1,18 @@
 {
+  "id": "obo:go/noctua/ATP_sensitive_Potassium_channels.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex4715",
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ATP sensitive K+ channels-inwardly rectifying (SUR1)"
+          "id": "GO:0005886"
         }
       ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway875",
+      "type": []
     },
     {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule418",
@@ -28,11 +23,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:29103"
         },
         {
           "type": "class",
-          "id": "CHEBI:29103"
+          "id": "CHEBI:23367"
         }
       ],
       "annotations": [
@@ -51,32 +46,17 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:29103"
         },
         {
           "type": "class",
-          "id": "CHEBI:29103"
+          "id": "CHEBI:23367"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
           "value": "K+"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway936",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Inwardly rectifying K+ channels"
         }
       ]
     },
@@ -90,13 +70,13 @@
       ],
       "annotations": [
         {
+          "key": "rdfs:label",
+          "value": "Activation of ATP sensitive Potassium channels in muscle cells"
+        },
+        {
           "key": "RO:0002333",
           "value": "http://www.reactome.org/biopax/48887#Complex4716",
           "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "Activation of ATP sensitive Potassium channels in muscle cells"
         }
       ]
     },
@@ -122,6 +102,25 @@
           "key": "RO:0002333",
           "value": "http://www.reactome.org/biopax/48887#Complex4715",
           "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex4715",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ATP sensitive K+ channels-inwardly rectifying (SUR1)"
         }
       ]
     },
@@ -162,10 +161,6 @@
           "value": "SUR2"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway875",
-      "type": []
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway940",
@@ -210,11 +205,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:15422"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:15422"
         }
       ],
       "annotations": [
@@ -240,6 +235,21 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#Pathway936",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Inwardly rectifying K+ channels"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Pathway933",
       "type": [
         {
@@ -253,62 +263,38 @@
           "value": "Potassium Channels"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005886"
-        }
-      ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3773",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway940"
+      "subject": "http://www.reactome.org/biopax/48887#Complex4716",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein4860"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3772",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway940"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway940",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway936"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4715",
+      "subject": "http://www.reactome.org/biopax/48887#Complex4716",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Protein11678"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3772",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway940"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3773",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway940"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3773",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule417"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4715",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein4859"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3772",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule417"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3773",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3772",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3772",
@@ -321,24 +307,39 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway875"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4716",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein4860"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3773",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule418"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4716",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein11678"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3772",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3773",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway936",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway933"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4715",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein4859"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway940",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway936"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4715",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein11678"
     }
   ]
 }

@@ -1,74 +1,6 @@
 {
+  "id": "obo:go/noctua/Degradation_of_GABA.owl",
   "individuals": [
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1433",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15846"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "NAD"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1432",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16265"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "SUCCSA"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1431",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16865"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "GABA"
-        }
-      ]
-    },
     {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule1434",
       "type": [
@@ -78,11 +10,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:15741"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:15741"
         }
       ],
       "annotations": [
@@ -93,7 +25,11 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex4610",
+      "id": "http://www.reactome.org/biopax/48887#Pathway878",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein11513",
       "type": [
         {
           "type": "class",
@@ -101,91 +37,13 @@
         },
         {
           "type": "class",
-          "id": "GO:0032991"
+          "id": "PR:P80404"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Homodimer of 4 aminobutyrate aminotransferase"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3707",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0004777"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Conversion of succinate semialdehyde to succinate"
-        },
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein11514",
-          "value-type": "IRI"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3706",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0003867"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex4610",
-          "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "Conversion of GABA to Succinate Semialdehyde"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule171",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15377"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "H2O"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway889",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Degradation of GABA"
+          "value": "ABAT"
         }
       ]
     },
@@ -205,7 +63,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule263",
+      "id": "http://www.reactome.org/biopax/48887#Protein11514",
       "type": [
         {
           "type": "class",
@@ -213,36 +71,13 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:16015"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
+          "id": "PR:P51649"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Glu"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein11513",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P80404"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ABAT"
+          "value": "ALDH5A1"
         }
       ]
     },
@@ -270,6 +105,29 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1435",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:16908"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "NADH"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary14",
       "type": [
         {
@@ -279,8 +137,130 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway878",
-      "type": []
+      "id": "http://www.reactome.org/biopax/48887#Pathway889",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Degradation of GABA"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1432",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:16265"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "SUCCSA"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1431",
+      "type": [
+        {
+          "type": "class",
+          "id": "CHEBI:16865"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "GABA"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex4610",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Homodimer of 4 aminobutyrate aminotransferase"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule263",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:16015"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Glu"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule171",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15377"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "H2O"
+        }
+      ]
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway880",
@@ -325,30 +305,47 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1435",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3707",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16908"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
+          "id": "GO:0004777"
         }
       ],
       "annotations": [
         {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein11514",
+          "value-type": "IRI"
+        },
+        {
           "key": "rdfs:label",
-          "value": "NADH"
+          "value": "Conversion of succinate semialdehyde to succinate"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein11514",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3706",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0003867"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Conversion of GABA to Succinate Semialdehyde"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex4610",
+          "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1433",
       "type": [
         {
           "type": "class",
@@ -356,27 +353,31 @@
         },
         {
           "type": "class",
-          "id": "PR:P51649"
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15846"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "ALDH5A1"
+          "value": "NAD"
         }
       ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3707",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway889"
+      "subject": "http://www.reactome.org/biopax/48887#Complex4610",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein11513"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway880",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway878"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3706",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule263"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway889",
@@ -385,53 +386,13 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3707",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1434"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4610",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein11513"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3706",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1428"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3706",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary14"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3706",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1428"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3706",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1430"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3707",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary14"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3707",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1435"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3707",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule171"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3706",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1431"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3707",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary14"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway886",
@@ -440,18 +401,38 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3706",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule263"
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary14"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3706",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1428"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway880",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway878"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3707",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway889"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3706",
       "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1432"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1428"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3706",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway889"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3707",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1435"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3707",
@@ -462,6 +443,26 @@
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3707",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule1433"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3707",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1434"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3706",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1431"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3706",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1432"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3706",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1430"
     }
   ]
 }

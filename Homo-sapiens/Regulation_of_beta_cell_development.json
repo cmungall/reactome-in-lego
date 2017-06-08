@@ -1,5 +1,53 @@
 {
+  "id": "obo:go/noctua/Regulation_of_beta_cell_development.owl",
   "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005654"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein2494",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q12778"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "FOXO1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1442",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0031018"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Regulation of gene expression in late stage (branching morphogenesis) pancreatic bud precursor cells"
+        }
+      ]
+    },
     {
       "id": "http://www.reactome.org/biopax/48887#Protein15191",
       "type": [
@@ -28,11 +76,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:16761"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:16761"
         }
       ],
       "annotations": [
@@ -51,11 +99,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:15422"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:15422"
         }
       ],
       "annotations": [
@@ -81,21 +129,27 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1442",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction6276",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Phosphorylated FOXO1A is excluded from the nucleus"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1410",
       "type": [
         {
           "type": "class",
           "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0031018"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Regulation of gene expression in late stage (branching morphogenesis) pancreatic bud precursor cells"
+          "value": "Developmental Biology"
         }
       ]
     },
@@ -119,11 +173,11 @@
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0031018"
         },
         {
           "type": "class",
-          "id": "GO:0031018"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
@@ -138,11 +192,11 @@
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0031018"
         },
         {
           "type": "class",
-          "id": "GO:0031018"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
@@ -176,11 +230,11 @@
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0031018"
         },
         {
           "type": "class",
-          "id": "GO:0031018"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
@@ -195,11 +249,11 @@
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0031018"
         },
         {
           "type": "class",
-          "id": "GO:0031018"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
@@ -208,86 +262,13 @@
           "value": "Regulation of beta-cell development"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary5",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005654"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein2494",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q12778"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "FOXO1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction6276",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Phosphorylated FOXO1A is excluded from the nucleus"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1410",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Developmental Biology"
-        }
-      ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6275",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein2494"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6275",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1445"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1441",
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1443",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway1440"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6275",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1445",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1444"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway1442",
@@ -295,9 +276,44 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway1440"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1444",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1440"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1440",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1410"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1441",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1440"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6276",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1445"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6275",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1445"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1445",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1444"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6275",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#Protein2499"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6276",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Protein15191"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6275",
@@ -305,9 +321,14 @@
       "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction6276"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1440",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1410"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6276",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein2499"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6275",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein2494"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6275",
@@ -320,29 +341,9 @@
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule4"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6276",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Protein15191"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1444",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1440"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6276",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1445"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6276",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6275",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein2499"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1443",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1440"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule3"
     }
   ]
 }

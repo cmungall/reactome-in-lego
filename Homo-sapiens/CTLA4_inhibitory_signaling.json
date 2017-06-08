@@ -1,7 +1,191 @@
 {
+  "id": "obo:go/noctua/CTLA4_inhibitory_signaling.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex874",
+      "id": "http://www.reactome.org/biopax/48887#Protein2115",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein2121",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Src family tyrosine kinases (SFKs)"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction692",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "PP2A binds CTLA4 homodimer"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein2088",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:O15530"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "PDK1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction696",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008195"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Dephosphorylation of AKT by PP2A"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex873",
+          "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction695",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "SHP2 phosphatase binds CTLA-4"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0004713"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Phosphorylation of CTLA-4"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction693",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CTLA-4 binds B7-1/B7-2"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein2131",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "AKT"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein2154",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "PP2A-subunit A"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule14",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15422"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ATP"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway209",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule30",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:16761"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ADP"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex878",
       "type": [
         {
           "type": "class",
@@ -15,7 +199,7 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "CTLA-4 homodimer"
+          "value": "phospho CTLA4:B7-1/B7-2"
         }
       ]
     },
@@ -39,68 +223,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein2166",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q06124"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "SHP2"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex877",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Phosphorylated CTLA-4 bound to kinases"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005829"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein2162",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "PP2A-catalytic subunit C"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#Pathway220",
       "type": [
         {
@@ -116,35 +238,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein2115",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction696",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008195"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex873",
-          "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "Dephosphorylation of AKT by PP2A"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway209",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein2131",
+      "id": "http://www.reactome.org/biopax/48887#Protein303",
       "type": [
         {
           "type": "class",
@@ -154,30 +248,7 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "AKT"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule30",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16761"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ADP"
+          "value": "p-AKT"
         }
       ]
     },
@@ -239,126 +310,11 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein2164",
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P16410"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CTLA4"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:18367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Pi"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein303",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "p-AKT"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein2088",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:O15530"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "PDK1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule14",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15422"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ATP"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction695",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "SHP2 phosphatase binds CTLA-4"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0004713"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Phosphorylation of CTLA-4"
+          "id": "GO:0005829"
         }
       ]
     },
@@ -371,11 +327,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:16618"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:16618"
         }
       ],
       "annotations": [
@@ -386,17 +342,45 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction692",
-      "type": [],
+      "id": "http://www.reactome.org/biopax/48887#Protein2164",
+      "type": [
+        {
+          "type": "class",
+          "id": "PR:P16410"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "PP2A binds CTLA4 homodimer"
+          "value": "CTLA4"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein2156",
+      "id": "http://www.reactome.org/biopax/48887#Complex874",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CTLA-4 homodimer"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein2162",
       "type": [
         {
           "type": "class",
@@ -406,7 +390,7 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "PP2A regulatory subunit B56"
+          "value": "PP2A-catalytic subunit C"
         }
       ]
     },
@@ -430,7 +414,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein2154",
+      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity250",
       "type": [
         {
           "type": "class",
@@ -440,22 +424,12 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "PP2A-subunit A"
+          "value": "B7-1 homodimer/ B7-2"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction693",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CTLA-4 binds B7-1/B7-2"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein2121",
+      "id": "http://www.reactome.org/biopax/48887#Protein2156",
       "type": [
         {
           "type": "class",
@@ -465,7 +439,26 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Src family tyrosine kinases (SFKs)"
+          "value": "PP2A regulatory subunit B56"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein2166",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q06124"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "SHP2"
         }
       ]
     },
@@ -489,7 +482,30 @@
       "type": []
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex878",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule2",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:18367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Pi"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex877",
       "type": [
         {
           "type": "class",
@@ -503,22 +519,7 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "phospho CTLA4:B7-1/B7-2"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#PhysicalEntity250",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "B7-1 homodimer/ B7-2"
+          "value": "Phosphorylated CTLA-4 bound to kinases"
         }
       ]
     },
@@ -563,24 +564,39 @@
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex873",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein2156"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction693",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction694"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex878",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex879"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction695"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex876",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity250"
+      "subject": "http://www.reactome.org/biopax/48887#Pathway220",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway216"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction695",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein2166"
+      "object": "http://www.reactome.org/biopax/48887#Complex877"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex881",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein2088"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction692",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex875"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex874",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein2164"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction696",
@@ -588,79 +604,24 @@
       "object": "http://www.reactome.org/biopax/48887#Complex881"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction692",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway220"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction692",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex875"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction693",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex876"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction692",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction693"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction695",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex880"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule30"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction693",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex875"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule14"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex881",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein303"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction696",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex882",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule322"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#Complex873"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway210",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway209"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction696",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction696",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction692",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex873"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction693",
       "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex882"
+      "object": "http://www.reactome.org/biopax/48887#Complex876"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
@@ -673,79 +634,14 @@
       "object": "http://www.reactome.org/biopax/48887#Complex873"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction696"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex873",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein2154"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction696",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway220"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction693",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway220"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex881",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule322"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway220"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#PhysicalEntity250",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein2115"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction696",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction693",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction694"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex882",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein2131"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction692",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex874"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction695",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway220"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex876"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex877",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein2121"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex876",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex875"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex877",
@@ -755,27 +651,42 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex878",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity250"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex874",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein2164"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway220",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway216"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction692",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex873"
+      "object": "http://www.reactome.org/biopax/48887#Complex879"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex882",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Protein2088"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex876",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity250"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction692",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex874"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule30"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex873",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein2154"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction693",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex875"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway216",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway210"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex873",
@@ -784,13 +695,103 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction695"
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex876"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#PhysicalEntity250",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein2115"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction696",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway220"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex880",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein2166"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction695",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein2166"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex881",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein303"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex881",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule322"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction695",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway220"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex877",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein2121"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway210",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway209"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction695",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex880"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex880",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Complex877"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction696"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex882",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein2131"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex878",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#PhysicalEntity250"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex873",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein2156"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction696",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex882"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex882",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule322"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule14"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex875",
@@ -798,24 +799,24 @@
       "object": "http://www.reactome.org/biopax/48887#Complex874"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex881",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein2088"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway216",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction694",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway210"
+      "object": "http://www.reactome.org/biopax/48887#Pathway220"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction695",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex877"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex880",
+      "subject": "http://www.reactome.org/biopax/48887#Complex876",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein2166"
+      "object": "http://www.reactome.org/biopax/48887#Complex875"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction696",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule2"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction692",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction693"
     }
   ]
 }

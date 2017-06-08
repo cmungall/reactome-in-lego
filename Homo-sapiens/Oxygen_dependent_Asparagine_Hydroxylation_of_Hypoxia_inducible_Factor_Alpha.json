@@ -1,25 +1,31 @@
 {
+  "id": "obo:go/noctua/Oxygen_dependent_Asparagine_Hydroxylation_of_Hypoxia_inducible_Factor_Alpha.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway25",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex93",
+      "id": "http://www.reactome.org/biopax/48887#Pathway27",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "GO:0061418"
         },
         {
           "type": "class",
-          "id": "GO:0032991"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "FIH1:FIH1"
+          "value": "Regulation of Hypoxia-inducible Factor (HIF) by Oxygen"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005829"
         }
       ]
     },
@@ -35,133 +41,6 @@
         {
           "key": "rdfs:label",
           "value": "Oxygen-dependent Asparagine Hydroxylation of Hypoxia-inducible Factor Alpha"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule24",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16526"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CO2"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction63",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0016706"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Cytosolic Hydroxylation of Asparagine Residue in HIF alpha"
-        },
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex93",
-          "value-type": "IRI"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule22",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15379"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "O2"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein256",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q9NWT6"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "FIH1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule25",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15741"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "SUCCA"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway27",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0061418"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Regulation of Hypoxia-inducible Factor (HIF) by Oxygen"
         }
       ]
     },
@@ -185,11 +64,52 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
+      "id": "http://www.reactome.org/biopax/48887#Pathway25",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule25",
       "type": [
         {
           "type": "class",
-          "id": "GO:0005829"
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15741"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "SUCCA"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule24",
+      "type": [
+        {
+          "type": "class",
+          "id": "CHEBI:16526"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CO2"
         }
       ]
     },
@@ -215,28 +135,114 @@
           "value": "2OG"
         }
       ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule22",
+      "type": [
+        {
+          "type": "class",
+          "id": "CHEBI:15379"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "O2"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex93",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "FIH1:FIH1"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction63",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0016706"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Cytosolic Hydroxylation of Asparagine Residue in HIF alpha"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex93",
+          "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein256",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9NWT6"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "FIH1"
+        }
+      ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway27",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway26"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction63",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule23"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway28",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway27"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction63",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule25"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway26",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway25"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction63",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction63",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway28"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex93",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein256"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction63",
@@ -250,23 +256,18 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction63",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule23"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction63",
+      "subject": "http://www.reactome.org/biopax/48887#Pathway28",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway28"
+      "object": "http://www.reactome.org/biopax/48887#Pathway27"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway26",
+      "subject": "http://www.reactome.org/biopax/48887#Pathway27",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway25"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex93",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein256"
+      "object": "http://www.reactome.org/biopax/48887#Pathway26"
     }
   ]
 }

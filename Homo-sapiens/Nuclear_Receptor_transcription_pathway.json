@@ -1,17 +1,22 @@
 {
+  "id": "obo:go/noctua/Nuclear_Receptor_transcription_pathway.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein1068",
+      "id": "http://www.reactome.org/biopax/48887#Pathway114",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "GO:0010467"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "NR"
+          "value": "Gene Expression"
         }
       ]
     },
@@ -35,6 +40,25 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#Complex419",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "NR-MED1 Coactivator Complex"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Pathway117",
       "type": [
         {
@@ -50,6 +74,31 @@
         {
           "key": "rdfs:label",
           "value": "Nuclear Receptor transcription pathway"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction316",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Formation of NR-MED1 Coactivator Complex"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein1068",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "NR"
         }
       ]
     },
@@ -71,57 +120,34 @@
           "value": "Generic Transcription Pathway"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway114",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0010467"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Gene Expression"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex419",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "NR-MED1 Coactivator Complex"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction316",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Formation of NR-MED1 Coactivator Complex"
-        }
-      ]
     }
   ],
   "facts": [
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction316",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex419"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway115",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway114"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex419",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein640"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex419",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein1068"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction316",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein640"
+    },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction316",
       "property": "BFO:0000050",
@@ -131,31 +157,6 @@
       "subject": "http://www.reactome.org/biopax/48887#Pathway117",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway115"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex419",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein1068"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway115",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway114"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction316",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein640"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction316",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex419"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex419",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein640"
     }
   ]
 }

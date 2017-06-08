@@ -1,15 +1,6 @@
 {
+  "id": "obo:go/noctua/Regulation_of_PAK_2p34_activity_by_PS_GAP_RHG10.owl",
   "individuals": [
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction6094",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Interaction of PAK-2p34 with RGH10/ PS-GAP results in accumulation of PAK-2p34 in the perinuclear region"
-        }
-      ]
-    },
     {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction6093",
       "type": [],
@@ -17,44 +8,6 @@
         {
           "key": "rdfs:label",
           "value": "Rho GTPase-activating protein 10 (RHG10) interacts with caspase-activated PAK-2p34"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein12099",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:A1A4S6"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "ARHGAP10"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1369",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0006915"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Apoptosis"
         }
       ]
     },
@@ -78,21 +31,59 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex6595",
+      "id": "http://www.reactome.org/biopax/48887#Pathway1408",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "GO:0008150"
         },
         {
           "type": "class",
-          "id": "GO:0032991"
+          "id": "GO:0043066"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "PAK-2p34:RHG10 complex"
+          "value": "Regulation of PAK-2p34 activity by PS-GAP/RHG10"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1406",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0042981"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Regulation of Apoptosis"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1369",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006915"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Apoptosis"
         }
       ]
     },
@@ -116,40 +107,50 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1406",
+      "id": "http://www.reactome.org/biopax/48887#Complex6595",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "BFO:0000002"
         },
         {
           "type": "class",
-          "id": "GO:0042981"
+          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Regulation of Apoptosis"
+          "value": "PAK-2p34:RHG10 complex"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1408",
+      "id": "http://www.reactome.org/biopax/48887#Protein12099",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "BFO:0000002"
         },
         {
           "type": "class",
-          "id": "GO:0043066"
+          "id": "PR:A1A4S6"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Regulation of PAK-2p34 activity by PS-GAP/RHG10"
+          "value": "ARHGAP10"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction6094",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Interaction of PAK-2p34 with RGH10/ PS-GAP results in accumulation of PAK-2p34 in the perinuclear region"
         }
       ]
     }
@@ -161,24 +162,9 @@
       "object": "http://www.reactome.org/biopax/48887#Complex6595"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1406",
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1408",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1369"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6094",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1408"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6595",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein12099"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6093",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1408"
+      "object": "http://www.reactome.org/biopax/48887#Pathway1406"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6094",
@@ -186,6 +172,21 @@
       "object": "http://www.reactome.org/biopax/48887#Complex6596"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6094",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex6595"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6596",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein12099"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6595",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein12099"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#Complex6595",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Protein14951"
@@ -193,12 +194,12 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex6596",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein12099"
+      "object": "http://www.reactome.org/biopax/48887#Protein14951"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6094",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex6595"
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1406",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1369"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6093",
@@ -206,24 +207,24 @@
       "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction6094"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6094",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1408"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6093",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#Protein12099"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6093",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1408"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6093",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#Protein14951"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6596",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein14951"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1408",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1406"
     }
   ]
 }

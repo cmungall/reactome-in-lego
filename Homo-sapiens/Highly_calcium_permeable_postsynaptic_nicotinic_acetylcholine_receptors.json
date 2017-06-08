@@ -1,8 +1,13 @@
 {
+  "id": "obo:go/noctua/Highly_calcium_permeable_postsynaptic_nicotinic_acetylcholine_receptors.owl",
   "individuals": [
     {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule87",
       "type": [
+        {
+          "type": "class",
+          "id": "CHEBI:29108"
+        },
         {
           "type": "class",
           "id": "BFO:0000002"
@@ -10,59 +15,12 @@
         {
           "type": "class",
           "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:29108"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
           "value": "Ca2+"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3724",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0015276"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex4629",
-          "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "Activation of highly calcium permeable postsynaptic nicotinic acetylcholine receptors"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway899",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein11522",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P02708"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "CHRNA1"
         }
       ]
     },
@@ -86,6 +44,54 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3724",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0015276"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Activation of highly calcium permeable postsynaptic nicotinic acetylcholine receptors"
+        },
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex4629",
+          "value-type": "IRI"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005886"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein11534",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P36544"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "CHRNA7"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Protein11533",
       "type": [
         {
@@ -101,25 +107,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1444",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "AcCho"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule1403",
       "type": [
         {
@@ -128,11 +115,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:15355"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:15355"
         }
       ],
       "annotations": [
@@ -143,27 +130,8 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule327",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:29108"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Ca2+"
-        }
-      ]
+      "id": "http://www.reactome.org/biopax/48887#Pathway899",
+      "type": []
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway900",
@@ -181,41 +149,31 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway904",
+      "id": "http://www.reactome.org/biopax/48887#Protein11522",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P02708"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Postsynaptic nicotinic acetylcholine receptors"
+          "value": "CHRNA1"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway905",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3723",
+      "type": [],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Highly calcium permeable postsynaptic nicotinic acetylcholine receptors"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005886"
+          "value": "Binding of acetylcholine to  highly calcium permeable postsynaptic nicotinic acetylcholine receptors"
         }
       ]
     },
@@ -239,17 +197,30 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction3723",
-      "type": [],
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule327",
+      "type": [
+        {
+          "type": "class",
+          "id": "CHEBI:29108"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Binding of acetylcholine to  highly calcium permeable postsynaptic nicotinic acetylcholine receptors"
+          "value": "Ca2+"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein11534",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1444",
       "type": [
         {
           "type": "class",
@@ -257,52 +228,67 @@
         },
         {
           "type": "class",
-          "id": "PR:P36544"
+          "id": "CHEBI:23367"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "CHRNA7"
+          "value": "AcCho"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway905",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Highly calcium permeable postsynaptic nicotinic acetylcholine receptors"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway904",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Postsynaptic nicotinic acetylcholine receptors"
         }
       ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway904",
+      "subject": "http://www.reactome.org/biopax/48887#Pathway900",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway900"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3723",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway905"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3724",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule87"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4629",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein11534"
+      "object": "http://www.reactome.org/biopax/48887#Pathway899"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4631",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1444"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3724",
-      "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#Complex4629"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3723",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3724"
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1403"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3723",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4631"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3724",
@@ -311,18 +297,28 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3724",
-      "property": "RO:0002234",
+      "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#Complex4629"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3723",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex4631"
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex4629"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway905",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3724",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex4629"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3724",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule87"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3723",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway904"
+      "object": "http://www.reactome.org/biopax/48887#Pathway905"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3724",
@@ -335,14 +331,29 @@
       "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3723",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1403"
+      "subject": "http://www.reactome.org/biopax/48887#Complex4631",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1444"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway900",
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3723",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction3724"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway904",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway899"
+      "object": "http://www.reactome.org/biopax/48887#Pathway900"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway905",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway904"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex4629",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein11534"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex4629",
@@ -350,19 +361,9 @@
       "object": "http://www.reactome.org/biopax/48887#Protein11533"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex4631",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Complex4629"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#Complex4629",
       "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#Protein11522"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction3723",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex4629"
     }
   ]
 }

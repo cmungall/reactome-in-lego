@@ -1,11 +1,27 @@
 {
+  "id": "obo:go/noctua/Membrane_binding_and_targetting_of_GAG_proteins.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway601",
-      "type": []
+      "id": "http://www.reactome.org/biopax/48887#Pathway24",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0046788"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Membrane binding and targetting of GAG proteins"
+        }
+      ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule20",
+      "id": "http://www.reactome.org/biopax/48887#Protein160",
       "type": [
         {
           "type": "class",
@@ -13,42 +29,18 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:15346"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
+          "id": "PR:P04591"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "CoA-SH"
+          "value": "N-myristoyl GAG (P04591) protein"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction54",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008565"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Transport of GAG to the Plasma Membrane"
-        },
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex72",
-          "value-type": "IRI"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex71",
+      "id": "http://www.reactome.org/biopax/48887#Protein182",
       "type": [
         {
           "type": "class",
@@ -56,52 +48,32 @@
         },
         {
           "type": "class",
-          "id": "GO:0032991"
+          "id": "PR:Q9H9H4"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "monoubiquitinated N-myristoyl GAG (P04591) protein"
+          "value": "VPS37B"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction52",
-      "type": [],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Monoubiquitination of N-myristoyl GAG polyprotein"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction51",
+      "id": "http://www.reactome.org/biopax/48887#Protein179",
       "type": [
         {
           "type": "class",
-          "id": "GO:0004379"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein161",
-          "value-type": "IRI"
+          "id": "PR:Q86XT2"
         },
         {
-          "key": "rdfs:label",
-          "value": "N-myristoylation of GAG polyprotein by NMT2"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
-      "type": [
-        {
           "type": "class",
-          "id": "GO:0005829"
+          "id": "BFO:0000002"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "VPS37D"
         }
       ]
     },
@@ -125,61 +97,45 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein32",
+      "id": "http://www.reactome.org/biopax/48887#Pathway619",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Ub"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein179",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
+          "id": "GO:0019082"
         },
         {
           "type": "class",
-          "id": "PR:Q86XT2"
+          "id": "GO:0008150"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "VPS37D"
+          "value": "Synthesis And Processing Of GAG, GAGPOL Polyproteins"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction53",
+      "id": "http://www.reactome.org/biopax/48887#Pathway618",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008565"
+          "id": "GO:0008150"
+        },
+        {
+          "type": "class",
+          "id": "GO:0019068"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Monoubiquitinated N-myristoyl GAG polyprotein is targeted to the late endosomal vesicle membrane by the ESCRT-I complex"
-        },
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex72",
-          "value-type": "IRI"
+          "value": "Assembly Of The HIV Virion"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex72",
+      "id": "http://www.reactome.org/biopax/48887#Protein161",
       "type": [
         {
           "type": "class",
@@ -187,55 +143,13 @@
         },
         {
           "type": "class",
-          "id": "GO:0032991"
+          "id": "PR:O60551"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "ESCRT-I"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein159",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P04591"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "GAG Polyprotein (P04591)"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule19",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15532"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "MYS-CoA"
+          "value": "NMT2"
         }
       ]
     },
@@ -251,6 +165,42 @@
         {
           "key": "rdfs:label",
           "value": "ubiquitin"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule19",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15532"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "MYS-CoA"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway601",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005829"
         }
       ]
     },
@@ -274,7 +224,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein182",
+      "id": "http://www.reactome.org/biopax/48887#Protein159",
       "type": [
         {
           "type": "class",
@@ -282,13 +232,13 @@
         },
         {
           "type": "class",
-          "id": "PR:Q9H9H4"
+          "id": "PR:P04591"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "VPS37B"
+          "value": "GAG Polyprotein (P04591)"
         }
       ]
     },
@@ -331,26 +281,30 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex70",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule20",
       "type": [
+        {
+          "type": "class",
+          "id": "CHEBI:15346"
+        },
         {
           "type": "class",
           "id": "BFO:0000002"
         },
         {
           "type": "class",
-          "id": "GO:0032991"
+          "id": "CHEBI:23367"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "monoubiquitinated N-myristoyl GAG (P04591) protein"
+          "value": "CoA-SH"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Complex73",
+      "id": "http://www.reactome.org/biopax/48887#Complex71",
       "type": [
         {
           "type": "class",
@@ -388,40 +342,153 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway24",
+      "id": "http://www.reactome.org/biopax/48887#Protein32",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0046788"
+          "id": "BFO:0000002"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Membrane binding and targetting of GAG proteins"
+          "value": "Ub"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway618",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction54",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "GO:0008565"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex72",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "Transport of GAG to the Plasma Membrane"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction53",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008565"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex72",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "Monoubiquitinated N-myristoyl GAG polyprotein is targeted to the late endosomal vesicle membrane by the ESCRT-I complex"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction52",
+      "type": [],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Monoubiquitination of N-myristoyl GAG polyprotein"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction51",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0004379"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein161",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "N-myristoylation of GAG polyprotein by NMT2"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex70",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
         },
         {
           "type": "class",
-          "id": "GO:0019068"
+          "id": "GO:0032991"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Assembly Of The HIV Virion"
+          "value": "monoubiquitinated N-myristoyl GAG (P04591) protein"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary6",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0010008"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex72",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "ESCRT-I"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex73",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "monoubiquitinated N-myristoyl GAG (P04591) protein"
         }
       ]
     },
@@ -458,109 +525,13 @@
           "value": "N-myristoyl GAG (P04591) protein"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein161",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:O60551"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "NMT2"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein160",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P04591"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "N-myristoyl GAG (P04591) protein"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway619",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0019082"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Synthesis And Processing Of GAG, GAGPOL Polyproteins"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary6",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0010008"
-        }
-      ]
     }
   ],
   "facts": [
     {
-      "subject": "http://www.reactome.org/biopax/48887#Complex73",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein199"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex72",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein180"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex72",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein182"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction53",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex70"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex70",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein32"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction52",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Protein160"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction54",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex73"
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway24"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction54",
@@ -568,9 +539,9 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway24"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction51",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction53",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex70"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway618",
@@ -578,9 +549,119 @@
       "object": "http://www.reactome.org/biopax/48887#Pathway601"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway619",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway618"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction54",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Complex71"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction51",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Protein160"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway24",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway619"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction54",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex73"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex72",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein182"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex72",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein180"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex70",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein160"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction51",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule19"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction53",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction54"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction54",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary6"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex71",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein163"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex73",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein199"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction51",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction52"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction51",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary1"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex72",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein178"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction52",
       "property": "RO:0002413",
       "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction53"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction51",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway24"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction53",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway24"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction52",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex70"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction53",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Complex71"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction52",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#Protein160"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction53",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary6"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex71",
@@ -590,42 +671,7 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex72",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein179"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway619",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway618"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction53",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway24"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex70",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein160"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction52",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex70"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction54",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#Complex71"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction51",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule19"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction54",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary6"
+      "object": "http://www.reactome.org/biopax/48887#Protein183"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex72",
@@ -633,14 +679,14 @@
       "object": "http://www.reactome.org/biopax/48887#Protein181"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction52",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway24"
+      "subject": "http://www.reactome.org/biopax/48887#Complex73",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein184"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex72",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein183"
+      "object": "http://www.reactome.org/biopax/48887#Protein179"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction51",
@@ -648,59 +694,14 @@
       "object": "http://www.reactome.org/biopax/48887#Protein159"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction53",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary6"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction51",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway24"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex72",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein178"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex71",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein163"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction53",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Complex71"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction51",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule20"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway24",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway619"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction51",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction52"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction53",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction54"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex73",
+      "subject": "http://www.reactome.org/biopax/48887#Complex70",
       "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein184"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction51",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Protein160"
+      "object": "http://www.reactome.org/biopax/48887#Protein32"
     }
   ]
 }

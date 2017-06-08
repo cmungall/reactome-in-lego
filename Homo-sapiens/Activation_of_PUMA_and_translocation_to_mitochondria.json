@@ -1,39 +1,6 @@
 {
+  "id": "obo:go/noctua/Activation_of_PUMA_and_translocation_to_mitochondria.owl",
   "individuals": [
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein14807",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q9BXH1"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "BBC3"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction6009",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0001844"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Translocation of PUMA protein to mitochondria"
-        }
-      ]
-    },
     {
       "id": "http://www.reactome.org/biopax/48887#Pathway1380",
       "type": [
@@ -54,11 +21,41 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1369",
-      "type": []
+      "id": "http://www.reactome.org/biopax/48887#Pathway1378",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0097193"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Intrinsic Pathway for Apoptosis"
+        }
+      ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1378",
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction6009",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0001844"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Translocation of PUMA protein to mitochondria"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1383",
       "type": [
         {
           "type": "class",
@@ -66,13 +63,32 @@
         },
         {
           "type": "class",
-          "id": "GO:0097193"
+          "id": "GO:1900740"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Intrinsic Pathway for Apoptosis"
+          "value": "Activation of PUMA and translocation to mitochondria"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein14807",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:Q9BXH1"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "BBC3"
         }
       ]
     },
@@ -96,36 +112,11 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1383",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:1900740"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Activation of PUMA and translocation to mitochondria"
-        }
-      ]
+      "id": "http://www.reactome.org/biopax/48887#Pathway1369",
+      "type": []
     }
   ],
   "facts": [
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6009",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#Protein14807"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6009",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1383"
-    },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway1378",
       "property": "BFO:0000050",
@@ -142,9 +133,19 @@
       "object": "http://www.reactome.org/biopax/48887#Protein14806"
     },
     {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6009",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#Protein14807"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#Pathway1383",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway1380"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction6009",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1383"
     }
   ]
 }

@@ -1,5 +1,49 @@
 {
+  "id": "obo:go/noctua/GABA_A__rho__receptor_activation.owl",
   "individuals": [
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway932",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "GABA A (rho) receptor activation"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005886"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway878",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway925",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "GABA receptor activation"
+        }
+      ]
+    },
     {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule477",
       "type": [
@@ -9,11 +53,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:17996"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:17996"
         }
       ],
       "annotations": [
@@ -32,11 +76,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:17996"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:17996"
         }
       ],
       "annotations": [
@@ -47,8 +91,85 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1810",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005254"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Complex2368",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "GABRR pentamer:GABA transports extracellular Cl- to cytosol"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#Pathway368",
       "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway415",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0034220"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Ligand-gated ion channel transport"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway413",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0034220"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Ion channel transport"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex2368",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "GABRR pentamer:GABA"
+        }
+      ]
     },
     {
       "id": "http://www.reactome.org/biopax/48887#Protein5278",
@@ -81,72 +202,15 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway415",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0034220"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Ligand-gated ion channel transport"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway413",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        },
-        {
-          "type": "class",
-          "id": "GO:0034220"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Ion channel transport"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex2368",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "GABRR pentamer:GABA"
-        }
-      ]
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule519",
       "type": [
         {
           "type": "class",
-          "id": "BFO:0000002"
+          "id": "CHEBI:16865"
         },
         {
           "type": "class",
-          "id": "CHEBI:16865"
+          "id": "BFO:0000002"
         },
         {
           "type": "class",
@@ -157,69 +221,6 @@
         {
           "key": "rdfs:label",
           "value": "GABA"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway878",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway932",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "GABA A (rho) receptor activation"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005886"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction1810",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005254"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "GABRR pentamer:GABA transports extracellular Cl- to cytosol"
-        },
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Complex2368",
-          "value-type": "IRI"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway925",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "GABA receptor activation"
         }
       ]
     }
@@ -233,47 +234,7 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1810",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway415"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway415",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway413"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway413",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway368"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1810",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1810",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule476"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex2368",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein5278"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway898",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway878"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1810",
-      "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway932"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1810",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule477"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway932",
@@ -283,7 +244,47 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#Complex2368",
       "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein5278"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1810",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule477"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1810",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule476"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex2368",
+      "property": "BFO:0000051",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule519"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway898",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway878"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1810",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway415",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway413"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction1810",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway415"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway413",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway368"
     }
   ]
 }

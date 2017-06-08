@@ -1,22 +1,66 @@
 {
+  "id": "obo:go/noctua/Pre_NOTCH_Processing_in_the_Endoplasmic_Reticulum.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1050",
+      "id": "http://www.reactome.org/biopax/48887#Complex5190",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule814",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4166",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1458",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:17552"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "Pre-NOTCH Expression and Processing"
+          "value": "GDP"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4166",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1457",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:17009"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "GDP-Fuc"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway962",
       "type": []
     },
     {
@@ -31,6 +75,48 @@
         {
           "key": "rdfs:label",
           "value": "Glycosylation of Pre-NOTCH by FRINGE"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule957",
+      "type": [
+        {
+          "type": "class",
+          "id": "CHEBI:17659"
+        },
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "UDP"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4169",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1053",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Pre-NOTCH Processing in Golgi"
         }
       ]
     },
@@ -50,12 +136,52 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1158",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1050",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Pre-NOTCH Expression and Processing"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4164",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0004252"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "RO:0002333",
+          "value": "http://www.reactome.org/biopax/48887#Protein7601",
+          "value-type": "IRI"
+        },
+        {
+          "key": "rdfs:label",
+          "value": "NOTCH precursor cleaved to form mature NOTCH"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4163",
       "type": [],
       "annotations": [
         {
-          "key": "rdfs:label",
-          "value": "Transport of NOTCH precursor to Golgi"
+          "key": "RO:0002334",
+          "value": "http://www.reactome.org/biopax/48887#Protein12236",
+          "value-type": "IRI"
         },
         {
           "key": "RO:0002334",
@@ -63,9 +189,8 @@
           "value-type": "IRI"
         },
         {
-          "key": "RO:0002334",
-          "value": "http://www.reactome.org/biopax/48887#Protein12236",
-          "value-type": "IRI"
+          "key": "rdfs:label",
+          "value": "Transport of NOTCH precursor to Golgi"
         }
       ]
     },
@@ -110,29 +235,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Protein12230",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q8NBL1"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "POGLUT1"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex5190",
-      "type": []
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#Protein12224",
       "type": [
         {
@@ -148,37 +250,6 @@
         {
           "key": "rdfs:label",
           "value": "FUT12"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule814",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1158",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4169",
-      "type": []
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein12236",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:Q9UBV2"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "SEL1L"
         }
       ]
     },
@@ -202,7 +273,7 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1458",
+      "id": "http://www.reactome.org/biopax/48887#Protein12236",
       "type": [
         {
           "type": "class",
@@ -210,55 +281,54 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:17552"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
+          "id": "PR:Q9UBV2"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "GDP"
+          "value": "SEL1L"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule1457",
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary9",
       "type": [
+        {
+          "type": "class",
+          "id": "GO:0005788"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Protein12230",
+      "type": [
+        {
+          "type": "class",
+          "id": "PR:Q8NBL1"
+        },
         {
           "type": "class",
           "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:17009"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "GDP-Fuc"
+          "value": "POGLUT1"
         }
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1053",
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary10",
       "type": [
         {
           "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Pre-NOTCH Processing in Golgi"
+          "id": "GO:0005789"
         }
       ]
     },
@@ -282,39 +352,6 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary10",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005789"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction4164",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0004252"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "NOTCH precursor cleaved to form mature NOTCH"
-        },
-        {
-          "key": "RO:0002333",
-          "value": "http://www.reactome.org/biopax/48887#Protein7601",
-          "value-type": "IRI"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway962",
-      "type": []
-    },
-    {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule958",
       "type": [
         {
@@ -323,11 +360,11 @@
         },
         {
           "type": "class",
-          "id": "CHEBI:18066"
+          "id": "CHEBI:23367"
         },
         {
           "type": "class",
-          "id": "CHEBI:23367"
+          "id": "CHEBI:18066"
         }
       ],
       "annotations": [
@@ -336,119 +373,23 @@
           "value": "UDP-Glc"
         }
       ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule957",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:17659"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "UDP"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary9",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005788"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7",
-      "type": []
     }
   ],
   "facts": [
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4161",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1052"
-    },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4163",
       "property": "RO:0002413",
       "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction4164"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4164",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1049",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway962"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4162",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule958"
-    },
-    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4165",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4165",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1158"
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction4166"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4162",
       "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule957"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4165",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1053"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4162",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction4163"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4161",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1457"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1050",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1049"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4161",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1458"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4161",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction4162"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4164",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1053"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4164",
@@ -457,38 +398,13 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4165",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction4166"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4163",
-      "property": "RO:0002413",
-      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction4165"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4162",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1052"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4162",
       "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary9"
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
     },
     {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4161",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary10"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1053",
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1050",
       "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1050"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4163",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1053"
+      "object": "http://www.reactome.org/biopax/48887#Pathway1049"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4164",
@@ -497,13 +413,98 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4165",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1158"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4161",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1457"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1053",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1050"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4161",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary10"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4162",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1052"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4163",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1053"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4165",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1053"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4162",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule958"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4163",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction4165"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1049",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway962"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4165",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule814"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4162",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary9"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4164",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary7"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4161",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule1458"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway1052",
       "property": "BFO:0000050",
       "object": "http://www.reactome.org/biopax/48887#Pathway1050"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4161",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1052"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4162",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction4163"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4164",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1053"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction4161",
+      "property": "RO:0002413",
+      "object": "http://www.reactome.org/biopax/48887#BiochemicalReaction4162"
     }
   ]
 }

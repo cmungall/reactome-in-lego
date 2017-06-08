@@ -1,8 +1,33 @@
 {
+  "id": "obo:go/noctua/Regulation_of_thyroid_hormone_activity.owl",
   "individuals": [
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1298",
-      "type": []
+      "id": "http://www.reactome.org/biopax/48887#Pathway1317",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0006590"
+        },
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Thyroxine biosynthesis"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0005886"
+        }
+      ]
     },
     {
       "id": "http://www.reactome.org/biopax/48887#BiochemicalReaction5791",
@@ -14,13 +39,13 @@
       ],
       "annotations": [
         {
+          "key": "rdfs:label",
+          "value": "Thyroxine is deiodinated to reverse triiodothyronine (RT3)"
+        },
+        {
           "key": "RO:0002333",
           "value": "http://www.reactome.org/biopax/48887#Protein14580",
           "value-type": "IRI"
-        },
-        {
-          "key": "rdfs:label",
-          "value": "Thyroxine is deiodinated to reverse triiodothyronine (RT3)"
         }
       ]
     },
@@ -45,6 +70,44 @@
       ]
     },
     {
+      "id": "http://www.reactome.org/biopax/48887#Protein14580",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "PR:P55073"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "DIO3"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Complex6359",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "GO:0032991"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "DIO dimer"
+        }
+      ]
+    },
+    {
       "id": "http://www.reactome.org/biopax/48887#SmallMolecule581",
       "type": [
         {
@@ -53,7 +116,34 @@
         },
         {
           "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
           "id": "CHEBI:16382"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "I-"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1298",
+      "type": []
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule907",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:18009"
         },
         {
           "type": "class",
@@ -63,7 +153,60 @@
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "I-"
+          "value": "TPN"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1315",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Amine-derived hormones"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#Pathway1318",
+      "type": [
+        {
+          "type": "class",
+          "id": "GO:0008150"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "Regulation of thyroid hormone activity"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule871",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:18332"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "T4"
         }
       ]
     },
@@ -91,97 +234,48 @@
       ]
     },
     {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1317",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0006590"
-        },
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Thyroxine biosynthesis"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1315",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Amine-derived hormones"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Complex6359",
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule905",
       "type": [
         {
           "type": "class",
           "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "GO:0032991"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "DIO dimer"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Protein14580",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "PR:P55073"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "DIO3"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule907",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:18009"
         },
         {
           "type": "class",
           "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:16474"
         }
       ],
       "annotations": [
         {
           "key": "rdfs:label",
-          "value": "TPN"
+          "value": "TPNH"
+        }
+      ]
+    },
+    {
+      "id": "http://www.reactome.org/biopax/48887#SmallMolecule68",
+      "type": [
+        {
+          "type": "class",
+          "id": "BFO:0000002"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:23367"
+        },
+        {
+          "type": "class",
+          "id": "CHEBI:15378"
+        }
+      ],
+      "annotations": [
+        {
+          "key": "rdfs:label",
+          "value": "H+"
         }
       ]
     },
@@ -201,99 +295,6 @@
         {
           "key": "rdfs:label",
           "value": "DIO2"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule905",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:16474"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "TPNH"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule68",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:15378"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "H+"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#Pathway1318",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0008150"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "Regulation of thyroid hormone activity"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3",
-      "type": [
-        {
-          "type": "class",
-          "id": "GO:0005886"
-        }
-      ]
-    },
-    {
-      "id": "http://www.reactome.org/biopax/48887#SmallMolecule871",
-      "type": [
-        {
-          "type": "class",
-          "id": "BFO:0000002"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:18332"
-        },
-        {
-          "type": "class",
-          "id": "CHEBI:23367"
-        }
-      ],
-      "annotations": [
-        {
-          "key": "rdfs:label",
-          "value": "T4"
         }
       ]
     },
@@ -319,6 +320,11 @@
   ],
   "facts": [
     {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5790",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1318"
+    },
+    {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5791",
       "property": "RO:0002233",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule871"
@@ -326,67 +332,12 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5790",
       "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule907"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5791",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule870"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5791",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1318"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6359",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein14579"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5791",
-      "property": "RO:0002234",
       "object": "http://www.reactome.org/biopax/48887#SmallMolecule581"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5790",
       "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1318",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1317"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Pathway1317",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1315"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#Complex6359",
-      "property": "BFO:0000051",
-      "object": "http://www.reactome.org/biopax/48887#Protein14578"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5790",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5791",
-      "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule907"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5790",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule905"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5790",
-      "property": "BFO:0000050",
-      "object": "http://www.reactome.org/biopax/48887#Pathway1318"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule871"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#Pathway1315",
@@ -395,23 +346,13 @@
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5791",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule870"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5791",
-      "property": "BFO:0000066",
-      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5791",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule905"
-    },
-    {
-      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5790",
-      "property": "RO:0002233",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule871"
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule581"
     },
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5790",
@@ -421,7 +362,67 @@
     {
       "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5790",
       "property": "RO:0002234",
-      "object": "http://www.reactome.org/biopax/48887#SmallMolecule581"
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule907"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1317",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1315"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5791",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule905"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5790",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule905"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5790",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6359",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein14579"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5791",
+      "property": "RO:0002233",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule68"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Complex6359",
+      "property": "BFO:0000051",
+      "object": "http://www.reactome.org/biopax/48887#Protein14578"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#Pathway1318",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1317"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5791",
+      "property": "BFO:0000050",
+      "object": "http://www.reactome.org/biopax/48887#Pathway1318"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5790",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5791",
+      "property": "RO:0002234",
+      "object": "http://www.reactome.org/biopax/48887#SmallMolecule907"
+    },
+    {
+      "subject": "http://www.reactome.org/biopax/48887#BiochemicalReaction5791",
+      "property": "BFO:0000066",
+      "object": "http://www.reactome.org/biopax/48887#CellularLocationVocabulary3"
     }
   ]
 }
